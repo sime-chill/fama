@@ -1,5 +1,8 @@
 import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
+import { MobileNav, SiteHeader } from '@/components/site-header';
+import { SiteFooter } from '@/components/site-footer';
+import { PwaRegister } from '@/components/pwa-register';
 import './globals.css';
 
 const geistSans = Geist({
@@ -14,8 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chipatlas-ai-silicon.bold-jam-7235.chatgpt.site'),
-  title: '芯图谱 ChipAtlas｜AI 芯片参数与技术路线',
-  description: '面向 AI 芯片研究者的加速器参数、技术路线与公开来源追踪工具。',
+  title: '芯存图谱｜从 Memory 看懂 AI 芯片',
+  description: '面向 AI 芯片研究者的存储架构、参数、技术路线与来源追踪知识库。',
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
@@ -27,22 +30,22 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: '芯图谱',
+    title: '芯存图谱',
   },
   formatDetection: { telephone: false },
   openGraph: {
     type: 'website',
-    title: '芯图谱 ChipAtlas',
-    description: 'AI 芯片参数与技术路线',
+    title: '芯存图谱 · Silicon Memory Atlas',
+    description: '从 Memory 看懂 AI 芯片',
     url: '/',
-    siteName: '芯图谱 ChipAtlas',
+    siteName: '芯存图谱',
     locale: 'zh_CN',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: '芯图谱 ChipAtlas 分享预览' }],
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: '芯存图谱分享预览' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '芯图谱 ChipAtlas',
-    description: 'AI 芯片参数与技术路线',
+    title: '芯存图谱 · Silicon Memory Atlas',
+    description: '从 Memory 看懂 AI 芯片',
     images: ['/og.png'],
   },
 };
@@ -64,7 +67,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <SiteHeader />
         {children}
+        <SiteFooter />
+        <MobileNav />
+        <PwaRegister />
       </body>
     </html>
   );

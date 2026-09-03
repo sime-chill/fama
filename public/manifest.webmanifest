@@ -1,8 +1,10 @@
 {
-  "name": "芯图谱 ChipAtlas",
-  "short_name": "芯图谱",
-  "description": "AI 芯片参数、技术路线与公开来源追踪工具",
+  "name": "芯存图谱 · Silicon Memory Atlas",
+  "short_name": "芯存图谱",
+  "description": "从 Memory 看懂 AI 芯片：存储架构、参数、技术路线与公开来源知识库",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#071318",
   "theme_color": "#17333a",
