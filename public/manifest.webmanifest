@@ -1,0 +1,23 @@
+{
+  "name": "芯图谱 ChipAtlas",
+  "short_name": "芯图谱",
+  "description": "AI 芯片参数、技术路线与公开来源追踪工具",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071318",
+  "theme_color": "#17333a",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/chipatlas-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/chipatlas-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
