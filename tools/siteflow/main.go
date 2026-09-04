@@ -528,7 +528,7 @@ func waitForPublicAtlas(ctx context.Context, cfg Config) error {
 		if requestErr == nil {
 			body, readErr := io.ReadAll(io.LimitReader(resp.Body, 2<<20))
 			resp.Body.Close()
-			if readErr == nil && resp.StatusCode == http.StatusOK && strings.Contains(string(body), "AI Chip Memory Atlas") {
+			if readErr == nil && resp.StatusCode == http.StatusOK && strings.Contains(string(body), "芯存图谱") {
 				fmt.Println("[publish] ChipAtlas is live")
 				return nil
 			}
