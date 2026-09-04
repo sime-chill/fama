@@ -1,7 +1,7 @@
 # Siteflow
 
 `siteflow` is the release tool for Yuhan He's academic homepage and the
-ChipAtlas project site. It keeps the two repositories independent while
+FAMA project site. It keeps the two repositories independent while
 assembling and checking the exact public result locally.
 
 The tool deliberately does not generate biography or publication text. It
@@ -24,7 +24,7 @@ go run . publish --apply
 - `serve` serves the validated preview at `http://127.0.0.1:4173`.
 - `publish` is a dry run. `publish --apply` commits and publishes only after a
   fresh successful build and verification. It creates/enables the project
-  repository, waits until ChipAtlas is publicly reachable, and only then
+  repository, waits until FAMA is publicly reachable, and only then
   publishes the homepage button. Repository creation requires an authenticated
   GitHub CLI session.
 

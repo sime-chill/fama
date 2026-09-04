@@ -25,10 +25,10 @@ export function SiteHeader() {
           </span>
           <span className="min-w-0">
             <span className="block truncate text-[9px] font-semibold uppercase tracking-[0.2em] text-primary">
-              Silicon Memory Atlas
+              Flagship AI Accelerator Memory Architectures
             </span>
             <span className="block truncate text-base font-semibold tracking-tight">
-              芯存图谱
+              FAMA
             </span>
           </span>
         </a>

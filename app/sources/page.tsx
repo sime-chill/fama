@@ -12,8 +12,8 @@ import { chips, memoryTopics } from '@/lib/catalog';
 import { atlasPath } from '@/lib/paths';
 
 export const metadata: Metadata = {
-  title: '来源库与编辑方法｜芯存图谱',
-  description: '芯存图谱的官方来源门槛、第三方阅读筛选规则、口径与核验时间。',
+  title: '来源库与编辑方法｜FAMA',
+  description: 'FAMA 的官方来源门槛、第三方阅读筛选规则、口径与核验时间。',
 };
 
 export default function SourcesPage() {

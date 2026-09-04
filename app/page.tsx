@@ -28,7 +28,7 @@ export default function Home() {
           <div>
             <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-primary">
               <Sparkles className="size-3.5" />
-              面向 AI 芯片与 LLM 协同设计研究
+              FAMA · 面向 AI 芯片与 LLM 协同设计研究
               <span className="rounded-full bg-primary/10 px-2.5 py-1 font-mono text-[9px]">
                 v0.3
               </span>

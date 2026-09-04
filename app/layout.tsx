@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://yhhe.top/chipatlas/'),
-  title: '芯存图谱｜从 Memory 看懂 AI 芯片',
+  title: 'FAMA｜Flagship AI Accelerator Memory Architectures',
   description: '面向 AI 芯片研究者的存储架构、参数、技术路线与来源追踪知识库。',
   manifest: atlasPath('/manifest.webmanifest'),
   icons: {
@@ -45,28 +45,28 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: '芯存图谱',
+    title: 'FAMA',
   },
   formatDetection: { telephone: false },
   openGraph: {
     type: 'website',
-    title: '芯存图谱 · Silicon Memory Atlas',
+    title: 'FAMA · Flagship AI Accelerator Memory Architectures',
     description: '从 Memory 看懂 AI 芯片',
     url: 'https://yhhe.top/chipatlas/',
-    siteName: '芯存图谱',
+    siteName: 'FAMA',
     locale: 'zh_CN',
     images: [
       {
         url: atlasPath('/og.png'),
         width: 1200,
         height: 630,
-        alt: '芯存图谱分享预览',
+        alt: 'FAMA 分享预览',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '芯存图谱 · Silicon Memory Atlas',
+    title: 'FAMA · Flagship AI Accelerator Memory Architectures',
     description: '从 Memory 看懂 AI 芯片',
     images: [atlasPath('/og.png')],
   },

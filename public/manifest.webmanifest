@@ -1,6 +1,6 @@
 {
-  "name": "芯存图谱 · Silicon Memory Atlas",
-  "short_name": "芯存图谱",
+  "name": "FAMA · Flagship AI Accelerator Memory Architectures",
+  "short_name": "FAMA",
   "description": "从 Memory 看懂 AI 芯片：存储架构、参数、技术路线与公开来源知识库",
   "id": "/",
   "start_url": "/",

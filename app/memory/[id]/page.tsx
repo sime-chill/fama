@@ -27,7 +27,7 @@ export async function generateMetadata({
   const { id } = await params;
   const topic = memoryTopicById(id);
   if (!topic) return {};
-  const title = `${topic.name}｜存储技术专题｜芯存图谱`;
+  const title = `${topic.name}｜存储技术专题｜FAMA`;
   const description = topic.headline;
   return {
     title,

@@ -7,7 +7,7 @@ export function InstallGuide() {
         <Plus className="size-4 transition group-open:rotate-45" />添加到 iPhone
       </summary>
       <div className="fixed inset-x-4 bottom-[max(6rem,calc(env(safe-area-inset-bottom)+5rem))] z-[60] mx-auto max-w-lg rounded-[26px] border border-white/10 bg-popover p-5 shadow-2xl">
-        <h2 className="text-lg font-semibold">添加“芯存图谱”到主屏幕</h2>
+        <h2 className="text-lg font-semibold">添加“FAMA”到主屏幕</h2>
         <p className="mt-1.5 text-xs leading-5 text-muted-foreground">使用 Safari 打开公网链接，就能像普通 App 一样启动。再次点击“添加到 iPhone”可收起说明。</p>
         <ol className="mt-4 space-y-2">
           {[

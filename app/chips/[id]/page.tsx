@@ -29,7 +29,7 @@ export async function generateMetadata({
   const { id } = await params;
   const chip = chipById(id);
   if (!chip) return {};
-  const title = `${chip.vendor} ${chip.name} 存储架构｜芯存图谱`;
+  const title = `${chip.vendor} ${chip.name} 存储架构｜FAMA`;
   const description = chip.oneLiner;
   return {
     title,

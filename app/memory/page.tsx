@@ -6,7 +6,7 @@ import { memoryTopics } from '@/lib/catalog';
 import { atlasPath } from '@/lib/paths';
 
 export const metadata: Metadata = {
-  title: '存储技术专题｜芯存图谱',
+  title: '存储技术专题｜FAMA',
   description: 'HBM、LPDDR、DDR 与 HBF 的 AI 系统设计角色、工作原理与取舍。',
 };
 

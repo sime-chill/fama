@@ -1,4 +1,4 @@
-const CACHE_NAME = 'silicon-memory-atlas-v3';
+const CACHE_NAME = 'fama-v4';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(Promise.resolve());

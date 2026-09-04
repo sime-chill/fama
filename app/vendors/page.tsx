@@ -12,7 +12,7 @@ import { vendorRadar } from '@/data/vendor-radar';
 import { atlasPath } from '@/lib/paths';
 
 export const metadata: Metadata = {
-  title: '全球 AI 芯片厂商雷达｜芯存图谱',
+  title: '全球 AI 芯片厂商雷达｜FAMA',
   description:
     '追踪 GPU、ASIC、数据流、近存计算与定制芯片公司的产品路线和 Memory 设计。',
 };

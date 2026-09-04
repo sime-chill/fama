@@ -14,8 +14,8 @@ import sourceStateData from '@/data/source-state.json';
 import watchData from '@/data/watch-sources.json';
 
 export const metadata: Metadata = {
-  title: '数据维护与更新监控｜芯存图谱',
-  description: '芯存图谱的官方源监控、候选审核和发布流程。',
+  title: '数据维护与更新监控｜FAMA',
+  description: 'FAMA 的官方源监控、候选审核和发布流程。',
 };
 
 type Candidate = {

@@ -227,7 +227,7 @@ func doctor(ctx context.Context, cfg Config) error {
 
 // verifyPersonalContentSource treats the existing Jekyll homepage as the
 // source of truth. Every non-empty body line must remain present verbatim in
-// the new AcadHomepage page; additions such as the ChipAtlas callout are
+// the new AcadHomepage page; additions such as the FAMA callout are
 // allowed, but silent rewriting of personal facts is not.
 func verifyPersonalContentSource(cfg Config) error {
 	originalPath := filepath.Join(cfg.PersonalRepo, "index.md")
@@ -300,10 +300,10 @@ func build(ctx context.Context, cfg Config) error {
 		return fmt.Errorf("Jekyll build failed: %w", err)
 	}
 
-	fmt.Println("[build] ChipAtlas static export")
+	fmt.Println("[build] FAMA static export")
 	env := append(os.Environ(), "CHIPATLAS_PAGES_OUT="+atlasOut, "CHIPATLAS_NODE="+cfg.Node)
 	if err := runEnv(ctx, cfg.AtlasRepo, env, cfg.Bun, "run", "build:pages"); err != nil {
-		return fmt.Errorf("ChipAtlas build failed: %w", err)
+		return fmt.Errorf("FAMA build failed: %w", err)
 	}
 	if err := copyTree(personalOut, previewOut); err != nil {
 		return err
@@ -366,7 +366,7 @@ func verify(cfg Config) error {
 		"CAMPRO: A CAM-Based Processing-In-Memory Processor",
 		"CAP-HDC: A CAM-Based Processor",
 		"CorTile: A Scalable Neuromorphic Processing Core",
-		"AI Chip Memory Atlas",
+		"FAMA",
 		cfg.AtlasBasePath,
 	} {
 		if !strings.Contains(rootText, marker) {
@@ -487,7 +487,7 @@ func publish(ctx context.Context, cfg Config, apply bool) error {
 	if err := run(ctx, cfg.AtlasRepo, "git", "add", "-A"); err != nil {
 		return err
 	}
-	if err := commitIfNeeded(ctx, cfg.AtlasRepo, "Publish ChipAtlas static site"); err != nil {
+	if err := commitIfNeeded(ctx, cfg.AtlasRepo, "Publish FAMA static site"); err != nil {
 		return err
 	}
 	remote := cfg.GitHubOwner + "/" + cfg.AtlasRepository
@@ -506,7 +506,7 @@ func publish(ctx context.Context, cfg Config, apply bool) error {
 		return err
 	}
 	personalCommit := `git add -A && ` +
-		`(git diff --cached --quiet || git commit -m 'Adopt AcadHomepage and link ChipAtlas')`
+		`(git diff --cached --quiet || git commit -m 'Rename AI memory architecture project to FAMA')`
 	if err := runWSL(ctx, cfg, cfg.PersonalRepo, personalCommit); err != nil {
 		return err
 	}
@@ -572,8 +572,8 @@ func waitForPublicAtlas(ctx context.Context, cfg Config) error {
 		if requestErr == nil {
 			body, readErr := io.ReadAll(io.LimitReader(resp.Body, 2<<20))
 			resp.Body.Close()
-			if readErr == nil && resp.StatusCode == http.StatusOK && strings.Contains(string(body), "芯存图谱") {
-				fmt.Println("[publish] ChipAtlas is live")
+			if readErr == nil && resp.StatusCode == http.StatusOK && strings.Contains(string(body), "FAMA") {
+				fmt.Println("[publish] FAMA is live")
 				return nil
 			}
 		}

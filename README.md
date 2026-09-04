@@ -1,6 +1,6 @@
-# AI Chip Memory Atlas
+# FAMA — Flagship AI Accelerator Memory Architectures
 
-面向 AI 芯片存储架构的可核验知识图谱。公开站点位于
+面向全球旗舰 AI 加速器存储架构的可核验知识图谱。公开站点位于
 <https://yhhe.top/chipatlas/>；本仓库与个人主页仓库相互独立，通过 GitHub
 Pages 项目站挂载到同一域名的 `/chipatlas/` 路径。
 
@@ -41,9 +41,9 @@ bun run dev
 `tools/siteflow` 是 Go 编写的一键检查与发布程序。它会：
 
 - 校验个人主页仍逐行保留原 Jekyll 正文，阻止模板占位符进入站点；
-- 构建 Jekyll 个人主页和 ChipAtlas 全部静态路由；
+- 构建 Jekyll 个人主页和 FAMA 全部静态路由；
 - 合并本地预览并扫描内部链接；
-- 先发布并等待 ChipAtlas 可访问，再发布个人主页入口。
+- 先发布并等待 FAMA 可访问，再发布个人主页入口。
 
 ```powershell
 cd tools/siteflow
