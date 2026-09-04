@@ -27,12 +27,12 @@ type Config struct {
 	PersonalRemote  string `json:"personal_remote"`
 	PersonalBranch  string `json:"personal_release_branch"`
 	PersonalBackup  string `json:"personal_backup_branch"`
-	AtlasRepo       string `json:"atlas_repo"`
+	FamaRepo        string `json:"fama_repo"`
 	WorkDir         string `json:"work_dir"`
 	PersonalDomain  string `json:"personal_domain"`
-	AtlasBasePath   string `json:"atlas_base_path"`
+	FamaBasePath    string `json:"fama_base_path"`
 	GitHubOwner     string `json:"github_owner"`
-	AtlasRepository string `json:"atlas_repository"`
+	FamaRepository  string `json:"fama_repository"`
 	WSLDistribution string `json:"wsl_distribution"`
 	Bun             string `json:"bun"`
 	Node            string `json:"node"`
@@ -127,13 +127,13 @@ func loadConfig(path string) (Config, error) {
 	if cfg.PersonalGitRepo != "" {
 		cfg.PersonalGitRepo = resolve(cfg.configDir, cfg.PersonalGitRepo)
 	}
-	cfg.AtlasRepo = resolve(cfg.configDir, cfg.AtlasRepo)
+	cfg.FamaRepo = resolve(cfg.configDir, cfg.FamaRepo)
 	cfg.WorkDir = resolve(cfg.configDir, cfg.WorkDir)
 	cfg.Bun = resolveExecutable(cfg.configDir, cfg.Bun)
 	cfg.Node = resolveExecutable(cfg.configDir, cfg.Node)
 	cfg.GitHubCLI = resolveExecutable(cfg.configDir, cfg.GitHubCLI)
-	if cfg.PersonalDomain == "" || cfg.AtlasBasePath == "" || cfg.GitHubOwner == "" || cfg.AtlasRepository == "" {
-		return Config{}, errors.New("domain, atlas base path, GitHub owner, and repository are required")
+	if cfg.PersonalDomain == "" || cfg.FamaBasePath == "" || cfg.GitHubOwner == "" || cfg.FamaRepository == "" {
+		return Config{}, errors.New("domain, FAMA base path, GitHub owner, and repository are required")
 	}
 	if cfg.PersonalBranch == "" {
 		cfg.PersonalBranch = "redesign/acad-homepage"
@@ -144,8 +144,8 @@ func loadConfig(path string) (Config, error) {
 	if cfg.PersonalGitRepo != "" && cfg.PersonalRemote == "" {
 		return Config{}, errors.New("personal_remote is required when personal_git_repo is set")
 	}
-	if !strings.HasPrefix(cfg.AtlasBasePath, "/") || !strings.HasSuffix(cfg.AtlasBasePath, "/") {
-		return Config{}, errors.New("atlas_base_path must start and end with a slash")
+	if !strings.HasPrefix(cfg.FamaBasePath, "/") || !strings.HasSuffix(cfg.FamaBasePath, "/") {
+		return Config{}, errors.New("fama_base_path must start and end with a slash")
 	}
 	return cfg, nil
 }
@@ -173,8 +173,8 @@ func doctor(ctx context.Context, cfg Config) error {
 		filepath.Join(cfg.PersonalRepo, "CNAME"),
 		filepath.Join(cfg.PersonalRepo, "_config.yml"),
 		filepath.Join(cfg.PersonalRepo, "_pages", "about.md"),
-		filepath.Join(cfg.AtlasRepo, "package.json"),
-		filepath.Join(cfg.AtlasRepo, "lib", "catalog.ts"),
+		filepath.Join(cfg.FamaRepo, "package.json"),
+		filepath.Join(cfg.FamaRepo, "lib", "catalog.ts"),
 	}
 	for _, path := range checks {
 		if info, err := os.Stat(path); err != nil || info.IsDir() {
@@ -215,8 +215,8 @@ func doctor(ctx context.Context, cfg Config) error {
 			return fmt.Errorf("node executable was not found: %s", cfg.Node)
 		}
 	}
-	if err := run(ctx, cfg.AtlasRepo, "git", "status", "--porcelain=v1"); err != nil {
-		return fmt.Errorf("atlas repository: %w", err)
+	if err := run(ctx, cfg.FamaRepo, "git", "status", "--porcelain=v1"); err != nil {
+		return fmt.Errorf("FAMA repository: %w", err)
 	}
 	if err := runWSL(ctx, cfg, cfg.PersonalRepo, "git status --porcelain=v1"); err != nil {
 		return fmt.Errorf("personal repository: %w", err)
@@ -288,9 +288,9 @@ func rejectPlaceholders(cfg Config) error {
 func build(ctx context.Context, cfg Config) error {
 	fmt.Println("[build] personal homepage")
 	personalOut := filepath.Join(cfg.WorkDir, "personal")
-	atlasOut := filepath.Join(cfg.WorkDir, "atlas")
+	famaOut := filepath.Join(cfg.WorkDir, "fama")
 	previewOut := filepath.Join(cfg.WorkDir, "preview")
-	for _, out := range []string{personalOut, atlasOut, previewOut} {
+	for _, out := range []string{personalOut, famaOut, previewOut} {
 		if err := resetOutputDir(cfg.WorkDir, out); err != nil {
 			return err
 		}
@@ -301,18 +301,18 @@ func build(ctx context.Context, cfg Config) error {
 	}
 
 	fmt.Println("[build] FAMA static export")
-	env := append(os.Environ(), "CHIPATLAS_PAGES_OUT="+atlasOut, "CHIPATLAS_NODE="+cfg.Node)
-	if err := runEnv(ctx, cfg.AtlasRepo, env, cfg.Bun, "run", "build:pages"); err != nil {
+	env := append(os.Environ(), "FAMA_PAGES_OUT="+famaOut, "FAMA_NODE="+cfg.Node)
+	if err := runEnv(ctx, cfg.FamaRepo, env, cfg.Bun, "run", "build:pages"); err != nil {
 		return fmt.Errorf("FAMA build failed: %w", err)
 	}
 	if err := copyTree(personalOut, previewOut); err != nil {
 		return err
 	}
-	atlasSource := atlasOut
-	if exists(filepath.Join(atlasOut, strings.Trim(cfg.AtlasBasePath, "/"), "index.html")) {
-		atlasSource = filepath.Join(atlasOut, strings.Trim(cfg.AtlasBasePath, "/"))
+	famaSource := famaOut
+	if exists(filepath.Join(famaOut, strings.Trim(cfg.FamaBasePath, "/"), "index.html")) {
+		famaSource = filepath.Join(famaOut, strings.Trim(cfg.FamaBasePath, "/"))
 	}
-	if err := copyTree(atlasSource, filepath.Join(previewOut, strings.Trim(cfg.AtlasBasePath, "/"))); err != nil {
+	if err := copyTree(famaSource, filepath.Join(previewOut, strings.Trim(cfg.FamaBasePath, "/"))); err != nil {
 		return err
 	}
 	fmt.Println("[build] combined preview assembled at", previewOut)
@@ -343,11 +343,11 @@ func verify(cfg Config) error {
 	fmt.Println("[verify] checking generated pages and links")
 	required := []string{
 		"index.html",
-		filepath.Join(strings.Trim(cfg.AtlasBasePath, "/"), "index.html"),
-		filepath.Join(strings.Trim(cfg.AtlasBasePath, "/"), "chips", "index.html"),
-		filepath.Join(strings.Trim(cfg.AtlasBasePath, "/"), "memory", "index.html"),
-		filepath.Join(strings.Trim(cfg.AtlasBasePath, "/"), "sources", "index.html"),
-		filepath.Join(strings.Trim(cfg.AtlasBasePath, "/"), "vendors", "index.html"),
+		filepath.Join(strings.Trim(cfg.FamaBasePath, "/"), "index.html"),
+		filepath.Join(strings.Trim(cfg.FamaBasePath, "/"), "chips", "index.html"),
+		filepath.Join(strings.Trim(cfg.FamaBasePath, "/"), "memory", "index.html"),
+		filepath.Join(strings.Trim(cfg.FamaBasePath, "/"), "sources", "index.html"),
+		filepath.Join(strings.Trim(cfg.FamaBasePath, "/"), "vendors", "index.html"),
 	}
 	for _, rel := range required {
 		if !exists(filepath.Join(preview, rel)) {
@@ -367,7 +367,7 @@ func verify(cfg Config) error {
 		"CAP-HDC: A CAM-Based Processor",
 		"CorTile: A Scalable Neuromorphic Processing Core",
 		"FAMA",
-		cfg.AtlasBasePath,
+		cfg.FamaBasePath,
 	} {
 		if !strings.Contains(rootText, marker) {
 			return fmt.Errorf("personal content marker is missing from output: %s", marker)
@@ -410,8 +410,8 @@ func verify(cfg Config) error {
 		}
 		return fmt.Errorf("broken internal links:\n  %s", strings.Join(broken, "\n  "))
 	}
-	chipPages, _ := filepath.Glob(filepath.Join(preview, strings.Trim(cfg.AtlasBasePath, "/"), "chips", "*", "index.html"))
-	memoryPages, _ := filepath.Glob(filepath.Join(preview, strings.Trim(cfg.AtlasBasePath, "/"), "memory", "*", "index.html"))
+	chipPages, _ := filepath.Glob(filepath.Join(preview, strings.Trim(cfg.FamaBasePath, "/"), "chips", "*", "index.html"))
+	memoryPages, _ := filepath.Glob(filepath.Join(preview, strings.Trim(cfg.FamaBasePath, "/"), "memory", "*", "index.html"))
 	if len(chipPages) == 0 || len(memoryPages) == 0 {
 		return fmt.Errorf("detail pages were not pre-rendered (chips=%d memory=%d)", len(chipPages), len(memoryPages))
 	}
@@ -467,7 +467,7 @@ func publish(ctx context.Context, cfg Config, apply bool) error {
 		return err
 	}
 	fmt.Printf("[publish] personal: https://%s/\n", cfg.PersonalDomain)
-	fmt.Printf("[publish] atlas:    https://%s%s\n", cfg.PersonalDomain, cfg.AtlasBasePath)
+	fmt.Printf("[publish] FAMA:     https://%s%s\n", cfg.PersonalDomain, cfg.FamaBasePath)
 	if !apply {
 		fmt.Println("[publish] dry run complete; pass --apply to commit and push")
 		return nil
@@ -481,28 +481,28 @@ func publish(ctx context.Context, cfg Config, apply bool) error {
 			return errors.New("GitHub CLI is required for the one-time repository creation and is not installed")
 		}
 	}
-	if err := run(ctx, cfg.AtlasRepo, gh, "auth", "status", "--hostname", "github.com"); err != nil {
+	if err := run(ctx, cfg.FamaRepo, gh, "auth", "status", "--hostname", "github.com"); err != nil {
 		return errors.New("GitHub CLI is not authenticated; run `gh auth login` first")
 	}
-	if err := run(ctx, cfg.AtlasRepo, "git", "add", "-A"); err != nil {
+	if err := run(ctx, cfg.FamaRepo, "git", "add", "-A"); err != nil {
 		return err
 	}
-	if err := commitIfNeeded(ctx, cfg.AtlasRepo, "Publish FAMA static site"); err != nil {
+	if err := commitIfNeeded(ctx, cfg.FamaRepo, "Publish FAMA static site"); err != nil {
 		return err
 	}
-	remote := cfg.GitHubOwner + "/" + cfg.AtlasRepository
-	if !gitHasRemote(ctx, cfg.AtlasRepo, "origin") {
-		if err := run(ctx, cfg.AtlasRepo, gh, "repo", "create", remote, "--public", "--source", ".", "--remote", "origin"); err != nil {
+	remote := cfg.GitHubOwner + "/" + cfg.FamaRepository
+	if !gitHasRemote(ctx, cfg.FamaRepo, "origin") {
+		if err := run(ctx, cfg.FamaRepo, gh, "repo", "create", remote, "--public", "--source", ".", "--remote", "origin"); err != nil {
 			return err
 		}
 	}
-	if err := run(ctx, cfg.AtlasRepo, "git", "push", "-u", "origin", "main"); err != nil {
+	if err := run(ctx, cfg.FamaRepo, "git", "push", "-u", "origin", "main"); err != nil {
 		return err
 	}
 	if err := ensurePages(ctx, cfg, gh, remote); err != nil {
 		return err
 	}
-	if err := waitForPublicAtlas(ctx, cfg); err != nil {
+	if err := waitForPublicFAMA(ctx, cfg); err != nil {
 		return err
 	}
 	personalCommit := `git add -A && ` +
@@ -547,16 +547,16 @@ func pushPersonal(ctx context.Context, cfg Config) error {
 
 func ensurePages(ctx context.Context, cfg Config, gh, remote string) error {
 	query := exec.CommandContext(ctx, gh, "api", "repos/"+remote+"/pages")
-	query.Dir = cfg.AtlasRepo
+	query.Dir = cfg.FamaRepo
 	if query.Run() == nil {
 		return nil
 	}
 	fmt.Println("[publish] enabling GitHub Pages with the workflow source")
-	return run(ctx, cfg.AtlasRepo, gh, "api", "--method", "POST", "repos/"+remote+"/pages", "-f", "build_type=workflow")
+	return run(ctx, cfg.FamaRepo, gh, "api", "--method", "POST", "repos/"+remote+"/pages", "-f", "build_type=workflow")
 }
 
-func waitForPublicAtlas(ctx context.Context, cfg Config) error {
-	target := fmt.Sprintf("https://%s%s", cfg.PersonalDomain, cfg.AtlasBasePath)
+func waitForPublicFAMA(ctx context.Context, cfg Config) error {
+	target := fmt.Sprintf("https://%s%s", cfg.PersonalDomain, cfg.FamaBasePath)
 	fmt.Println("[publish] waiting for", target)
 	client := &http.Client{Timeout: 15 * time.Second}
 	ticker := time.NewTicker(15 * time.Second)

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { ArrowRight, Layers3, MemoryStick } from 'lucide-react';
 
 import { memoryTopics } from '@/lib/catalog';
-import { atlasPath } from '@/lib/paths';
+import { famaPath } from '@/lib/paths';
 
 export const metadata: Metadata = {
   title: '存储技术专题｜FAMA',
@@ -31,7 +31,7 @@ export default function MemoryPage() {
         {memoryTopics.map((topic, index) => (
           <a
             key={topic.id}
-            href={atlasPath(`/memory/${topic.id}/`)}
+            href={famaPath(`/memory/${topic.id}/`)}
             className="group relative overflow-hidden rounded-[28px] border border-white/8 bg-card/68 p-6 transition hover:-translate-y-0.5 hover:border-white/15 hover:bg-card"
           >
             <div

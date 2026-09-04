@@ -1,16 +1,16 @@
 import type { NextConfig } from 'next';
 
-const isGitHubPages = process.env.CHIPATLAS_TARGET === 'github-pages';
+const isGitHubPages = process.env.FAMA_TARGET === 'github-pages';
 
 const nextConfig: NextConfig = {
   ...(isGitHubPages
     ? {
-        assetPrefix: '/chipatlas',
+        assetPrefix: '/fama',
         trailingSlash: true,
       }
     : {}),
   env: {
-    NEXT_PUBLIC_CHIPATLAS_BASE_PATH: isGitHubPages ? '/chipatlas' : '',
+    NEXT_PUBLIC_FAMA_BASE_PATH: isGitHubPages ? '/fama' : '',
   },
 };
 

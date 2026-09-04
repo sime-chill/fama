@@ -1,6 +1,6 @@
-const basePath = process.env.NEXT_PUBLIC_CHIPATLAS_BASE_PATH ?? '';
+const basePath = process.env.NEXT_PUBLIC_FAMA_BASE_PATH ?? '';
 
-export function atlasPath(path: string): string {
+export function famaPath(path: string): string {
   if (!path.startsWith('/')) return path;
   if (!basePath) return path;
   if (path === '/') return `${basePath}/`;
@@ -8,4 +8,4 @@ export function atlasPath(path: string): string {
   return `${basePath}${path}`;
 }
 
-export const atlasBasePath = basePath;
+export const famaBasePath = basePath;

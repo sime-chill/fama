@@ -1,12 +1,6 @@
-/* oxlint-disable next/no-html-link-for-pages -- Native navigation is intentional for iOS resilience. */
-import {
-  Building2,
-  CircuitBoard,
-  Database,
-  Library,
-  MemoryStick,
-} from 'lucide-react';
-import { atlasPath } from '@/lib/paths';
+/* oxlint-disable next/no-html-link-for-pages, next/no-img-element -- Native navigation and the static SVG logo are intentional for iOS resilience. */
+import { Building2, CircuitBoard, Library, MemoryStick } from 'lucide-react';
+import { famaPath } from '@/lib/paths';
 
 const navigation = [
   { href: '/chips/', label: '芯片库', icon: CircuitBoard },
@@ -19,10 +13,14 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/8 bg-background/86 backdrop-blur-xl">
       <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-8">
-        <a href={atlasPath('/')} className="flex min-w-0 items-center gap-3">
-          <span className="grid size-9 shrink-0 place-items-center rounded-[13px] bg-primary text-primary-foreground shadow-[0_0_32px_color-mix(in_oklch,var(--primary)_24%,transparent)]">
-            <Database className="size-4.5" />
-          </span>
+        <a href={famaPath('/')} className="flex min-w-0 items-center gap-3">
+          <img
+            src={famaPath('/fama-logo.svg')}
+            alt="FAMA"
+            width="36"
+            height="36"
+            className="size-9 shrink-0 rounded-[13px] shadow-[0_0_32px_color-mix(in_oklch,var(--primary)_24%,transparent)]"
+          />
           <span className="min-w-0">
             <span className="block truncate text-[9px] font-semibold uppercase tracking-[0.2em] text-primary">
               Flagship AI Accelerator Memory Architectures
@@ -37,7 +35,7 @@ export function SiteHeader() {
           {navigation.map(({ href, label, icon: Icon }) => (
             <a
               key={href}
-              href={atlasPath(href)}
+              href={famaPath(href)}
               className="inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm text-muted-foreground transition hover:bg-white/[0.055] hover:text-foreground"
             >
               <Icon className="size-4" />
@@ -47,7 +45,7 @@ export function SiteHeader() {
         </nav>
 
         <a
-          href={atlasPath('/updates/')}
+          href={famaPath('/updates/')}
           className="rounded-full border border-primary/30 bg-primary/8 px-3 py-1.5 text-[11px] font-medium text-primary"
         >
           每日监控
@@ -66,7 +64,7 @@ export function MobileNav() {
       {navigation.map(({ href, label, icon: Icon }) => (
         <a
           key={href}
-          href={atlasPath(href)}
+          href={famaPath(href)}
           className="flex min-w-0 flex-col items-center gap-1 rounded-2xl px-2 py-2 text-[10px] font-medium text-muted-foreground transition active:bg-white/10 active:text-foreground"
         >
           <Icon className="size-4" />

@@ -1,4 +1,4 @@
-name: Deploy ChipAtlas to GitHub Pages
+name: Deploy FAMA to GitHub Pages
 
 on:
   push:
@@ -32,7 +32,7 @@ jobs:
         run: bun run data:validate
       - name: Build static project site
         env:
-          CHIPATLAS_NODE: node
+          FAMA_NODE: node
         run: bun run build:pages
       - uses: actions/configure-pages@v5
         with:

@@ -14,7 +14,7 @@ import {
 import { ChipCard } from '@/components/chip-card';
 import { InstallGuide } from '@/components/install-guide';
 import { chips, memoryTopics } from '@/lib/catalog';
-import { atlasPath } from '@/lib/paths';
+import { famaPath } from '@/lib/paths';
 
 export default function Home() {
   const officialCount = chips.reduce(
@@ -46,13 +46,13 @@ export default function Home() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href={atlasPath('/chips/')}
+              href={famaPath('/chips/')}
               className="inline-flex h-11 items-center gap-2 rounded-xl bg-primary px-4 text-sm font-medium text-primary-foreground transition hover:brightness-105"
             >
               进入芯片库 <ArrowRight className="size-4" />
             </a>
             <a
-              href={atlasPath('/memory/')}
+              href={famaPath('/memory/')}
               className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 bg-white/[0.035] px-4 text-sm font-medium transition hover:bg-white/[0.07]"
             >
               <MemoryStick className="size-4" /> 存储技术专题
@@ -148,7 +148,7 @@ export default function Home() {
             </h2>
           </div>
           <a
-            href={atlasPath('/chips/')}
+            href={famaPath('/chips/')}
             className="inline-flex items-center gap-1.5 text-xs font-medium text-primary"
           >
             全部 {chips.length} 款 <ArrowRight className="size-3.5" />
@@ -177,7 +177,7 @@ export default function Home() {
           {memoryTopics.map((topic) => (
             <a
               key={topic.id}
-              href={atlasPath(`/memory/${topic.id}/`)}
+              href={famaPath(`/memory/${topic.id}/`)}
               className="group relative overflow-hidden rounded-[26px] border border-white/8 bg-card/65 p-5 transition hover:border-white/15 hover:bg-card"
             >
               <span
@@ -248,7 +248,7 @@ export default function Home() {
             </div>
           </div>
           <a
-            href={atlasPath('/updates/')}
+            href={famaPath('/updates/')}
             className="ml-4 shrink-0 text-xs font-medium text-primary"
           >
             查看监控

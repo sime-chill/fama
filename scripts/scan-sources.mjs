@@ -57,7 +57,7 @@ function extractLinks(html, base, keywords) {
 async function fetchPage(url) {
   const response = await fetch(url, {
     headers: {
-      'user-agent': 'FAMASourceWatch/1.0 (+https://yhhe.top/chipatlas/)',
+      'user-agent': 'FAMASourceWatch/1.0 (+https://yhhe.top/fama/)',
       accept: 'text/html,application/xhtml+xml',
     },
     redirect: 'follow',

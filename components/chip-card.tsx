@@ -2,7 +2,7 @@
 import { ArrowRight, BadgeCheck, MemoryStick } from 'lucide-react';
 
 import type { ChipRecord } from '@/lib/catalog';
-import { atlasPath } from '@/lib/paths';
+import { famaPath } from '@/lib/paths';
 
 export function ChipCard({ chip }: { chip: ChipRecord }) {
   return (
@@ -58,7 +58,7 @@ export function ChipCard({ chip }: { chip: ChipRecord }) {
           {chip.officialSources.length} 个官方来源已核验
         </div>
         <a
-          href={atlasPath(`/chips/${chip.id}/`)}
+          href={famaPath(`/chips/${chip.id}/`)}
           className="flex items-center justify-between rounded-xl bg-white/[0.045] px-3 py-2.5 text-sm font-medium transition group-hover:bg-primary group-hover:text-primary-foreground"
         >
           查看存储架构

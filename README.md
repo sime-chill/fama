@@ -1,8 +1,8 @@
 # FAMA — Flagship AI Accelerator Memory Architectures
 
 面向全球旗舰 AI 加速器存储架构的可核验知识图谱。公开站点位于
-<https://yhhe.top/chipatlas/>；本仓库与个人主页仓库相互独立，通过 GitHub
-Pages 项目站挂载到同一域名的 `/chipatlas/` 路径。
+<https://yhhe.top/fama/>；本仓库与个人主页仓库相互独立，通过 GitHub
+Pages 项目站挂载到同一域名的 `/fama/` 路径。
 
 ## 数据原则
 

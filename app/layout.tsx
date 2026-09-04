@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import { MobileNav, SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
 import { PwaRegister } from '@/components/pwa-register';
-import { atlasPath } from '@/lib/paths';
+import { famaPath } from '@/lib/paths';
 import './globals.css';
 
 const geistSans = Geist({
@@ -17,26 +17,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://yhhe.top/chipatlas/'),
+  metadataBase: new URL('https://yhhe.top/fama/'),
   title: 'FAMA｜Flagship AI Accelerator Memory Architectures',
-  description: '面向 AI 芯片研究者的存储架构、参数、技术路线与来源追踪知识库。',
-  manifest: atlasPath('/manifest.webmanifest'),
+  description:
+    'A source-grounded knowledge base for the memory systems, specifications, and technology roadmaps of flagship AI accelerators.',
+  manifest: famaPath('/manifest.webmanifest'),
   icons: {
     icon: [
       {
-        url: atlasPath('/chipatlas-icon-192.png'),
+        url: famaPath('/fama-icon-192.png'),
         sizes: '192x192',
         type: 'image/png',
       },
       {
-        url: atlasPath('/chipatlas-icon-512.png'),
+        url: famaPath('/fama-icon-512.png'),
         sizes: '512x512',
         type: 'image/png',
       },
     ],
     apple: [
       {
-        url: atlasPath('/apple-touch-icon.png'),
+        url: famaPath('/apple-touch-icon.png'),
         sizes: '180x180',
         type: 'image/png',
       },
@@ -51,13 +52,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     title: 'FAMA · Flagship AI Accelerator Memory Architectures',
-    description: '从 Memory 看懂 AI 芯片',
-    url: 'https://yhhe.top/chipatlas/',
+    description:
+      'Memory systems, specifications, and technology roadmaps of flagship AI accelerators.',
+    url: 'https://yhhe.top/fama/',
     siteName: 'FAMA',
     locale: 'zh_CN',
     images: [
       {
-        url: atlasPath('/og.png'),
+        url: famaPath('/og.png'),
         width: 1200,
         height: 630,
         alt: 'FAMA 分享预览',
@@ -67,8 +69,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'FAMA · Flagship AI Accelerator Memory Architectures',
-    description: '从 Memory 看懂 AI 芯片',
-    images: [atlasPath('/og.png')],
+    description:
+      'Memory systems, specifications, and technology roadmaps of flagship AI accelerators.',
+    images: [famaPath('/og.png')],
   },
 };
 

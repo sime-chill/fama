@@ -9,7 +9,7 @@ import {
 
 import { SourceLink } from '@/components/source-link';
 import { chips, memoryTopics } from '@/lib/catalog';
-import { atlasPath } from '@/lib/paths';
+import { famaPath } from '@/lib/paths';
 
 export const metadata: Metadata = {
   title: '来源库与编辑方法｜FAMA',
@@ -90,7 +90,7 @@ export default function SourcesPage() {
       </section>
 
       <a
-        href={atlasPath('/updates/')}
+        href={famaPath('/updates/')}
         className="mt-3 flex items-center justify-between rounded-[22px] border border-primary/16 bg-primary/[0.055] p-4 text-sm font-medium text-primary transition hover:bg-primary/[0.09]"
       >
         查看每日官方源监控与待审核队列

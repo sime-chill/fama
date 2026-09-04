@@ -4,16 +4,16 @@ import path from 'node:path';
 import process from 'node:process';
 
 const root = process.cwd();
-const requestedOutput = process.env.CHIPATLAS_PAGES_OUT
-  ? path.resolve(process.env.CHIPATLAS_PAGES_OUT)
+const requestedOutput = process.env.FAMA_PAGES_OUT
+  ? path.resolve(process.env.FAMA_PAGES_OUT)
   : path.join(root, 'pages-dist');
 const port = 8799;
 const origin = `http://127.0.0.1:${port}`;
-const env = { ...process.env, CHIPATLAS_TARGET: 'github-pages' };
+const env = { ...process.env, FAMA_TARGET: 'github-pages' };
 // Bun launches this script locally, while Vinext and Wrangler need the Node
 // runtime. `node` is available on GitHub's Pages runner; Windows callers can
-// provide an absolute CHIPATLAS_NODE path through siteflow.json.
-const node = process.env.CHIPATLAS_NODE || 'node';
+// provide an absolute FAMA_NODE path through siteflow.json.
+const node = process.env.FAMA_NODE || 'node';
 
 const buildCode = await run(
   node,
@@ -31,10 +31,10 @@ await rm(requestedOutput, { recursive: true, force: true });
 await mkdir(requestedOutput, { recursive: true });
 await cp(clientDir, requestedOutput, { recursive: true });
 
-// A path-style assetPrefix is stored below dist/client/chipatlas by Vinext.
-// A GitHub project page already mounts the repository at /chipatlas, so the
+// A path-style assetPrefix is stored below dist/client/fama by Vinext.
+// A GitHub project page already mounts the repository at /fama, so the
 // physical files must live at the repository root.
-const prefixedAssets = path.join(requestedOutput, 'chipatlas');
+const prefixedAssets = path.join(requestedOutput, 'fama');
 if (await isDirectory(prefixedAssets)) {
   await cp(prefixedAssets, requestedOutput, { recursive: true, force: true });
   await rm(prefixedAssets, { recursive: true, force: true });
@@ -102,14 +102,12 @@ try {
 
   const manifestPath = path.join(requestedOutput, 'manifest.webmanifest');
   const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
-  manifest.id = '/chipatlas/';
-  manifest.start_url = '/chipatlas/';
-  manifest.scope = '/chipatlas/';
+  manifest.id = '/fama/';
+  manifest.start_url = '/fama/';
+  manifest.scope = '/fama/';
   manifest.icons = manifest.icons.map((icon) => ({
     ...icon,
-    src: icon.src.startsWith('/chipatlas/')
-      ? icon.src
-      : `/chipatlas${icon.src}`,
+    src: icon.src.startsWith('/fama/') ? icon.src : `/fama${icon.src}`,
   }));
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
   await writeFile(path.join(requestedOutput, '.nojekyll'), '');

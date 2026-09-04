@@ -13,7 +13,7 @@ import {
 
 import { SourceLink } from '@/components/source-link';
 import { memoryTopicById, memoryTopics } from '@/lib/catalog';
-import { atlasPath } from '@/lib/paths';
+import { famaPath } from '@/lib/paths';
 
 type PageProps = { params: Promise<{ id: string }> };
 
@@ -49,7 +49,7 @@ export default async function MemoryDetailPage({ params }: PageProps) {
         aria-label="面包屑"
       >
         <a
-          href={atlasPath('/memory/')}
+          href={famaPath('/memory/')}
           className="inline-flex items-center gap-1 hover:text-foreground"
         >
           <ArrowLeft className="size-3.5" />

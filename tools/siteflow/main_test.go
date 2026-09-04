@@ -16,15 +16,15 @@ func TestStripFrontMatter(t *testing.T) {
 
 func TestLocalTarget(t *testing.T) {
 	root := filepath.Join("tmp", "preview")
-	page := filepath.Join(root, "chipatlas", "chips", "index.html")
+	page := filepath.Join(root, "fama", "chips", "index.html")
 	tests := []struct {
 		name string
 		raw  string
 		want string
 		ok   bool
 	}{
-		{"root relative", "/chipatlas/memory/", filepath.Join(root, "chipatlas", "memory"), true},
-		{"page relative", "../sources/", filepath.Join(root, "chipatlas", "sources"), true},
+		{"root relative", "/fama/memory/", filepath.Join(root, "fama", "memory"), true},
+		{"page relative", "../sources/", filepath.Join(root, "fama", "sources"), true},
 		{"fragment", "#section", "", false},
 		{"external", "https://example.com", "", false},
 	}
