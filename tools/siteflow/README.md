@@ -4,13 +4,10 @@
 FAMA project site. It keeps the two repositories independent while
 assembling and checking the exact public result locally.
 
-Canonical location:
+Canonical location after the WSL migration:
 
-- Windows: `E:\codex_work\chipatlas\tools\siteflow`
-- WSL: `/mnt/e/codex_work/chipatlas/tools/siteflow`
-
-The archived `E:\codex_work\archive\siteflow-chipatlas-legacy-20260904`
-copy uses the retired ChipAtlas naming and is not the release tool.
+- WSL: `/home/wsl_hyh/web/fama/tools/siteflow`
+- Windows access: `\\wsl.localhost\Ubuntu-20.04\home\wsl_hyh\web\fama\tools\siteflow`
 
 The tool deliberately does not generate biography or publication text. It
 only builds content already present in the repositories and rejects common
@@ -18,8 +15,8 @@ template placeholders before release.
 
 ## Commands
 
-```powershell
-Copy-Item siteflow.example.json siteflow.json
+```bash
+cp siteflow.example.json siteflow.json
 go test ./...
 go run . doctor
 go run . all
@@ -37,11 +34,13 @@ go run . publish --apply    # real commits and pushes; requires user approval
   publishes the homepage button. Repository creation requires an authenticated
   GitHub CLI session.
 
-The personal homepage has a WSL Git main worktree at
-`/home/wsl_hyh/sime-chill.github.io` and an active Windows-mounted development
-worktree at `/mnt/e/codex_work/personal-site-redesign`. The current machine
-configuration points `personal_repo` at the latter and `personal_git_repo` at
-the former. Do not develop independently in both worktrees.
+Both repositories now live in the same native WSL workspace:
+
+- `/home/wsl_hyh/web/fama`
+- `/home/wsl_hyh/web/sime-chill.github.io`
+
+On Linux/WSL, siteflow runs Bash directly. On Windows it retains the `wsl.exe`
+adapter for compatibility, but the WSL directories are the only source of truth.
 
 Copy `siteflow.example.json` to the git-ignored `siteflow.json` and adjust the
 local paths. Relative paths are resolved from the configuration file. The

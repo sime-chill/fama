@@ -2,8 +2,8 @@
 
 ## 路径和仓库
 
-- Windows：`E:\codex_work\chipatlas`
-- WSL：`/mnt/e/codex_work/chipatlas`
+- WSL：`/home/wsl_hyh/web/fama`
+- Windows 访问：`\\wsl.localhost\Ubuntu-20.04\home\wsl_hyh\web\fama`
 - GitHub：`sime-chill/fama`
 - 默认分支：`main`
 - 公开地址：`https://yhhe.top/fama/`
@@ -13,7 +13,7 @@ FAMA 与个人主页是两个独立仓库。跨站构建和发布只通过 `tool
 ## 目录结构
 
 ```text
-chipatlas/
+fama/
 ├── .github/workflows/       # Pages 部署、每日官方源扫描
 ├── .openai/hosting.json     # OpenAI Sites/Vite 托管配置
 ├── app/                     # 页面、布局、全局样式
@@ -41,7 +41,7 @@ chipatlas/
 
 ## 生成目录
 
-`node_modules/`、`.next/`、`.vinext/`、`.wrangler/`、`dist/`、`pages-dist/` 与工作区根部 `.siteflow-out/` 都可重新生成，不是事实源，也不应提交。机器路径只放在已忽略的 `tools/siteflow/siteflow.json`。
+`node_modules/`、`.next/`、`.vinext/`、`.wrangler/`、`dist/`、`pages-dist/` 与 `/home/wsl_hyh/web/.siteflow-out/` 都可重新生成，不是事实源，也不应提交。机器路径只放在已忽略的 `tools/siteflow/siteflow.json`。
 
 ## 关键事实源
 

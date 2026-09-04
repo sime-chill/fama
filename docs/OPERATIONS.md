@@ -1,19 +1,20 @@
 # FAMA 开发与发布
 
-## 本机环境（2026-09-04 已核验）
+## WSL 本机环境（2026-09-04 已核验）
 
-- Bun：`C:\Users\HeYuhan\.bun\bin\bun.exe`，1.3.14
-- Node：`C:\Users\HeYuhan\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe`，v24.19.0
-- Go：`E:\codex_work\.tools\go\bin\go.exe`，go1.27.1
-- GitHub CLI：`E:\codex_work\.tools\bin\gh.exe`，2.100.0
+- 工作区：`/home/wsl_hyh/web`
+- Bun：`/home/wsl_hyh/.local/bin/bun`，1.3.14
+- Node：`/home/wsl_hyh/.local/bin/node`，v26.4.0
+- Go：`/home/wsl_hyh/.local/bin/go`，go1.27.1
+- Ruby/Jekyll：由现有 RVM 环境提供
 - WSL：`Ubuntu-20.04`
 
-普通开发机只需满足 `package.json` 中的 Node 版本约束，并安装 Bun；绝对路径只是本机记录，不应写进受版本控制的配置。
+`~/.local/bin` 已在登录 shell 的 `PATH` 中。普通开发机只需满足 `package.json` 的 Node 版本约束并安装 Bun；机器绝对路径只写入已忽略的 `siteflow.json`。
 
 ## 常用命令
 
-```powershell
-cd E:\codex_work\chipatlas
+```bash
+cd /home/wsl_hyh/web/fama
 bun install --frozen-lockfile
 bun run data:validate
 bun run lint
@@ -23,7 +24,7 @@ bun run dev
 
 研究扫描：
 
-```powershell
+```bash
 bun run research:baseline  # 新监控源第一次加入时
 bun run research:scan      # 之后扫描增量
 ```
@@ -32,8 +33,8 @@ GitHub Pages 使用 `bun run build:pages` 生成 `pages-dist/`。2026-09-04 的�
 
 ## 双站工具 siteflow
 
-```powershell
-cd E:\codex_work\chipatlas\tools\siteflow
+```bash
+cd /home/wsl_hyh/web/fama/tools/siteflow
 go test ./...
 go run . doctor
 go run . all
@@ -42,7 +43,7 @@ go run . publish            # dry run
 go run . publish --apply    # 真实提交并推送；必须先取得用户明确确认
 ```
 
-`siteflow.json` 已被 Git 忽略，保存本机路径。`all` 会构建两站、合并预览并扫描内部链接；`serve` 在 `http://127.0.0.1:4173` 提供预览。
+`siteflow.json` 已被 Git 忽略，保存本机路径。Siteflow 在 Linux/WSL 中直接使用 Bash；Windows 模式仍保留 `wsl.exe` 兼容逻辑。`all` 会构建两站、合并预览并扫描内部链接；`serve` 在 `http://127.0.0.1:4173` 提供预览。
 
 2026-09-04 最终核验：`all` 成功生成 36 条 FAMA 路由，并验证 26 个芯片页、4 个 Memory 页及双站内部链接。
 

@@ -5,13 +5,14 @@
 ## 当前状态
 
 - 仓库：`sime-chill/fama`
-- 本机路径：`E:\codex_work\chipatlas`（WSL：`/mnt/e/codex_work/chipatlas`）
+- 统一开发路径：`/home/wsl_hyh/web/fama`
+- Windows 访问路径：`\\wsl.localhost\Ubuntu-20.04\home\wsl_hyh\web\fama`
 - 当前分支：`main`
-- 盘点时 HEAD：`0f6c4db`
-- 最近一次已核验 GitHub Pages 部署：该提交构建成功。
+- Logo 与文档发布提交：`ff230c3`
+- 该提交的 GitHub Pages 构建和部署均成功。
 - 正式数据：26 个芯片、4 个 Memory 专题、12 个 vendor-radar 条目；22 个监控源、0 个待审候选。
 
-## 本阶段已完成但尚未默认发布的工作
+## 本阶段已完成并发布的工作
 
 - 品牌名称统一为 FAMA，线上路径使用 `/fama/`。
 - 最终 App Logo 改为抽象的三层堆叠存储/芯片结构：保留多芯片、memory bank、stacked memory、TSV 和互联含义。
@@ -21,7 +22,7 @@
 - 无引用的 shadcn UI 示例脚手架已从本阶段清理，保留实际页面组件和 shadcn 基础配置。
 - 项目地图、维护、运维和本交接文档已补齐。
 
-上述内容仍以 `git status` 为准。新 Agent 不应假设工作区干净，也不要覆盖用户未提交改动。
+发布后源码统一迁移到 WSL 原生文件系统；E 盘不再保存第二份可编辑工作树。开始工作仍应先看 `git status`，不要覆盖用户未提交改动。
 
 ## 已验证
 
@@ -36,10 +37,9 @@
 
 ## 下一步
 
-1. 查看 `git status --short` 与 `git diff --stat`，确认 Logo、文档和清理范围。
-2. 用 64/180/512 像素实际预览确认图标小尺寸辨识度。
-3. 如用户同意发布，先运行 `go run . publish` 查看 dry run；再次确认后才运行 `go run . publish --apply`。
-4. 发布后在 iPhone/Safari 检查添加到主屏幕、favicon、PWA 缓存刷新和 `/chipatlas/` 兼容跳转。
+1. 在 iPhone/Safari 检查添加到主屏幕、favicon、PWA 缓存刷新和 `/chipatlas/` 兼容跳转。
+2. 后续内容维护按 `docs/MAINTENANCE.md` 进行。
+3. 再次发布时先运行 `go run . publish` dry run；只有用户明确确认后才执行 `--apply`。
 
 ## 待拍板，不要自动删除
 

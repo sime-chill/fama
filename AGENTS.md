@@ -2,6 +2,7 @@
 
 开始工作前依次阅读 `README.md`、`docs/HANDOFF.md` 和 `docs/PROJECT_MAP.md`。
 
+- 唯一开发路径是 `/home/wsl_hyh/web/fama`；E 盘归档不能作为第二工作树。
 - Git 仓库和源码是事实源；不要编辑 `.next/`、`.vinext/`、`.wrangler/`、`dist/`、`pages-dist/` 或 `.siteflow-out/`。
 - 正式芯片数据必须有至少一个一手来源。自动扫描候选未经人工核验不得进入正式目录。
 - 修改后至少运行 `bun run data:validate`、`bun run lint` 和 `bun run build`。

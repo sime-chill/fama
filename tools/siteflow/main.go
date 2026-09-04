@@ -136,7 +136,7 @@ func loadConfig(path string) (Config, error) {
 		return Config{}, errors.New("domain, FAMA base path, GitHub owner, and repository are required")
 	}
 	if cfg.PersonalBranch == "" {
-		cfg.PersonalBranch = "redesign/acad-homepage"
+		cfg.PersonalBranch = "master"
 	}
 	if cfg.PersonalBackup == "" {
 		cfg.PersonalBackup = "backup/pre-acad-homepage-20260904"
@@ -194,7 +194,11 @@ func doctor(ctx context.Context, cfg Config) error {
 	if err := verifyPersonalContentSource(cfg); err != nil {
 		return err
 	}
-	for _, tool := range []string{"git", "wsl.exe"} {
+	requiredTools := []string{"git", "bash"}
+	if runtime.GOOS == "windows" {
+		requiredTools = []string{"git", "wsl.exe"}
+	}
+	for _, tool := range requiredTools {
 		if _, err := exec.LookPath(tool); err != nil {
 			return fmt.Errorf("required tool %s was not found", tool)
 		}
@@ -218,7 +222,7 @@ func doctor(ctx context.Context, cfg Config) error {
 	if err := run(ctx, cfg.FamaRepo, "git", "status", "--porcelain=v1"); err != nil {
 		return fmt.Errorf("FAMA repository: %w", err)
 	}
-	if err := runWSL(ctx, cfg, cfg.PersonalRepo, "git status --porcelain=v1"); err != nil {
+	if err := runPersonalShell(ctx, cfg, cfg.PersonalRepo, "git status --porcelain=v1"); err != nil {
 		return fmt.Errorf("personal repository: %w", err)
 	}
 	fmt.Println("[doctor] OK")
@@ -296,7 +300,7 @@ func build(ctx context.Context, cfg Config) error {
 		}
 	}
 	jekyll := fmt.Sprintf("bundle exec jekyll build --destination %s", shellQuote(toWSLPath(personalOut)))
-	if err := runWSL(ctx, cfg, cfg.PersonalRepo, jekyll); err != nil {
+	if err := runPersonalShell(ctx, cfg, cfg.PersonalRepo, jekyll); err != nil {
 		return fmt.Errorf("Jekyll build failed: %w", err)
 	}
 
@@ -507,7 +511,7 @@ func publish(ctx context.Context, cfg Config, apply bool) error {
 	}
 	personalCommit := `git add -A && ` +
 		`(git diff --cached --quiet || git commit -m 'Rename AI memory architecture project to FAMA')`
-	if err := runWSL(ctx, cfg, cfg.PersonalRepo, personalCommit); err != nil {
+	if err := runPersonalShell(ctx, cfg, cfg.PersonalRepo, personalCommit); err != nil {
 		return err
 	}
 	if err := pushPersonal(ctx, cfg); err != nil {
@@ -524,7 +528,7 @@ func pushPersonal(ctx context.Context, cfg Config) error {
 			shellQuote(cfg.PersonalBackup),
 			shellQuote(cfg.PersonalBranch),
 		)
-		return runWSL(ctx, cfg, cfg.PersonalRepo, pushes)
+		return runPersonalShell(ctx, cfg, cfg.PersonalRepo, pushes)
 	}
 
 	// WSL may occasionally lose outbound DNS while its filesystem remains
@@ -616,10 +620,13 @@ func runEnv(ctx context.Context, dir string, env []string, name string, args ...
 	return cmd.Run()
 }
 
-func runWSL(ctx context.Context, cfg Config, windowsDir, command string) error {
-	wslDir := toWSLPath(windowsDir)
-	full := "cd " + shellQuote(wslDir) + " && " + command
-	return run(ctx, cfg.configDir, "wsl.exe", "-d", cfg.WSLDistribution, "--", "bash", "-lc", full)
+func runPersonalShell(ctx context.Context, cfg Config, dir, command string) error {
+	shellDir := toWSLPath(dir)
+	full := "cd " + shellQuote(shellDir) + " && " + command
+	if runtime.GOOS == "windows" {
+		return run(ctx, cfg.configDir, "wsl.exe", "-d", cfg.WSLDistribution, "--", "bash", "-lc", full)
+	}
+	return run(ctx, cfg.configDir, "bash", "-lc", full)
 }
 
 func toWSLPath(path string) string {
