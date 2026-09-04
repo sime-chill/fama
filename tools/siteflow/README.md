@@ -42,6 +42,13 @@ Both repositories now live in the same native WSL workspace:
 On Linux/WSL, siteflow runs Bash directly. On Windows it retains the `wsl.exe`
 adapter for compatibility, but the WSL directories are the only source of truth.
 
+The current Cloudflare `workerd` prebuilt binary requires glibc 2.35 or newer.
+Ubuntu 20.04 can run `doctor`, Go tests and the normal FAMA build, but local
+`all`/`build:pages` requires Ubuntu 22.04+ or another compatible runtime. Do not
+replace the system glibc in place; use a distro upgrade or a separate newer
+distro after explicit approval. GitHub Actions remains the authoritative Pages
+build while the local distro is Ubuntu 20.04.
+
 Copy `siteflow.example.json` to the git-ignored `siteflow.json` and adjust the
 local paths. Relative paths are resolved from the configuration file. The
 published site never contains this machine-specific configuration. Set

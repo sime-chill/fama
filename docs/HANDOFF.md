@@ -31,7 +31,8 @@
 - `bun run build`：通过。
 - `go test ./...`（`tools/siteflow`）：通过。
 - `go run . doctor`：通过，能识别两个仓库和本机工具。
-- `go run . all`：通过；生成 36 条 FAMA 路由，校验 26 个芯片页、4 个 Memory 页及双站内部链接。
+- 迁移前 Windows `go run . all`：通过；生成 36 条 FAMA 路由，校验 26 个芯片页、4 个 Memory 页及双站内部链接。
+- 迁移后 WSL `go run . all`：FAMA build 本身通过，但 Wrangler 因 Ubuntu 20.04 glibc 2.31 低于 `workerd` 所需 2.35 而无法启动；详见 `docs/OPERATIONS.md`。
 - 个人主页 `./scripts/build.sh /tmp/fama-personal-handoff-build-final`：通过。
 - GitHub Pages：FAMA 与个人主页最近一次远端 workflow 均成功。
 
@@ -40,6 +41,7 @@
 1. 在 iPhone/Safari 检查添加到主屏幕、favicon、PWA 缓存刷新和 `/chipatlas/` 兼容跳转。
 2. 后续内容维护按 `docs/MAINTENANCE.md` 进行。
 3. 再次发布时先运行 `go run . publish` dry run；只有用户明确确认后才执行 `--apply`。
+4. 需要恢复完整本地 Pages 导出时，先备份并升级/新建 Ubuntu 22.04+ WSL；不要直接替换 Ubuntu 20.04 的系统 glibc。
 
 ## 待拍板，不要自动删除
 
