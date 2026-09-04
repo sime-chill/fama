@@ -1,3 +1,5 @@
+import { latestChips } from '@/data/latest-chips';
+
 export type Source = {
   title: string;
   publisher: string;
@@ -62,7 +64,7 @@ export type MemoryTopic = {
 
 const verified = '2026-09-04';
 
-export const chips: ChipRecord[] = [
+const legacyChips: ChipRecord[] = [
   {
     id: 'nvidia-rubin',
     vendor: 'NVIDIA',
@@ -654,6 +656,8 @@ export const chips: ChipRecord[] = [
     lastVerified: verified,
   },
 ];
+
+export const chips: ChipRecord[] = [...latestChips, ...legacyChips];
 
 export const memoryTopics: MemoryTopic[] = [
   {

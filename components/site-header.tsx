@@ -1,9 +1,10 @@
 /* oxlint-disable next/no-html-link-for-pages -- Native navigation is intentional for iOS resilience. */
-import { CircuitBoard, Database, Library, MemoryStick } from 'lucide-react';
+import { Building2, CircuitBoard, Database, Library, MemoryStick } from 'lucide-react';
 
 const navigation = [
   { href: '/chips', label: '芯片库', icon: CircuitBoard },
   { href: '/memory', label: '存储专题', icon: MemoryStick },
+  { href: '/vendors', label: '厂商雷达', icon: Building2 },
   { href: '/sources', label: '来源库', icon: Library },
 ];
 
@@ -30,8 +31,8 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <a href="/sources" className="rounded-full border border-primary/30 bg-primary/8 px-3 py-1.5 text-[11px] font-medium text-primary">
-          来源可核验
+        <a href="/updates" className="rounded-full border border-primary/30 bg-primary/8 px-3 py-1.5 text-[11px] font-medium text-primary">
+          每日监控
         </a>
       </div>
     </header>
@@ -40,7 +41,7 @@ export function SiteHeader() {
 
 export function MobileNav() {
   return (
-    <nav className="fixed inset-x-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 mx-auto grid max-w-md grid-cols-3 rounded-[22px] border border-white/10 bg-[#102027]/94 p-1.5 shadow-2xl backdrop-blur-xl sm:hidden" aria-label="移动端主导航">
+    <nav className="fixed inset-x-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 mx-auto grid max-w-md grid-cols-4 rounded-[22px] border border-white/10 bg-[#102027]/94 p-1.5 shadow-2xl backdrop-blur-xl sm:hidden" aria-label="移动端主导航">
       {navigation.map(({ href, label, icon: Icon }) => (
         <a key={href} href={href} className="flex min-w-0 flex-col items-center gap-1 rounded-2xl px-2 py-2 text-[10px] font-medium text-muted-foreground transition active:bg-white/10 active:text-foreground">
           <Icon className="size-4" />

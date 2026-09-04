@@ -1,3 +1,4 @@
+/* oxlint-disable next/no-html-link-for-pages -- Native navigation is intentional for iOS resilience. */
 import type { Metadata } from 'next';
 import { BadgeCheck, BookOpenText, CircleAlert, FileCheck2 } from 'lucide-react';
 
@@ -40,6 +41,11 @@ export default function SourcesPage() {
           </div>
         ))}
       </section>
+
+      <a href="/updates" className="mt-3 flex items-center justify-between rounded-[22px] border border-primary/16 bg-primary/[0.055] p-4 text-sm font-medium text-primary transition hover:bg-primary/[0.09]">
+        查看每日官方源监控与待审核队列
+        <span aria-hidden>→</span>
+      </a>
 
       <section className="pt-12">
         <div className="flex items-end justify-between gap-4">

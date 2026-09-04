@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "publishMode": "review-required",
+    "officialSourceRequired": true,
+    "description": "自动检索只生成候选项；正式芯片数据必须经人工核验并至少包含一个一手来源。"
+  },
+  "sources": [
+    {
+      "id": "hotchips",
+      "publisher": "Hot Chips",
+      "url": "https://hotchips.org/",
+      "kind": "conference",
+      "keywords": ["accelerator", "AI", "GPU", "TPU", "memory", "HBM", "DRAM", "processor"]
+    },
+    {
+      "id": "nvidia-datacenter",
+      "publisher": "NVIDIA Data Center",
+      "url": "https://www.nvidia.com/en-us/data-center/",
+      "kind": "vendor",
+      "keywords": ["GPU", "Rubin", "Blackwell", "HBM", "NVLink", "inference"]
+    },
+    {
+      "id": "amd-instinct",
+      "publisher": "AMD Instinct",
+      "url": "https://www.amd.com/en/products/accelerators/instinct/mi400.html",
+      "kind": "vendor",
+      "keywords": ["Instinct", "MI", "CDNA", "HBM", "Helios", "accelerator"]
+    },
+    {
+      "id": "google-cloud-ai-infra",
+      "publisher": "Google Cloud AI Infrastructure",
+      "url": "https://cloud.google.com/blog/products/compute",
+      "kind": "vendor",
+      "keywords": ["TPU", "AI infrastructure", "accelerator", "training", "inference"]
+    },
+    {
+      "id": "aws-trainium",
+      "publisher": "AWS Trainium",
+      "url": "https://aws.amazon.com/ai/machine-learning/trainium/",
+      "kind": "vendor",
+      "keywords": ["Trainium", "Inferentia", "Neuron", "UltraServer", "HBM"]
+    },
+    {
+      "id": "microsoft-silicon",
+      "publisher": "Microsoft Azure Hardware",
+      "url": "https://azure.microsoft.com/en-us/blog/topics/hardware/",
+      "kind": "vendor",
+      "keywords": ["Maia", "Cobalt", "accelerator", "silicon", "AI infrastructure"]
+    },
+    {
+      "id": "intel-ai",
+      "publisher": "Intel AI Newsroom",
+      "url": "https://newsroom.intel.com/artificial-intelligence",
+      "kind": "vendor",
+      "keywords": ["accelerator", "GPU", "Gaudi", "Crescent Island", "Xe"]
+    },
+    {
+      "id": "meta-engineering",
+      "publisher": "Meta Engineering",
+      "url": "https://engineering.fb.com/category/data-center-engineering/",
+      "kind": "vendor",
+      "keywords": ["MTIA", "accelerator", "AI", "inference", "memory"]
+    },
+    {
+      "id": "cerebras-blog",
+      "publisher": "Cerebras",
+      "url": "https://www.cerebras.ai/blog",
+      "kind": "vendor",
+      "keywords": ["Wafer Scale", "WSE", "inference", "training", "memory"]
+    },
+    {
+      "id": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "url": "https://www.d-matrix.ai/",
+      "kind": "vendor",
+      "keywords": ["Corsair", "Raptor", "3D DRAM", "in-memory", "inference"]
+    },
+    {
+      "id": "sambanova-rdu",
+      "publisher": "SambaNova",
+      "url": "https://sambanova.ai/products/rdu-ai-chips",
+      "kind": "vendor",
+      "keywords": ["RDU", "SN50", "DataScale", "memory", "inference"]
+    },
+    {
+      "id": "qualcomm-datacenter",
+      "publisher": "Qualcomm Data Center",
+      "url": "https://www.qualcomm.com/data-center",
+      "kind": "vendor",
+      "keywords": ["AI200", "AI250", "Dragonfly", "accelerator", "LPDDR"]
+    },
+    {
+      "id": "tenstorrent-news",
+      "publisher": "Tenstorrent",
+      "url": "https://tenstorrent.com/newsroom",
+      "kind": "vendor",
+      "keywords": ["Blackhole", "Wormhole", "AI", "chip", "accelerator"]
+    },
+    {
+      "id": "ibm-research-ai-hardware",
+      "publisher": "IBM Research",
+      "url": "https://research.ibm.com/blog",
+      "kind": "vendor",
+      "keywords": ["Spyre", "AI accelerator", "chip", "memory", "inference"]
+    },
+    {
+      "id": "groq-blog",
+      "publisher": "Groq",
+      "url": "https://groq.com/blog",
+      "kind": "vendor",
+      "keywords": ["LPU", "GroqChip", "inference", "SRAM", "rack"]
+    },
+    {
+      "id": "furiosa-news",
+      "publisher": "FuriosaAI",
+      "url": "https://furiosa.ai/blog",
+      "kind": "vendor",
+      "keywords": ["RNGD", "AI accelerator", "HBM", "inference"]
+    },
+    {
+      "id": "rebellions-news",
+      "publisher": "Rebellions",
+      "url": "https://rebellions.ai/newsroom/",
+      "kind": "vendor",
+      "keywords": ["REBEL", "ATOM", "AI accelerator", "HBM", "chiplet"]
+    },
+    {
+      "id": "broadcom-ai",
+      "publisher": "Broadcom AI Infrastructure",
+      "url": "https://www.broadcom.com/info/ai/3point5d",
+      "kind": "vendor",
+      "keywords": ["XPU", "ASIC", "HBM", "3.5D", "AI infrastructure"]
+    },
+    {
+      "id": "marvell-custom-asic",
+      "publisher": "Marvell Custom Silicon",
+      "url": "https://www.marvell.com/products/custom-asic.html",
+      "kind": "vendor",
+      "keywords": ["custom silicon", "HBM", "AI", "accelerator", "chiplet"]
+    },
+    {
+      "id": "li-auto-ir",
+      "publisher": "Li Auto Investor Relations",
+      "url": "https://ir.lixiang.com/news-releases",
+      "kind": "vendor",
+      "keywords": ["MAHE", "M100", "chip", "autonomous driving", "AI"]
+    },
+    {
+      "id": "xiaomi-ir",
+      "publisher": "Xiaomi Investor Relations",
+      "url": "https://ir.mi.com/",
+      "kind": "vendor",
+      "keywords": ["XRING", "O100", "D100", "chip", "AI"]
+    },
+    {
+      "id": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "url": "https://www.hiascend.com/en/",
+      "kind": "vendor",
+      "keywords": ["Ascend", "NPU", "AI processor", "HBM", "supernode"]
+    }
+  ]
+}

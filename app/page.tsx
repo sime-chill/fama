@@ -15,7 +15,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-primary">
               <Sparkles className="size-3.5" />
               面向 AI 芯片与 LLM 协同设计研究
-              <span className="rounded-full bg-primary/10 px-2.5 py-1 font-mono text-[9px]">v0.2</span>
+              <span className="rounded-full bg-primary/10 px-2.5 py-1 font-mono text-[9px]">v0.3</span>
             </div>
             <h1 className="mt-6 max-w-3xl text-4xl font-semibold leading-[1.04] tracking-[-0.05em] sm:text-6xl">
               从 Memory 看懂<br /><span className="text-primary">AI 芯片</span>
@@ -129,9 +129,9 @@ export default function Home() {
         <div className="mt-3 flex items-center justify-between rounded-[24px] border border-primary/16 bg-primary/[0.055] p-5">
           <div className="flex items-start gap-3">
             <Braces className="mt-0.5 size-5 text-primary" />
-            <div><p className="text-sm font-semibold">可持续更新的数据层</p><p className="mt-1 text-xs leading-5 text-muted-foreground">条目按统一字段维护，下一步可接入自动监测、版本差异与学术引用导出。</p></div>
+            <div><p className="text-sm font-semibold">可持续更新的数据层</p><p className="mt-1 text-xs leading-5 text-muted-foreground">官方源增量监测已配置；当前由 Codex 运行，接入 GitHub 后每日自动执行。</p></div>
           </div>
-          <a href="/sources" className="ml-4 shrink-0 text-xs font-medium text-primary">查看方法</a>
+          <a href="/updates" className="ml-4 shrink-0 text-xs font-medium text-primary">查看监控</a>
         </div>
       </section>
     </main>
