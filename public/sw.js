@@ -1,4 +1,4 @@
-const CACHE_NAME = 'fama-v5';
+const CACHE_NAME = 'fama-v6';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(Promise.resolve());
