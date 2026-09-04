@@ -1,5 +1,9 @@
 {
   "personal_repo": "../../../sime-chill.github.io",
+  "personal_git_repo": "",
+  "personal_remote": "",
+  "personal_release_branch": "redesign/acad-homepage",
+  "personal_backup_branch": "backup/pre-acad-homepage-20260904",
   "atlas_repo": "../..",
   "work_dir": "../../../.siteflow-out",
   "personal_domain": "yhhe.top",

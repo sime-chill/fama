@@ -23,6 +23,10 @@ import (
 
 type Config struct {
 	PersonalRepo    string `json:"personal_repo"`
+	PersonalGitRepo string `json:"personal_git_repo"`
+	PersonalRemote  string `json:"personal_remote"`
+	PersonalBranch  string `json:"personal_release_branch"`
+	PersonalBackup  string `json:"personal_backup_branch"`
 	AtlasRepo       string `json:"atlas_repo"`
 	WorkDir         string `json:"work_dir"`
 	PersonalDomain  string `json:"personal_domain"`
@@ -120,6 +124,9 @@ func loadConfig(path string) (Config, error) {
 	}
 	cfg.configDir = filepath.Dir(abs)
 	cfg.PersonalRepo = resolve(cfg.configDir, cfg.PersonalRepo)
+	if cfg.PersonalGitRepo != "" {
+		cfg.PersonalGitRepo = resolve(cfg.configDir, cfg.PersonalGitRepo)
+	}
 	cfg.AtlasRepo = resolve(cfg.configDir, cfg.AtlasRepo)
 	cfg.WorkDir = resolve(cfg.configDir, cfg.WorkDir)
 	cfg.Bun = resolveExecutable(cfg.configDir, cfg.Bun)
@@ -127,6 +134,15 @@ func loadConfig(path string) (Config, error) {
 	cfg.GitHubCLI = resolveExecutable(cfg.configDir, cfg.GitHubCLI)
 	if cfg.PersonalDomain == "" || cfg.AtlasBasePath == "" || cfg.GitHubOwner == "" || cfg.AtlasRepository == "" {
 		return Config{}, errors.New("domain, atlas base path, GitHub owner, and repository are required")
+	}
+	if cfg.PersonalBranch == "" {
+		cfg.PersonalBranch = "redesign/acad-homepage"
+	}
+	if cfg.PersonalBackup == "" {
+		cfg.PersonalBackup = "backup/pre-acad-homepage-20260904"
+	}
+	if cfg.PersonalGitRepo != "" && cfg.PersonalRemote == "" {
+		return Config{}, errors.New("personal_remote is required when personal_git_repo is set")
 	}
 	if !strings.HasPrefix(cfg.AtlasBasePath, "/") || !strings.HasSuffix(cfg.AtlasBasePath, "/") {
 		return Config{}, errors.New("atlas_base_path must start and end with a slash")
@@ -489,15 +505,43 @@ func publish(ctx context.Context, cfg Config, apply bool) error {
 	if err := waitForPublicAtlas(ctx, cfg); err != nil {
 		return err
 	}
-	personalRelease := `git add -A && ` +
-		`(git diff --cached --quiet || git commit -m 'Adopt AcadHomepage and link ChipAtlas') && ` +
-		`git push origin backup/pre-acad-homepage-20260904 && ` +
-		`git push -u origin HEAD:redesign/acad-homepage && ` +
-		`git push origin HEAD:master`
-	if err := runWSL(ctx, cfg, cfg.PersonalRepo, personalRelease); err != nil {
+	personalCommit := `git add -A && ` +
+		`(git diff --cached --quiet || git commit -m 'Adopt AcadHomepage and link ChipAtlas')`
+	if err := runWSL(ctx, cfg, cfg.PersonalRepo, personalCommit); err != nil {
+		return err
+	}
+	if err := pushPersonal(ctx, cfg); err != nil {
 		return err
 	}
 	fmt.Println("[publish] pushed both repositories")
+	return nil
+}
+
+func pushPersonal(ctx context.Context, cfg Config) error {
+	if cfg.PersonalGitRepo == "" {
+		pushes := fmt.Sprintf(
+			"git push origin %s && git push -u origin HEAD:%s && git push origin HEAD:master",
+			shellQuote(cfg.PersonalBackup),
+			shellQuote(cfg.PersonalBranch),
+		)
+		return runWSL(ctx, cfg, cfg.PersonalRepo, pushes)
+	}
+
+	// WSL may occasionally lose outbound DNS while its filesystem remains
+	// available. Git for Windows can push the shared refs over the authenticated
+	// HTTPS transport without changing the repository's original SSH remote.
+	safeDir := filepath.ToSlash(cfg.PersonalGitRepo)
+	base := []string{"-c", "safe.directory=" + safeDir, "-C", cfg.PersonalGitRepo, "push", cfg.PersonalRemote}
+	refspecs := []string{
+		cfg.PersonalBackup + ":" + cfg.PersonalBackup,
+		cfg.PersonalBranch + ":" + cfg.PersonalBranch,
+		cfg.PersonalBranch + ":master",
+	}
+	for _, refspec := range refspecs {
+		if err := run(ctx, cfg.configDir, "git", append(base, refspec)...); err != nil {
+			return err
+		}
+	}
 	return nil
 }
 

@@ -32,3 +32,7 @@ Copy `siteflow.example.json` to the git-ignored `siteflow.json` and adjust the
 local paths. Relative paths are resolved from the configuration file. The
 published site never contains this machine-specific configuration. Set
 `github_cli` to `gh` or to an absolute path for a portable GitHub CLI.
+If WSL can build but cannot reach GitHub, set `personal_git_repo` to the
+repository's `//wsl.localhost/...` path and `personal_remote` to its HTTPS URL;
+siteflow will push the shared refs through Git for Windows while leaving the
+WSL SSH remote unchanged.
