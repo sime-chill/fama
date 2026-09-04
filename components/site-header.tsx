@@ -1,5 +1,11 @@
 /* oxlint-disable next/no-html-link-for-pages, next/no-img-element -- Native navigation and the static SVG logo are intentional for iOS resilience. */
-import { Building2, CircuitBoard, Library, MemoryStick } from 'lucide-react';
+import {
+  Activity,
+  Building2,
+  CircuitBoard,
+  Library,
+  MemoryStick,
+} from 'lucide-react';
 import { famaPath } from '@/lib/paths';
 
 const navigation = [
@@ -7,6 +13,11 @@ const navigation = [
   { href: '/memory/', label: '存储专题', icon: MemoryStick },
   { href: '/vendors/', label: '厂商雷达', icon: Building2 },
   { href: '/sources/', label: '来源库', icon: Library },
+];
+
+const mobileNavigation = [
+  ...navigation,
+  { href: '/updates/', label: '每日监控', icon: Activity },
 ];
 
 export function SiteHeader() {
@@ -46,7 +57,7 @@ export function SiteHeader() {
 
         <a
           href={famaPath('/updates/')}
-          className="rounded-full border border-primary/30 bg-primary/8 px-3 py-1.5 text-[11px] font-medium text-primary"
+          className="hidden rounded-full border border-primary/30 bg-primary/8 px-3 py-1.5 text-[11px] font-medium text-primary sm:block"
         >
           每日监控
         </a>
@@ -58,14 +69,14 @@ export function SiteHeader() {
 export function MobileNav() {
   return (
     <nav
-      className="fixed inset-x-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 mx-auto grid max-w-md grid-cols-4 rounded-[22px] border border-white/10 bg-[#102027]/94 p-1.5 shadow-2xl backdrop-blur-xl sm:hidden"
+      className="fixed inset-x-3 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-50 mx-auto grid max-w-lg grid-cols-5 rounded-[22px] border border-white/10 bg-[#102027]/94 p-1.5 shadow-2xl backdrop-blur-xl sm:hidden"
       aria-label="移动端主导航"
     >
-      {navigation.map(({ href, label, icon: Icon }) => (
+      {mobileNavigation.map(({ href, label, icon: Icon }) => (
         <a
           key={href}
           href={famaPath(href)}
-          className="flex min-w-0 flex-col items-center gap-1 rounded-2xl px-2 py-2 text-[10px] font-medium text-muted-foreground transition active:bg-white/10 active:text-foreground"
+          className="flex min-h-12 min-w-0 touch-manipulation flex-col items-center justify-center gap-1 rounded-2xl px-1 py-2 text-[10px] font-medium text-muted-foreground transition active:bg-white/10 active:text-foreground"
         >
           <Icon className="size-4" />
           <span>{label}</span>
