@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#061216" />
+    <meta name="robots" content="noindex" />
+    <title>FAMA Logo 候选方案</title>
+    <style>
+      :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: #061216; color: #e8f7f2; }
+      main { width: min(100%, 1080px); margin: 0 auto; padding: 28px 16px 48px; }
+      h1 { margin: 0; color: #a9f7d3; font-size: clamp(28px, 8vw, 52px); letter-spacing: -.035em; }
+      .intro { margin: 8px 0 24px; color: #91aeb2; line-height: 1.6; }
+      .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      article { overflow: hidden; border: 1px solid #28545a; border-radius: 24px; background: #10272d; }
+      img { display: block; width: 100%; height: auto; background: #071318; }
+      .copy { padding: 16px 18px 20px; }
+      h2 { margin: 0 0 6px; font-size: 21px; }
+      p { margin: 0; color: #a8bdc0; line-height: 1.5; }
+      a { color: inherit; text-decoration: none; }
+      .download { display: inline-flex; margin-top: 24px; padding: 13px 18px; border-radius: 999px; background: #65e2bd; color: #061216; font-weight: 750; }
+      @media (max-width: 680px) { .grid { grid-template-columns: 1fr; } main { padding-top: 22px; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>FAMA Logo Concepts</h1>
+      <p class="intro">点击任意图片可单独放大。选择后回复 A、B、C 或 D，也可以指定两个方案进行融合。</p>
+      <section class="grid" aria-label="FAMA Logo 候选方案">
+        <article><a href="a.jpg"><img src="a.jpg" alt="方案 A：HBM 环绕互连" width="800" height="800" /></a><div class="copy"><h2>A · HBM 环绕互连</h2><p>AI 计算芯片与四组堆叠存储，架构含义最直接。</p></div></article>
+        <article><a href="b.jpg"><img src="b.jpg" alt="方案 B：3D 存储堆叠" width="800" height="800" /></a><div class="copy"><h2>B · 3D 存储堆叠</h2><p>存储层与 TSV 互连组成 F，Logo 轮廓最鲜明。</p></div></article>
+        <article><a href="c.jpg"><img src="c.jpg" alt="方案 C：AI 芯片封装" width="800" height="800" /></a><div class="copy"><h2>C · AI 芯片封装</h2><p>完整封装、HBM 与发光数据路径，芯片属性最强。</p></div></article>
+        <article><a href="d.jpg"><img src="d.jpg" alt="方案 D：存储阵列与总线" width="800" height="800" /></a><div class="copy"><h2>D · 存储阵列与总线</h2><p>突出 Memory Array、宽总线与堆叠存储。</p></div></article>
+      </section>
+      <a class="download" href="all.jpg" download>下载四宫格 JPEG</a>
+    </main>
+  </body>
+</html>
