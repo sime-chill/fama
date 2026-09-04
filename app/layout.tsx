@@ -25,6 +25,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        url: famaPath('/favicon.png'),
+        sizes: '64x64',
+        type: 'image/png',
+      },
+      {
         url: famaPath('/fama-icon-192.png'),
         sizes: '192x192',
         type: 'image/png',

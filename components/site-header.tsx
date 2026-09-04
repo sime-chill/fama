@@ -15,7 +15,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-8">
         <a href={famaPath('/')} className="flex min-w-0 items-center gap-3">
           <img
-            src={famaPath('/fama-logo.svg')}
+            src={famaPath('/fama-logo.png')}
             alt="FAMA"
             width="36"
             height="36"
