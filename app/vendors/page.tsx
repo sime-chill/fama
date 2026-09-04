@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 
 import { vendorRadar } from '@/data/vendor-radar';
+import { atlasPath } from '@/lib/paths';
 
 export const metadata: Metadata = {
   title: '全球 AI 芯片厂商雷达｜芯存图谱',
@@ -50,7 +51,7 @@ export default function VendorsPage() {
           <p className="mt-1 text-xs text-muted-foreground">已建完整档案</p>
         </div>
         <a
-          href="/updates"
+          href={atlasPath('/updates/')}
           className="col-span-2 rounded-2xl border border-primary/16 bg-primary/[0.055] p-4 transition hover:bg-primary/[0.09] sm:col-span-1"
         >
           <Radar className="size-4 text-primary" />
@@ -100,7 +101,7 @@ export default function VendorsPage() {
                 </a>
                 {entry.chipId ? (
                   <a
-                    href={`/chips/${entry.chipId}`}
+                    href={atlasPath(`/chips/${entry.chipId}/`)}
                     className="inline-flex items-center gap-1.5 font-medium text-primary"
                   >
                     完整档案 <ArrowRight className="size-3" />

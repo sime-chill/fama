@@ -57,8 +57,7 @@ function extractLinks(html, base, keywords) {
 async function fetchPage(url) {
   const response = await fetch(url, {
     headers: {
-      'user-agent':
-        'ChipAtlasSourceWatch/1.0 (+https://chipatlas-ai-silicon.bold-jam-7235.chatgpt.site)',
+      'user-agent': 'ChipAtlasSourceWatch/1.0 (+https://yhhe.top/chipatlas/)',
       accept: 'text/html,application/xhtml+xml',
     },
     redirect: 'follow',

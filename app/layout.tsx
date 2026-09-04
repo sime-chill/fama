@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import { MobileNav, SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
 import { PwaRegister } from '@/components/pwa-register';
+import { atlasPath } from '@/lib/paths';
 import './globals.css';
 
 const geistSans = Geist({
@@ -16,16 +17,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chipatlas-ai-silicon.bold-jam-7235.chatgpt.site'),
+  metadataBase: new URL('https://yhhe.top/chipatlas/'),
   title: '芯存图谱｜从 Memory 看懂 AI 芯片',
   description: '面向 AI 芯片研究者的存储架构、参数、技术路线与来源追踪知识库。',
-  manifest: '/manifest.webmanifest',
+  manifest: atlasPath('/manifest.webmanifest'),
   icons: {
     icon: [
-      { url: '/chipatlas-icon-192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/chipatlas-icon-512.png', sizes: '512x512', type: 'image/png' },
+      {
+        url: atlasPath('/chipatlas-icon-192.png'),
+        sizes: '192x192',
+        type: 'image/png',
+      },
+      {
+        url: atlasPath('/chipatlas-icon-512.png'),
+        sizes: '512x512',
+        type: 'image/png',
+      },
     ],
-    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+    apple: [
+      {
+        url: atlasPath('/apple-touch-icon.png'),
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
   },
   appleWebApp: {
     capable: true,
@@ -37,16 +52,23 @@ export const metadata: Metadata = {
     type: 'website',
     title: '芯存图谱 · Silicon Memory Atlas',
     description: '从 Memory 看懂 AI 芯片',
-    url: '/',
+    url: 'https://yhhe.top/chipatlas/',
     siteName: '芯存图谱',
     locale: 'zh_CN',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: '芯存图谱分享预览' }],
+    images: [
+      {
+        url: atlasPath('/og.png'),
+        width: 1200,
+        height: 630,
+        alt: '芯存图谱分享预览',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: '芯存图谱 · Silicon Memory Atlas',
     description: '从 Memory 看懂 AI 芯片',
-    images: ['/og.png'],
+    images: [atlasPath('/og.png')],
   },
 };
 
