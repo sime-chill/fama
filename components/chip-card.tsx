@@ -1,4 +1,4 @@
-import Link from 'next/link';
+/* oxlint-disable next/no-html-link-for-pages -- Native navigation is intentional for iOS resilience. */
 import { ArrowRight, BadgeCheck, MemoryStick } from 'lucide-react';
 
 import type { ChipRecord } from '@/lib/catalog';
@@ -36,10 +36,10 @@ export function ChipCard({ chip }: { chip: ChipRecord }) {
           <BadgeCheck className="size-3.5" />
           {chip.officialSources.length} 个官方来源已核验
         </div>
-        <Link href={`/chips/${chip.id}`} className="flex items-center justify-between rounded-xl bg-white/[0.045] px-3 py-2.5 text-sm font-medium transition group-hover:bg-primary group-hover:text-primary-foreground">
+        <a href={`/chips/${chip.id}`} className="flex items-center justify-between rounded-xl bg-white/[0.045] px-3 py-2.5 text-sm font-medium transition group-hover:bg-primary group-hover:text-primary-foreground">
           查看存储架构
           <ArrowRight className="size-4" />
-        </Link>
+        </a>
       </div>
     </article>
   );

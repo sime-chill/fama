@@ -1,5 +1,5 @@
+/* oxlint-disable next/no-html-link-for-pages -- Native navigation is intentional for iOS resilience. */
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, BadgeCheck, ChevronRight, CircleGauge, Cpu, Layers3, Scale } from 'lucide-react';
 
@@ -34,7 +34,7 @@ export default async function MemoryDetailPage({ params }: PageProps) {
   return (
     <main className="mx-auto w-full max-w-6xl px-4 pt-6 sm:px-8 sm:pt-9">
       <nav className="flex items-center gap-2 text-xs text-muted-foreground" aria-label="面包屑">
-        <Link href="/memory" className="inline-flex items-center gap-1 hover:text-foreground"><ArrowLeft className="size-3.5" />存储专题</Link>
+        <a href="/memory" className="inline-flex items-center gap-1 hover:text-foreground"><ArrowLeft className="size-3.5" />存储专题</a>
         <ChevronRight className="size-3" />
         <span>{topic.name}</span>
       </nav>

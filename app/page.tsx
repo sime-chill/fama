@@ -1,4 +1,4 @@
-import Link from 'next/link';
+/* oxlint-disable next/no-html-link-for-pages -- Native navigation is intentional for iOS resilience. */
 import { ArrowRight, BadgeCheck, BookOpenText, Braces, Cpu, Database, Layers3, MemoryStick, Sparkles } from 'lucide-react';
 
 import { ChipCard } from '@/components/chip-card';
@@ -26,12 +26,12 @@ export default function Home() {
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/chips" className="inline-flex h-11 items-center gap-2 rounded-xl bg-primary px-4 text-sm font-medium text-primary-foreground transition hover:brightness-105">
+            <a href="/chips" className="inline-flex h-11 items-center gap-2 rounded-xl bg-primary px-4 text-sm font-medium text-primary-foreground transition hover:brightness-105">
               进入芯片库 <ArrowRight className="size-4" />
-            </Link>
-            <Link href="/memory" className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 bg-white/[0.035] px-4 text-sm font-medium transition hover:bg-white/[0.07]">
+            </a>
+            <a href="/memory" className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 bg-white/[0.035] px-4 text-sm font-medium transition hover:bg-white/[0.07]">
               <MemoryStick className="size-4" /> 存储技术专题
-            </Link>
+            </a>
             <InstallGuide />
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function Home() {
             <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Latest silicon</p>
             <h2 className="mt-1.5 text-2xl font-semibold tracking-tight">重点追踪</h2>
           </div>
-          <Link href="/chips" className="inline-flex items-center gap-1.5 text-xs font-medium text-primary">全部 {chips.length} 款 <ArrowRight className="size-3.5" /></Link>
+          <a href="/chips" className="inline-flex items-center gap-1.5 text-xs font-medium text-primary">全部 {chips.length} 款 <ArrowRight className="size-3.5" /></a>
         </div>
         <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {chips.slice(0, 6).map((chip) => <ChipCard key={chip.id} chip={chip} />)}
@@ -95,7 +95,7 @@ export default function Home() {
         </div>
         <div className="mt-5 grid gap-3 sm:grid-cols-2">
           {memoryTopics.map((topic) => (
-            <Link key={topic.id} href={`/memory/${topic.id}`} className="group relative overflow-hidden rounded-[26px] border border-white/8 bg-card/65 p-5 transition hover:border-white/15 hover:bg-card">
+            <a key={topic.id} href={`/memory/${topic.id}`} className="group relative overflow-hidden rounded-[26px] border border-white/8 bg-card/65 p-5 transition hover:border-white/15 hover:bg-card">
               <span className="absolute right-0 top-0 h-full w-1" style={{ background: topic.accent }} />
               <div className="flex items-start justify-between gap-4">
                 <div>
@@ -107,7 +107,7 @@ export default function Home() {
               <p className="mt-4 text-sm font-medium leading-6">{topic.headline}</p>
               <p className="mt-3 line-clamp-2 text-xs leading-5 text-muted-foreground">{topic.summary}</p>
               <p className="mt-4 text-[10px] text-primary">{topic.maturity}</p>
-            </Link>
+            </a>
           ))}
         </div>
       </section>
@@ -131,7 +131,7 @@ export default function Home() {
             <Braces className="mt-0.5 size-5 text-primary" />
             <div><p className="text-sm font-semibold">可持续更新的数据层</p><p className="mt-1 text-xs leading-5 text-muted-foreground">条目按统一字段维护，下一步可接入自动监测、版本差异与学术引用导出。</p></div>
           </div>
-          <Link href="/sources" className="ml-4 shrink-0 text-xs font-medium text-primary">查看方法</Link>
+          <a href="/sources" className="ml-4 shrink-0 text-xs font-medium text-primary">查看方法</a>
         </div>
       </section>
     </main>

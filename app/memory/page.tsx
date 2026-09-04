@@ -1,5 +1,5 @@
+/* oxlint-disable next/no-html-link-for-pages -- Native navigation is intentional for iOS resilience. */
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { ArrowRight, Layers3, MemoryStick } from 'lucide-react';
 
 import { memoryTopics } from '@/lib/catalog';
@@ -22,7 +22,7 @@ export default function MemoryPage() {
 
       <section className="mt-8 grid gap-3 md:grid-cols-2">
         {memoryTopics.map((topic, index) => (
-          <Link key={topic.id} href={`/memory/${topic.id}`} className="group relative overflow-hidden rounded-[28px] border border-white/8 bg-card/68 p-6 transition hover:-translate-y-0.5 hover:border-white/15 hover:bg-card">
+          <a key={topic.id} href={`/memory/${topic.id}`} className="group relative overflow-hidden rounded-[28px] border border-white/8 bg-card/68 p-6 transition hover:-translate-y-0.5 hover:border-white/15 hover:bg-card">
             <div className="absolute inset-y-0 right-0 w-1.5" style={{ background: topic.accent }} />
             <div className="flex items-start justify-between gap-4">
               <div>
@@ -37,7 +37,7 @@ export default function MemoryPage() {
               {topic.keyMetrics.slice(0, 3).map((metric) => <span key={metric.label} className="rounded-full border border-white/8 bg-white/[0.035] px-3 py-1.5 text-[10px] text-muted-foreground">{metric.label} · <span className="text-foreground">{metric.value}</span></span>)}
             </div>
             <p className="mt-5 text-[10px] font-medium text-primary">{topic.maturity}</p>
-          </Link>
+          </a>
         ))}
       </section>
 
