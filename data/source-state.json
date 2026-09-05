@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-04T02:14:42.640Z",
+  "lastScanAt": "2026-09-05T05:50:16.146Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -177,12 +177,11 @@
       ]
     },
     "sambanova-rdu": {
-      "fingerprint": "292a6f5971d6dce1ec94faa2147a6a40f0433d903e5aa795dfbfab0a0d3b785e",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "5dd32a2a86b8cecb6cf5452e0b9d88b4a6dc35bc7688b7b598cc1a516dab282d",
+      "updatedAt": "2026-09-05T05:50:16.146Z",
       "seenUrls": [
         "https://sambanova.ai/blog/first-disaggregated-inference-demo-for-ai-agents-live",
         "https://sambanova.ai/products/rdu-ai-chips",
-        "https://sambanova.ai/solutions/inference-providers",
         "https://sambanova.ai/ja/products/rdu-ai-chips",
         "https://sambanova.ai/blog/introducing-the-sn50-rdu-purpose-built-for-agentic-inference",
         "https://sambanova.ai/blog/why-dataflow-matters-more-than-ever",
@@ -361,6 +360,20 @@
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "updatedAt": "2026-09-04T02:14:42.640Z",
       "seenUrls": []
+    },
+    "marvell-custom-asic": {
+      "fingerprint": "e586dcdb5b80525af5399adc71058740e688d3d2f12ce9637843f6d22a4d1861",
+      "updatedAt": "2026-09-05T05:50:16.146Z",
+      "seenUrls": [
+        "https://www.marvell.com/products/system-solutions.html",
+        "https://www.marvell.com/company/sustainability.html",
+        "https://investor.marvell.com/?src=main",
+        "https://www.marvell.com/products/custom-asic.html",
+        "https://www.marvell.com/products/custom-asic/custom-hbm-compute-architecture.html",
+        "https://www.marvell.com/company/newsroom/marvell-nvidia-provide-to-custom-solutions-advanced-ai-infrastructure.html",
+        "https://www.marvell.com/company/newsroom/marvell-delivers-advanced-packaging-platform-custom-ai-accelerators.html",
+        "https://secure.ethicspoint.com/domain/media/en/gui/20485/index.html"
+      ]
     }
   }
 }
