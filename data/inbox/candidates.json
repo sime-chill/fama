@@ -1,5 +1,45 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T05:50:16.146Z",
-  "items": []
+  "generatedAt": "2026-09-06T06:01:39.458Z",
+  "items": [
+    {
+      "id": "e619de40d044",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "查看详情",
+      "url": "https://www.hiascend.com/industries/fintech",
+      "discoveredAt": "2026-09-06T06:01:39.458Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "63eeffd9915f",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "查看详情",
+      "url": "https://www.hiascend.com/industries/internet",
+      "discoveredAt": "2026-09-06T06:01:39.458Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "bb38d6731cb6",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "查看详情",
+      "url": "https://www.hiascend.com/industries/solutions/large-model",
+      "discoveredAt": "2026-09-06T06:01:39.458Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    }
+  ]
 }
