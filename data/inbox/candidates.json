@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T06:10:20.840Z",
+  "generatedAt": "2026-09-10T06:03:26.364Z",
   "items": [
+    {
+      "id": "bd0771db9635",
+      "sourceId": "intel-ai",
+      "publisher": "Intel AI Newsroom",
+      "title": "Data Center Postcard from Intel Tech Tour Arizona: Intel Data Center Group leader Kevork Kechichian shows off Xeon 6+ October 15,2025",
+      "url": "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/postcard-from-intel-tech-tour-arizona-intel-data-center-group-leader-kevork-kechichian-shows-off-xeon-6.html",
+      "discoveredAt": "2026-09-10T06:03:26.364Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Xe"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "1de579c6bfab",
+      "sourceId": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "title": "How disaggregated AI inference pipelines generate less heat — and smaller bills",
+      "url": "https://www.d-matrix.ai/how-disaggregated-ai-inference-pipelines-generate-less-heat-and-smaller-bills/",
+      "discoveredAt": "2026-09-10T06:03:26.364Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "67e46a89de23",
+      "sourceId": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "title": "Advancing Full-Model AI Inference on Corsair with Infinity",
+      "url": "https://www.d-matrix.ai/advancing-full-model-ai-inference-on-corsair-with-infinity/",
+      "discoveredAt": "2026-09-10T06:03:26.364Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Corsair",
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "833a6f58172b",
+      "sourceId": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "title": "Optimization",
+      "url": "https://www.d-matrix.ai/solutions/inference-optimization/",
+      "discoveredAt": "2026-09-10T06:03:26.364Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "f25325285541",
+      "sourceId": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "title": "See the performance",
+      "url": "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
+      "discoveredAt": "2026-09-10T06:03:26.364Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "e619de40d044",
       "sourceId": "huawei-ascend",

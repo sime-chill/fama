@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-07T06:10:20.840Z",
+  "lastScanAt": "2026-09-10T06:03:26.364Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -23,8 +23,8 @@
       ]
     },
     "aws-trainium": {
-      "fingerprint": "d8c779c7bb8c9a87eda60a64150b14a0b228d15af6d447ec0bc043996092de60",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "cd9e3784699e9014488b76da7d7002411f90a1fd1f79840fc4d3c834325e6cdd",
+      "updatedAt": "2026-09-10T06:03:26.364Z",
       "seenUrls": [
         "https://aws.amazon.com/ai/machine-learning/trainium/",
         "https://aws.amazon.com/ai/machine-learning/inferentia/",
@@ -38,7 +38,6 @@
         "https://aws.amazon.com/blogs/machine-learning/how-amazon-search-m5-saved-30-for-llm-training-cost-by-using-aws-trainium/",
         "https://aws.amazon.com/blogs/machine-learning/fast-and-cost-effective-llama-2-fine-tuning-with-aws-trainium/",
         "https://aws.amazon.com/blogs/machine-learning/scale-your-machine-learning-workloads-on-amazon-ecs-powered-by-aws-trainium-instances/",
-        "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/neuron-intro/get-started.html",
         "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/models/training-trn1-samples.html"
       ]
     },
@@ -273,8 +272,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "22dd8d0660003f57f1e18d86adc5edc7b4a312e266e52cbbcf1511854bb0ed13",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "23e6cf5b0007a90c5ba35167b4de27806cd7a7269e1510df653b932b6d796280",
+      "updatedAt": "2026-09-10T06:03:26.364Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -292,12 +291,13 @@
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-appoints-aparna-bawa-as-executive-vice-president-and-chief-legal-people-officer.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-announces-key-leadership-appointments.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-and-sambanova-planning-multi-year-collaboration-for-xeon-based-ai-inference.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/postcard-from-intel-tech-tour-arizona-intel-data-center-group-leader-kevork-kechichian-shows-off-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-and-aws-drive-cloud-innovation-powered-by-xeon-6-processors.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/intel-xeon-6-slashes-power-consumption-for-nokia-core-network-customers.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-seeing-intel-xeon-6-soc-action.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/mwc-2025-intel-xeon-6-proves-foundational-network-infrastructure.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-intel-xeon-6-soc-barcelona.html"
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-intel-xeon-6-soc-barcelona.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/mwc-2025-intel-xeon-6-proves-foundational-network-infrastructure.html"
       ]
     },
     "cerebras-blog": {
@@ -339,16 +339,15 @@
       ]
     },
     "dmatrix-news": {
-      "fingerprint": "2e98986cb896bd0a92110cb656aff3e6dfba23aebf80fd62c7717a0f53322041",
-      "updatedAt": "2026-09-04T02:14:42.640Z",
+      "fingerprint": "c97771f98a9a55b6f713bb58a01df0ebeb0dcc2547730e21c96eac9e3ee7ad46",
+      "updatedAt": "2026-09-10T06:03:26.364Z",
       "seenUrls": [
-        "https://gimletlabs.ai/blog/low-latency-spec-decode-corsair",
-        "https://www.d-matrix.ai/going-vertical-why-we-created-a-3d-dram-solution-to-advance-low-latency-ai-inference/",
-        "https://d-matrix.ai/product/",
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
-        "https://www.d-matrix.ai/announcements/d-matrix-corsair-ai-inference-platform-enters-full-production-to-meet-customer-demand/",
-        "https://www.d-matrix.ai/how-accelerating-feed-forward-networks-in-disaggregated-inference-pipelines-power-next-generation-ai/",
-        "https://www.d-matrix.ai/how-speculative-decoding-supercharged-ai-inference-in-disaggregated-pipelines/"
+        "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
+        "https://www.d-matrix.ai/solutions/inference-optimization/",
+        "https://www.d-matrix.ai/advancing-full-model-ai-inference-on-corsair-with-infinity/",
+        "https://www.d-matrix.ai/how-disaggregated-ai-inference-pipelines-generate-less-heat-and-smaller-bills/",
+        "https://www.d-matrix.ai/how-accelerating-feed-forward-networks-in-disaggregated-inference-pipelines-power-next-generation-ai/"
       ]
     },
     "broadcom-ai": {
