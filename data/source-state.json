@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-10T06:03:26.364Z",
+  "lastScanAt": "2026-09-11T06:05:30.545Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -47,8 +47,8 @@
       "seenUrls": []
     },
     "nvidia-datacenter": {
-      "fingerprint": "a50eb7bd250d6a7454f5b1434cb26e9860a9de7c0bf6b2a4c26b0af482878310",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "44d3f23e3355f0c5fc04a0342cc07158da5461c3279a1e10bc6db380d2751d8d",
+      "updatedAt": "2026-09-11T06:05:30.545Z",
       "seenUrls": [
         "https://www.nvidia.com/en-us/data-center/gpu-cloud-computing/",
         "https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/",
@@ -190,11 +190,12 @@
       ]
     },
     "furiosa-news": {
-      "fingerprint": "2e417de0a09d3ee467028f1e3b0988f5d3e3507e8d2b8f60370e62c04d6ce0f9",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "dca5aea842548cf5191eaddbf6bad2ced461b0757b8bf5713a2304c551263ace",
+      "updatedAt": "2026-09-11T06:05:30.545Z",
       "seenUrls": [
         "https://furiosa.ai/nxt-rndg-server",
         "https://furiosa.ai/rngd",
+        "https://furiosa.ai/blog/furiosaai-establishes-singapore-hub-apac-expansion",
         "https://furiosa.ai/blog/white-paper-benchmarking-rngd-on-backend-ai",
         "https://furiosa.ai/blog/furiosa-rngd-powers-ai-generated-overviews-for-millions-of-users-on-daum",
         "https://furiosa.ai/blog/furiosaai-equinixs-lisbon-data-center-press-release",
@@ -272,8 +273,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "23e6cf5b0007a90c5ba35167b4de27806cd7a7269e1510df653b932b6d796280",
-      "updatedAt": "2026-09-10T06:03:26.364Z",
+      "fingerprint": "f80aae543bc3a635c85aa83c7a8503b87ed67a89db07b37e1cef87efb9ca0514",
+      "updatedAt": "2026-09-11T06:05:30.545Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",

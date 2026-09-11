@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T06:03:26.364Z",
+  "generatedAt": "2026-09-11T06:05:30.545Z",
   "items": [
+    {
+      "id": "05a412b1ab2e",
+      "sourceId": "furiosa-news",
+      "publisher": "FuriosaAI",
+      "title": "FuriosaAI establishes Singapore hub to drive APAC expansion and accelerate global RNGD deployment",
+      "url": "https://furiosa.ai/blog/furiosaai-establishes-singapore-hub-apac-expansion",
+      "discoveredAt": "2026-09-11T06:05:30.545Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "RNGD"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "bd0771db9635",
       "sourceId": "intel-ai",
