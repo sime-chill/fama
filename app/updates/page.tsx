@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 
 import candidatesData from '@/data/inbox/candidates.json';
+import researchUpdates from '@/data/research-updates.json';
 import sourceStateData from '@/data/source-state.json';
 import watchData from '@/data/watch-sources.json';
 
@@ -50,7 +51,7 @@ export default function UpdatesPage() {
           数据维护与更新监控
         </h1>
         <p className="mt-4 text-sm leading-7 text-muted-foreground">
-          已配置官方会议、厂商产品页与工程博客的每日扫描流程。当前 Sites 阶段由 Codex 或本地命令运行；迁移到 GitHub 后由 Actions 定时执行。新链接只进入候选队列，人工核验后才会进入正式芯片库。
+          每日扫描官方会议、厂商产品页与工程博客。新链接先进入候选队列，核对原文后才更新正式芯片资料；发布日期、核验日期和计划供货时间分别记录。
         </p>
       </section>
 
@@ -78,6 +79,26 @@ export default function UpdatesPage() {
             <p className="mt-1 text-xs text-muted-foreground">{label}</p>
           </div>
         ))}
+      </section>
+
+      <section className="pt-10">
+        <h2 className="text-2xl font-semibold">最近核验：{researchUpdates.verifiedAt}</h2>
+        <p className="mt-3 text-xs leading-6 text-muted-foreground">{researchUpdates.scope}</p>
+        <p className="mt-1 text-xs leading-6 text-muted-foreground">
+          扫描未成功的入口：{researchUpdates.failedSources.join('、')}。AMD 与 Google 的具体产品原文已另行打开核验。
+        </p>
+        <div className="mt-5 grid gap-3 md:grid-cols-2">
+          {researchUpdates.items.map((item) => (
+            <article key={item.url} className="rounded-[20px] border border-white/8 bg-white/[0.025] p-5">
+              <p className="text-[10px] text-primary">{item.kind}</p>
+              <h3 className="mt-2 text-sm font-medium">{item.title}</h3>
+              <p className="mt-2 text-xs leading-6 text-muted-foreground">{item.summary}</p>
+              <a href={item.url} target="_blank" rel="noreferrer" className="mt-3 inline-flex items-center gap-1 text-xs text-primary">
+                {item.publisher} 原文 <ExternalLink className="size-3" />
+              </a>
+            </article>
+          ))}
+        </div>
       </section>
 
       <section className="pt-10">

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-14T06:24:54.643Z",
+  "lastScanAt": "2026-09-14T10:00:16.481Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -82,8 +82,8 @@
       ]
     },
     "huawei-ascend": {
-      "fingerprint": "0c1eb83ff161dcbc6177e7cf9a54c3ef33719ef47a0f02e732566cc7c99613e1",
-      "updatedAt": "2026-09-14T06:24:54.643Z",
+      "fingerprint": "c6146cba8ec378b7f525ac2db92bd73da9c96ca3c153e2fae82a84e382bf3012",
+      "updatedAt": "2026-09-14T09:55:16.162Z",
       "seenUrls": [
         "https://www.hiascend.com/en",
         "https://www.hiascend.com/en/hardware/cluster?tag=950",
@@ -121,10 +121,7 @@
         "https://www.hiascend.com/en/document",
         "https://www.hiascend.com/en/edu/growth",
         "https://www.hiascend.com/en/edu/courses",
-        "https://www.hiascend.com/industries/solutions/large-model",
-        "https://www.hiascend.com/industries/internet",
-        "https://www.hiascend.com/industries/fintech",
-        "https://www.hiascend.com/legal/cookies",
+        "https://www.hiascend.com/en/legal/cookies",
         "https://www.hiascend.com/ecosystem/industry",
         "https://www.hiascend.com/activities/news",
         "https://www.hiascend.com/activities",
@@ -137,7 +134,10 @@
         "https://www.hiascend.com/zh/legal/law",
         "https://www.hiascend.com/zh/legal/privacy",
         "https://www.hiascend.com/zh/legal/cookies",
-        "https://www.hiascend.com/zh/legal/user"
+        "https://www.hiascend.com/zh/legal/user",
+        "https://www.hiascend.com/en/legal/law",
+        "https://www.hiascend.com/en/legal/privacy",
+        "https://www.hiascend.com/en/legal/user"
       ]
     },
     "google-cloud-ai-infra": {
@@ -373,6 +373,98 @@
         "https://www.marvell.com/company/newsroom/marvell-nvidia-provide-to-custom-solutions-advanced-ai-infrastructure.html",
         "https://www.marvell.com/company/newsroom/marvell-delivers-advanced-packaging-platform-custom-ai-accelerators.html",
         "https://secure.ethicspoint.com/domain/media/en/gui/20485/index.html"
+      ]
+    },
+    "dmatrix-newsroom": {
+      "fingerprint": "344de0af8c1019d58fbf27579ca8d16537e11e224b9f97af93649153300f20c1",
+      "updatedAt": "2026-09-14T10:00:16.481Z",
+      "seenUrls": [
+        "https://www.d-matrix.ai/corsair-at-rack-scale/",
+        "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
+        "https://www.d-matrix.ai/solutions/inference-optimization/",
+        "https://www.d-matrix.ai/announcements/d-matrix-rackscale-nvidia/",
+        "https://www.d-matrix.ai/announcements/d-matrix-acquires-wallaroo/",
+        "https://siliconangle.com/2026/07/09/fast-token-generation-accelerates-enterprise-ai-inference-raisesummit/",
+        "https://www.d-matrix.ai/how-disaggregated-ai-inference-pipelines-generate-less-heat-and-smaller-bills/"
+      ]
+    },
+    "micron-hbm": {
+      "fingerprint": "56621a6ca1b6606c0ef10570a2fe323bbb242871d02f792ffbf5dbbd75e1b640",
+      "updatedAt": "2026-09-14T10:00:16.481Z",
+      "seenUrls": [
+        "https://www.micron.com/products/memory/hbm",
+        "https://www.micron.com/products/memory",
+        "https://www.micron.com/products/memory/dram-components",
+        "https://www.micron.com/products/memory/dram-modules",
+        "https://www.micron.com/products/memory/lpddr-components",
+        "https://www.micron.com/products/memory/lpddr-modules",
+        "https://www.micron.com/products/memory/graphics-memory",
+        "https://www.micron.com/products/memory/data-center-memory",
+        "https://www.micron.com/products/storage/memory-cards",
+        "https://www.micron.com/products/memory/1gamma-dram-technology",
+        "https://www.micron.com/sales-support/design-tools/dram-power-calculator",
+        "https://www.micron.com/partners/technology-enablement-programs",
+        "https://www.micron.cn/products/memory/hbm",
+        "https://in.micron.com/products/memory/hbm",
+        "https://jp.micron.com/products/memory/hbm",
+        "https://my.micron.com/products/memory/hbm",
+        "https://sg.micron.com/products/memory/hbm",
+        "https://tw.micron.com/products/memory/hbm",
+        "https://www.micron.com/system/sling/logout.html?resource=https://www.micron.com/products/memory/hbm",
+        "https://investors.micron.com/news/press-release/2026/Micron-in-High-Volume-Production-of-HBM4-Designed-for-NVIDIA-Vera-Rubin-PCIe-Gen6-SSD-and-SOCAMM2-03-16-2026/default.aspx",
+        "https://www.micron.com/products/memory/hbm/hbm4",
+        "https://www.micron.com/products/memory/hbm/hbm3e",
+        "https://www.micron.com/about/blog/memory/dram/why-agentic-ai-is-rewriting-the-rules-for-cpu-and-memory-infrastructure",
+        "https://www.micron.com/content/dam/micron/global/public/products/memory/high-bandwidth-memory/agentic-ai-in-data-centers-and-role-of-hbm-white-paper.pdf"
+      ]
+    },
+    "samsung-hbm4": {
+      "fingerprint": "77817d99270c03c02b72f59a3503b087642dd4353aa34dcdedb31c991f2211e7",
+      "updatedAt": "2026-09-14T10:00:16.481Z",
+      "seenUrls": [
+        "https://semiconductor.samsung.com/dram/hbm/hbm4/",
+        "https://semiconductor.samsung.com/dram/",
+        "https://semiconductor.samsung.com/dram/ddr/",
+        "https://semiconductor.samsung.com/dram/hbm/",
+        "https://semiconductor.samsung.com/dram/gddr/",
+        "https://semiconductor.samsung.com/dram/lpddr/",
+        "https://semiconductor.samsung.com/cxl-memory/",
+        "https://semiconductor.samsung.com/cxl-memory/cmm-d/",
+        "https://semiconductor.samsung.com/power-ic/memory-power-ic/"
+      ]
+    },
+    "skhynix-newsroom": {
+      "fingerprint": "2b68823a3e315bcdbb1e2cdde31240ef7f978e1705e8ff3304298e306daa2f9c",
+      "updatedAt": "2026-09-14T10:00:16.481Z",
+      "seenUrls": [
+        "https://news.skhynix.com/en/category/tech-and-ai/",
+        "https://news.skhynix.com/en/category/tech-and-ai",
+        "https://news.skhynix.com/en/tag/ai-memory",
+        "https://news.skhynix.com/en/ai-ecosystem-series-ep2/",
+        "https://news.skhynix.com/en/tag/ai",
+        "https://news.skhynix.com/en/ai-infrastructure-insight-ep2/",
+        "https://news.skhynix.com/en/tag/ai-infra",
+        "https://news.skhynix.com/en/indiana-groundbreaking-ceremony-sketch/",
+        "https://news.skhynix.com/en/tag/hbm",
+        "https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/",
+        "https://news.skhynix.com/en/tag/3d-memory/",
+        "https://news.skhynix.com/en/tag/ai-memory/",
+        "https://news.skhynix.com/en/tag/ai/",
+        "https://news.skhynix.com/en/tag/hbm/",
+        "https://news.skhynix.com/en/tag/ai-data-center/",
+        "https://news.skhynix.com/en/tag/ai-infra/",
+        "https://news.skhynix.com/en/dtf-2026/",
+        "https://news.skhynix.com/en/tag/dram/",
+        "https://news.skhynix.com/en/tag/hbm4/",
+        "https://news.skhynix.com/en/cpo-in-nature-electronics/",
+        "https://news.skhynix.com/en/tag/ai-infrastructure/",
+        "https://news.skhynix.com/en/ai-ecosystem-series-ep1/",
+        "https://news.skhynix.com/en/tag/agentic-ai/",
+        "https://news.skhynix.com/en/2026-analyst-interview-03/",
+        "https://news.skhynix.com/en/series/global-ai-company-dram",
+        "https://news.skhynix.com/en/series/global-ai-company-hbm",
+        "https://news.skhynix.com/en/series/global-ai-company",
+        "https://news.skhynix.com/en/series/global-ai-company-nand"
       ]
     }
   }

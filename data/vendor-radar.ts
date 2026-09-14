@@ -36,8 +36,8 @@ export const vendorRadar: VendorRadarEntry[] = [
     platform: 'RNGD',
     focus: '高能效 LLM 推理',
     memoryPath: '256 MB SRAM + 48 GB HBM3 · 1.5 TB/s',
-    status: '已发布 · 待扩展完整档案',
-    officialUrl: 'https://furiosa.ai/rngd',
+    status: '2026-01 量产 · 2026-09 扩展亚太部署',
+    officialUrl: 'https://furiosa.ai/blog/furiosaai-establishes-singapore-hub-apac-expansion',
   },
   {
     vendor: 'IBM',

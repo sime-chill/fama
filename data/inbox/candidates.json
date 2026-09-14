@@ -1,7 +1,119 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T06:24:54.643Z",
+  "generatedAt": "2026-09-14T10:00:16.481Z",
   "items": [
+    {
+      "id": "d99052c3b5fd",
+      "sourceId": "micron-hbm",
+      "publisher": "Micron",
+      "title": "HBM4：区分量产与送样",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-in-High-Volume-Production-of-HBM4-Designed-for-NVIDIA-Vera-Rubin-PCIe-Gen6-SSD-and-SOCAMM2-03-16-2026/default.aspx",
+      "discoveredAt": "2026-09-14T10:02:35.445189+00:00",
+      "status": "accepted",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": "补录 Micron 3 月 16 日公告：36 GB 12H 于第一季度开始批量出货，48 GB 16H 为客户样品；这不是 9 月新品公告。",
+      "reviewedAt": "2026-09-14"
+    },
+    {
+      "id": "6338b0e530f6",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud",
+      "title": "TPU 8：修正引擎归属与来源日期",
+      "url": "https://cloud.google.com/blog/products/compute/tpu-8t-and-tpu-8i-technical-deep-dive",
+      "discoveredAt": "2026-09-14T10:02:35.445189+00:00",
+      "status": "accepted",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": "按 Google 官方表格将 LLM Decoder Engine 归入 8t，8i 保留 CAE；来源发布日期修正为 4 月 22 日，并区分 Boardfly 物理芯片规模与 active chips。",
+      "reviewedAt": "2026-09-14"
+    },
+    {
+      "id": "9ca6f409e5cf",
+      "sourceId": "amd-instinct",
+      "publisher": "AMD",
+      "title": "MI430X：带宽字段完成复核",
+      "url": "https://www.amd.com/en/products/accelerators/instinct/mi400/mi430x.html",
+      "discoveredAt": "2026-09-14T10:02:35.445189+00:00",
+      "status": "accepted",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": "AMD 独立产品页明确为最高 23.3 TB/s / GPU，替换原先 2.3 TB/s 的待核验字段；432 GB HBM4 保持不变。",
+      "reviewedAt": "2026-09-14"
+    },
+    {
+      "id": "8f8b14380f0a",
+      "sourceId": "dmatrix-newsroom",
+      "publisher": "d-Matrix",
+      "title": "Raptor：新增 NVLink Fusion / MGX 路线",
+      "url": "https://www.d-matrix.ai/announcements/d-matrix-rackscale-nvidia/",
+      "discoveredAt": "2026-09-14T10:02:35.445189+00:00",
+      "status": "accepted",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": "9 月 10 日官方公告计划在 2026 年底前流片，集成 MGX 的系统预计 Q4 2027 初步供货；仍按路线图而非量产规格记录。",
+      "reviewedAt": "2026-09-14"
+    },
+    {
+      "id": "4995e506c4d0",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "User Agreement",
+      "url": "https://www.hiascend.com/en/legal/user",
+      "discoveredAt": "2026-09-14T09:55:16.162Z",
+      "status": "rejected",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": "按 URL 与标题筛除法律、隐私或 Cookie 页面；不是芯片技术来源，未作为技术原文核验。",
+      "reviewedAt": "2026-09-14"
+    },
+    {
+      "id": "2f5b797d6d1d",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Privacy Policy",
+      "url": "https://www.hiascend.com/en/legal/privacy",
+      "discoveredAt": "2026-09-14T09:55:16.162Z",
+      "status": "rejected",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": "按 URL 与标题筛除法律、隐私或 Cookie 页面；不是芯片技术来源，未作为技术原文核验。",
+      "reviewedAt": "2026-09-14"
+    },
+    {
+      "id": "bc9bad5adeb6",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Terms of Use",
+      "url": "https://www.hiascend.com/en/legal/law",
+      "discoveredAt": "2026-09-14T09:55:16.162Z",
+      "status": "rejected",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": "按 URL 与标题筛除法律、隐私或 Cookie 页面；不是芯片技术来源，未作为技术原文核验。",
+      "reviewedAt": "2026-09-14"
+    },
+    {
+      "id": "2aa8337de4f9",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Cookies Policy",
+      "url": "https://www.hiascend.com/en/legal/cookies",
+      "discoveredAt": "2026-09-14T09:55:16.162Z",
+      "status": "rejected",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": "按 URL 与标题筛除法律、隐私或 Cookie 页面；不是芯片技术来源，未作为技术原文核验。",
+      "reviewedAt": "2026-09-14"
+    },
     {
       "id": "33d620b154a0",
       "sourceId": "huawei-ascend",
@@ -9,11 +121,12 @@
       "title": "查看详情",
       "url": "https://www.hiascend.com/legal/cookies",
       "discoveredAt": "2026-09-14T06:24:54.643Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 与标题筛除法律、隐私或 Cookie 页面；不是芯片技术来源，未作为技术原文核验。",
+      "reviewedAt": "2026-09-14"
     },
     {
       "id": "05a412b1ab2e",
@@ -22,11 +135,12 @@
       "title": "FuriosaAI establishes Singapore hub to drive APAC expansion and accelerate global RNGD deployment",
       "url": "https://furiosa.ai/blog/furiosaai-establishes-singapore-hub-apac-expansion",
       "discoveredAt": "2026-09-11T06:05:30.545Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "RNGD"
       ],
-      "reviewNote": ""
+      "reviewNote": "已打开 2026-09-10 官方公告，更新 FuriosaAI 厂商雷达的量产及亚太部署状态；未据此改动内存规格。",
+      "reviewedAt": "2026-09-14"
     },
     {
       "id": "bd0771db9635",
@@ -35,11 +149,12 @@
       "title": "Data Center Postcard from Intel Tech Tour Arizona: Intel Data Center Group leader Kevork Kechichian shows off Xeon 6+ October 15,2025",
       "url": "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/postcard-from-intel-tech-tour-arizona-intel-data-center-group-leader-kevork-kechichian-shows-off-xeon-6.html",
       "discoveredAt": "2026-09-10T06:03:26.364Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Xe"
       ],
-      "reviewNote": ""
+      "reviewNote": "标题明确为 2025-10-15 的 Xeon 6+ CPU 旧闻，不是 Crescent Island 加速器的新内存规格。",
+      "reviewedAt": "2026-09-14"
     },
     {
       "id": "1de579c6bfab",
@@ -48,11 +163,12 @@
       "title": "How disaggregated AI inference pipelines generate less heat — and smaller bills",
       "url": "https://www.d-matrix.ai/how-disaggregated-ai-inference-pipelines-generate-less-heat-and-smaller-bills/",
       "discoveredAt": "2026-09-10T06:03:26.364Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "已读官方文章，为 2026-08-12 的异构推理与散热说明，未披露新的 Raptor 内存规格。",
+      "reviewedAt": "2026-09-14"
     },
     {
       "id": "67e46a89de23",
@@ -61,12 +177,13 @@
       "title": "Advancing Full-Model AI Inference on Corsair with Infinity",
       "url": "https://www.d-matrix.ai/advancing-full-model-ai-inference-on-corsair-with-infinity/",
       "discoveredAt": "2026-09-10T06:03:26.364Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Corsair",
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "已读 2026-07-22 Corsair/Infinity Qwen3 软件部署文章；属于 Corsair 软件进展，不应用来更改 Raptor 硬件参数。",
+      "reviewedAt": "2026-09-14"
     },
     {
       "id": "833a6f58172b",
@@ -75,11 +192,12 @@
       "title": "Optimization",
       "url": "https://www.d-matrix.ai/solutions/inference-optimization/",
       "discoveredAt": "2026-09-10T06:03:26.364Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "已读通用推理优化方案页，无可用于本次芯片规格修订的新参数。",
+      "reviewedAt": "2026-09-14"
     },
     {
       "id": "f25325285541",
@@ -88,11 +206,12 @@
       "title": "See the performance",
       "url": "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
       "discoveredAt": "2026-09-10T06:03:26.364Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "已打开原文，发布日期为 2025-08-25；补入 Raptor 条目作为 Pavehawk 的历史验证来源，并非本周新产品。",
+      "reviewedAt": "2026-09-14"
     },
     {
       "id": "e619de40d044",
@@ -101,11 +220,12 @@
       "title": "查看详情",
       "url": "https://www.hiascend.com/industries/fintech",
       "discoveredAt": "2026-09-06T06:01:39.458Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "本次筛除行业方案入口；未逐页核验，不将通用入口作为新的昇腾 SKU 规格证据。",
+      "reviewedAt": "2026-09-14"
     },
     {
       "id": "63eeffd9915f",
@@ -114,11 +234,12 @@
       "title": "查看详情",
       "url": "https://www.hiascend.com/industries/internet",
       "discoveredAt": "2026-09-06T06:01:39.458Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "本次筛除行业方案入口；未逐页核验，不将通用入口作为新的昇腾 SKU 规格证据。",
+      "reviewedAt": "2026-09-14"
     },
     {
       "id": "bb38d6731cb6",
@@ -127,11 +248,12 @@
       "title": "查看详情",
       "url": "https://www.hiascend.com/industries/solutions/large-model",
       "discoveredAt": "2026-09-06T06:01:39.458Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "本次筛除行业方案入口；未逐页核验，不将通用入口作为新的昇腾 SKU 规格证据。",
+      "reviewedAt": "2026-09-14"
     }
   ]
 }

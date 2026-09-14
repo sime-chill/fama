@@ -1,4 +1,5 @@
 /* oxlint-disable next/no-html-link-for-pages -- Native navigation is intentional for iOS resilience. */
+import researchUpdates from '@/data/research-updates.json';
 import { famaPath } from '@/lib/paths';
 
 export function SiteFooter() {
@@ -10,7 +11,7 @@ export function SiteFooter() {
           <a href={famaPath('/sources/')} className="hover:text-foreground">
             来源方法
           </a>
-          <span>数据核验于 2026-09-04</span>
+          <span>最近资料更新 {researchUpdates.verifiedAt}</span>
         </div>
       </div>
     </footer>

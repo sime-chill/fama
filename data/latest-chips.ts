@@ -31,7 +31,7 @@ export const latestChips: ChipRecord[] = [
       '用更大的 HBM 与片上 VMEM，加上 Boardfly 拓扑，专门优化大模型推理的访存与扩展效率。',
     overview: [
       'TPU 8i 是 Google 第八代 TPU 中面向推理与 reasoning 的版本。相比训练型 8t，它用 288 GB HBM 与 384 MB 片上 VMEM换取更大的模型和 KV Cache 驻留空间。',
-      'Boardfly 互联和 Collective Acceleration Engine 面向 collective 通信优化；LLM Decoder Engine 则把 decode 阶段常见的数据流直接纳入硬件设计。',
+      'Boardfly 互联和 Collectives Acceleration Engine（CAE）面向集合通信优化；官方对照表把 LLM Decoder Engine 列在 TPU 8t，而非 TPU 8i。',
     ],
     memoryType: 'HBM + VMEM SRAM + 集合通信加速',
     memoryLayers: [
@@ -54,17 +54,16 @@ export const latestChips: ChipRecord[] = [
         name: 'Boardfly Fabric',
         role: '跨芯片扩展域',
         detail:
-          '面向大规模 collective 与 MoE token 交换，系统上限可达 1,152 颗芯片。',
+          '面向大规模 collective 与 MoE token 交换，系统上限可达 1,152 颗物理芯片；官方同时描述 1,024 active chips，不能把物理规模直接当作可用规模。',
       },
     ],
     memoryBottleneck:
       '推理瓶颈从单芯片 HBM 带宽延伸到大规模 collective、KV Cache 容量与多租户调度。',
     memoryVerdict:
-      '8i 的核心不是追求最高训练 FLOPS，而是通过更大 HBM、VMEM 和专用 decode/collective 机制提高实际 token 吞吐。',
+      '8i 的核心不是追求最高训练 FLOPS，而是通过更大 HBM、VMEM 和专用 collective 机制提高实际 token 吞吐。',
     architecture: [
       '推理导向的第八代 TPU',
-      'LLM Decoder Engine',
-      'Collective Acceleration Engine',
+      'Collectives Acceleration Engine',
       'Boardfly 互联拓扑',
     ],
     watchItems: [
@@ -74,10 +73,10 @@ export const latestChips: ChipRecord[] = [
     ],
     officialSources: [
       {
-        title: 'TPU 8t and TPU 8i Technical Deep Dive',
+        title: 'Inside the eighth-generation TPU: An architecture deep dive',
         publisher: 'Google Cloud',
         url: 'https://cloud.google.com/blog/products/compute/tpu-8t-and-tpu-8i-technical-deep-dive',
-        date: '2026-08',
+        date: '2026-04-22',
         note: 'TPU 8i 的 HBM、VMEM、FP4、Boardfly 与专用引擎官方规格。',
       },
       {
@@ -97,7 +96,7 @@ export const latestChips: ChipRecord[] = [
         note: '结合 Hot Chips 讲义解读 8t/8i 系统差异。',
       },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-09-14',
   },
   {
     id: 'google-tpu8t',
@@ -155,6 +154,7 @@ export const latestChips: ChipRecord[] = [
       '训练导向的第八代 TPU',
       '3D Torus',
       'SparseCore',
+      'LLM Decoder Engine（官方对照表）',
       'TPUDirect RDMA / Storage',
     ],
     watchItems: [
@@ -164,10 +164,10 @@ export const latestChips: ChipRecord[] = [
     ],
     officialSources: [
       {
-        title: 'TPU 8t and TPU 8i Technical Deep Dive',
+        title: 'Inside the eighth-generation TPU: An architecture deep dive',
         publisher: 'Google Cloud',
         url: 'https://cloud.google.com/blog/products/compute/tpu-8t-and-tpu-8i-technical-deep-dive',
-        date: '2026-08',
+        date: '2026-04-22',
         note: '第八代 TPU 的官方架构与规格基线。',
       },
     ],
@@ -180,7 +180,7 @@ export const latestChips: ChipRecord[] = [
         note: 'Hot Chips 会议材料的逐页观察。',
       },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-09-14',
   },
   {
     id: 'amd-mi455x',
@@ -282,7 +282,7 @@ export const latestChips: ChipRecord[] = [
     accent: '#ff8b72',
     process: 'CDNA 5 · 3D Hybrid Bonding',
     memory: '432 GB HBM4',
-    bandwidth: '官方页面当前列 2.3 TB/s，待最终规格复核',
+    bandwidth: '最高 23.3 TB/s / GPU',
     compute: '288 TFLOPS hardware FP64',
     power: '未披露',
     interconnect: 'Infinity Fabric',
@@ -292,7 +292,7 @@ export const latestChips: ChipRecord[] = [
       '在 MI400 封装基础上强化硬件 FP64，面向国家级 AI 与科学计算基础设施。',
     overview: [
       'MI430X 与 MI455X 同属 MI400/CDNA 5，但更强调 FP64 科学计算和 sovereign AI。它保留 432 GB HBM4，使超大网格、科学模型和 AI 工作负载能够共享同一加速平台。',
-      'AMD 产品页当前显示的带宽字段与 12 栈 HBM4 的常见预期存在明显差异，因此图谱按官方页面原文记录并明确标记“待最终 SKU 文档复核”。',
+      '2026-09-14 复核 AMD MI430X 独立产品页：单 GPU 峰值理论内存带宽为 23.3 TB/s，替换此前系列页 2.3 TB/s 的待核验记录。该值不是应用持续带宽。',
     ],
     memoryType: 'HBM4 + HPC 导向缓存层级',
     memoryLayers: [
@@ -304,7 +304,7 @@ export const latestChips: ChipRecord[] = [
       {
         name: 'HBM4',
         role: 'AI/HPC 统一主存',
-        detail: '432 GB，为高精度状态、网格和模型权重提供大容量封装内存。',
+        detail: '432 GB HBM4，单 GPU 峰值理论带宽最高 23.3 TB/s。',
       },
       {
         name: 'Infinity Fabric',
@@ -313,9 +313,9 @@ export const latestChips: ChipRecord[] = [
       },
     ],
     memoryBottleneck:
-      '高精度 HPC 通常对持续带宽和 collective 更敏感，最终 HBM 速率与系统拓扑尚需 AMD 完整规格书确认。',
+      '高精度 HPC 通常对持续带宽和 collective 更敏感，实际持续带宽与系统拓扑仍需整机实测确认。',
     memoryVerdict:
-      '这是一个应保留版本化证据的条目：架构方向已明确，带宽和平台参数仍可能在 2027 出货前更新。',
+      '官方已明确 432 GB 与 23.3 TB/s；评估科学计算时仍需区分峰值指标、精度与整机交付配置。',
     architecture: [
       'CDNA 5',
       'Hardware FP64',
@@ -324,16 +324,22 @@ export const latestChips: ChipRecord[] = [
     ],
     watchItems: [
       '最终产品规格书',
-      'HBM4 带宽字段修订',
+      '实际持续 HBM4 带宽',
       '首发主权 AI / 超算系统',
     ],
     officialSources: [
+      {
+        title: 'AMD Instinct MI430X GPUs',
+        publisher: 'AMD',
+        url: 'https://www.amd.com/en/products/accelerators/instinct/mi400/mi430x.html',
+        note: '2026-09-14 核验：432 GB HBM4，最高 23.3 TB/s / GPU，288 TFLOPS hardware FP64。页面未注明发布日期。',
+      },
       {
         title: 'AMD Instinct MI400 Series Accelerators',
         publisher: 'AMD',
         url: 'https://www.amd.com/en/products/accelerators/instinct/mi400.html',
         date: '2026',
-        note: 'MI430X 的定位、HBM4 容量与 FP64 官方信息；带宽字段需持续复核。',
+        note: 'MI430X 的家族定位、HBM4 容量与 FP64 官方信息。',
       },
     ],
     thirdPartySources: [
@@ -345,7 +351,7 @@ export const latestChips: ChipRecord[] = [
         note: 'MI400 家族与封装路线的会议解读。',
       },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-09-14',
   },
   {
     id: 'xiaomi-xring-o100',
@@ -608,8 +614,8 @@ export const latestChips: ChipRecord[] = [
     name: 'Raptor 3DIMC',
     generation: '第二代 Digital In-Memory Compute',
     category: '近存计算',
-    year: '2026',
-    status: 'Pavehawk 验证 · Raptor 开发中',
+    year: '2027',
+    status: '开发中 · MGX 系统预计 Q4 2027',
     confidence: '中',
     accent: '#f0bc62',
     process: '4 nm compute die · 3D bonded custom DRAM',
@@ -617,12 +623,14 @@ export const latestChips: ChipRecord[] = [
     bandwidth: '目标 100 TB/s / card',
     compute: '未披露',
     power: '未披露',
-    interconnect: 'Chiplet / PCIe card',
+    interconnect: '规划 NVLink Fusion / NVIDIA MGX',
     software: 'd-Matrix Aviator',
     workload: '低时延生成式 AI 推理',
     oneLiner:
       '把定制 DRAM 直接堆在数字近存计算裸片上，目标是绕开 HBM PHY 的带宽与能耗边界。',
     overview: [
+      '2026-09-10 官方宣布 Raptor 将接入 NVIDIA NVLink Fusion 与 MGX 机架，计划于 2026 年底前流片；集成 MGX 的 Raptor XPU 初步供货预计在 2027 年第四季度。这里的日期属于路线图，不代表已量产。',
+      '该合作规划用 GPU 承担 prefill、Raptor 承担低时延 decode；正式互联带宽、机架规模与功耗尚未披露。',
       'd-Matrix 先用 Pavehawk 测试芯片验证 3D DRAM 接口，再计划把技术用于第二代 Raptor。官方披露最差约 0.4 pJ/bit，并以相对 HBM4 约 10 倍的带宽与能效提升作为设计目标。',
       '媒体从 Hot Chips 资料报道 32 GB、100 TB/s/card 等目标值；由于 Raptor 尚无最终数据表，这些数字在图谱中明确标为“目标/会议报道”，不能等同量产规格。',
     ],
@@ -639,9 +647,9 @@ export const latestChips: ChipRecord[] = [
         detail: '通过超细间距键合连接计算裸片，接口能效验证值约 0.4 pJ/bit。',
       },
       {
-        name: 'Card / Host Memory',
+        name: 'NVLink Fusion / MGX',
         role: '容量与请求调度',
-        detail: '外部卡级容量与系统接口仍待 Raptor 正式产品资料确认。',
+        detail: '计划连接 Raptor XPU 与 NVIDIA 机架生态；最终容量、互联带宽和整机规模仍待产品资料确认。',
       },
     ],
     memoryBottleneck:
@@ -655,16 +663,30 @@ export const latestChips: ChipRecord[] = [
       'Pavehawk validation vehicle',
     ],
     watchItems: [
-      'Raptor 正式规格与量产时间',
+      '2026 年底流片及 Q4 2027 MGX 供货目标的兑现',
       '32 GB / 100 TB/s 目标验证',
       '散热、良率和模型映射限制',
     ],
     officialSources: [
       {
+        title: 'd-Matrix Adopts NVIDIA NVLink Fusion Rackscale Infrastructure',
+        publisher: 'd-Matrix',
+        url: 'https://www.d-matrix.ai/announcements/d-matrix-rackscale-nvidia/',
+        date: '2026-09-10',
+        note: 'Raptor 流片计划、NVLink Fusion / MGX 合作及预计 Q4 2027 的系统供货窗口；不提供最终内存规格。',
+      },
+      {
+        title: 'Blazing the Trail Toward More Scalable, Affordable AI with 3DIMC',
+        publisher: 'd-Matrix',
+        url: 'https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/',
+        date: '2025-08-25',
+        note: 'Pavehawk 实验室验证的历史来源；不能用发现时间冒充发布日期。',
+      },
+      {
         title: 'Going Vertical: Why We Created a 3D DRAM Solution',
         publisher: 'd-Matrix',
         url: 'https://www.d-matrix.ai/going-vertical-why-we-created-a-3d-dram-solution-to-advance-low-latency-ai-inference/',
-        date: '2026',
+        date: '2026-03-16',
         note: 'Pavehawk 测试、接口能效和 Raptor 路线官方说明。',
       },
       {
@@ -684,7 +706,7 @@ export const latestChips: ChipRecord[] = [
         note: 'Hot Chips 资料中的卡级容量、带宽与键合参数；按目标值使用。',
       },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-09-14',
   },
   {
     id: 'sambanova-sn50',
