@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-11T06:05:30.545Z",
+  "lastScanAt": "2026-09-14T06:24:54.643Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -82,8 +82,8 @@
       ]
     },
     "huawei-ascend": {
-      "fingerprint": "c6146cba8ec378b7f525ac2db92bd73da9c96ca3c153e2fae82a84e382bf3012",
-      "updatedAt": "2026-09-07T06:10:20.840Z",
+      "fingerprint": "0c1eb83ff161dcbc6177e7cf9a54c3ef33719ef47a0f02e732566cc7c99613e1",
+      "updatedAt": "2026-09-14T06:24:54.643Z",
       "seenUrls": [
         "https://www.hiascend.com/en",
         "https://www.hiascend.com/en/hardware/cluster?tag=950",
@@ -121,7 +121,10 @@
         "https://www.hiascend.com/en/document",
         "https://www.hiascend.com/en/edu/growth",
         "https://www.hiascend.com/en/edu/courses",
-        "https://www.hiascend.com/en/legal/cookies",
+        "https://www.hiascend.com/industries/solutions/large-model",
+        "https://www.hiascend.com/industries/internet",
+        "https://www.hiascend.com/industries/fintech",
+        "https://www.hiascend.com/legal/cookies",
         "https://www.hiascend.com/ecosystem/industry",
         "https://www.hiascend.com/activities/news",
         "https://www.hiascend.com/activities",
@@ -134,10 +137,7 @@
         "https://www.hiascend.com/zh/legal/law",
         "https://www.hiascend.com/zh/legal/privacy",
         "https://www.hiascend.com/zh/legal/cookies",
-        "https://www.hiascend.com/zh/legal/user",
-        "https://www.hiascend.com/en/legal/law",
-        "https://www.hiascend.com/en/legal/privacy",
-        "https://www.hiascend.com/en/legal/user"
+        "https://www.hiascend.com/zh/legal/user"
       ]
     },
     "google-cloud-ai-infra": {

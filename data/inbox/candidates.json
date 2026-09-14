@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T06:05:30.545Z",
+  "generatedAt": "2026-09-14T06:24:54.643Z",
   "items": [
+    {
+      "id": "33d620b154a0",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "查看详情",
+      "url": "https://www.hiascend.com/legal/cookies",
+      "discoveredAt": "2026-09-14T06:24:54.643Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "05a412b1ab2e",
       "sourceId": "furiosa-news",
