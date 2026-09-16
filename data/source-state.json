@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-14T10:00:16.481Z",
+  "lastScanAt": "2026-09-16T06:07:18.214Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -218,8 +218,8 @@
       ]
     },
     "rebellions-news": {
-      "fingerprint": "b3b0d71036bcb24eabbb7695b8d388dcef2222def9a00c85371accf15bef9fab",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "c371822a6ac57f7366226738495b71e1c894d81f5db47791980030e75e2abce4",
+      "updatedAt": "2026-09-16T06:07:18.214Z",
       "seenUrls": [
         "https://rebellions.ai/",
         "https://rebellions.ai/newsroom/",
@@ -249,6 +249,7 @@
         "https://rebellions.ai/news-category/media-coverage/",
         "https://rebellions.ai/news-category/news/",
         "https://rebellions.ai/news-category/press-release/",
+        "https://rebellions.ai/newsroom/rebellions-and-ai-partner-to-bring-energy-efficient-ai-inference-infrastructure-to-japan/",
         "https://rebellions.ai/newsroom/rebelserver_run_k1/",
         "https://rebellions.ai/newsroom/rebellions_squeezebits_acquisition_260630/",
         "https://rebellions.ai/newsroom/rebellions-and-giga-computing-sign-mou-to-develop-next-generation-ai-server-and-rack-scale-solutions/",
@@ -260,7 +261,6 @@
         "https://rebellions.ai/newsroom/rebellions-ranked-no-2-in-cb-insights-global-ai-inference-startup-ranking/",
         "https://rebellions.ai/newsroom/rebellions-joins-arm-total-design-to-drive-next-gen-ai-infrastructure-solutions/",
         "https://rebellions.ai/newsroom/rebellions-and-tomen-devices-sign-mou-to-enter-japans-ai-inference-market/",
-        "https://www.forbes.com/sites/johnkang/2025/09/30/arm-joins-250-million-funding-round-of-korean-ai-chip-startup-rebellions/",
         "https://rebellions.ai/company/newsroom//page/2",
         "https://rebellions.ai/company/newsroom//page/3",
         "https://rebellions.ai/company/newsroom//page/4",
@@ -376,8 +376,8 @@
       ]
     },
     "dmatrix-newsroom": {
-      "fingerprint": "344de0af8c1019d58fbf27579ca8d16537e11e224b9f97af93649153300f20c1",
-      "updatedAt": "2026-09-14T10:00:16.481Z",
+      "fingerprint": "601d110cb1be0f9fcd2c64a86ccdcfb28a2c924a469bcae88d111c5cbef008ba",
+      "updatedAt": "2026-09-16T06:07:18.214Z",
       "seenUrls": [
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
@@ -385,6 +385,7 @@
         "https://www.d-matrix.ai/announcements/d-matrix-rackscale-nvidia/",
         "https://www.d-matrix.ai/announcements/d-matrix-acquires-wallaroo/",
         "https://siliconangle.com/2026/07/09/fast-token-generation-accelerates-enterprise-ai-inference-raisesummit/",
+        "https://www.d-matrix.ai/introducing-d-matrix-demo-cloud-ultra-low-latency-inference-ready-to-test-in-minutes/",
         "https://www.d-matrix.ai/how-disaggregated-ai-inference-pipelines-generate-less-heat-and-smaller-bills/"
       ]
     },

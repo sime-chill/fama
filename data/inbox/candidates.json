@@ -1,7 +1,33 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T10:00:16.481Z",
+  "generatedAt": "2026-09-16T06:07:18.214Z",
   "items": [
+    {
+      "id": "d316f44b88e7",
+      "sourceId": "rebellions-news",
+      "publisher": "Rebellions",
+      "title": "https://rebellions.ai/newsroom/rebellions-and-ai-partner-to-bring-energy-efficient-ai-inference-infrastructure-to-japan/",
+      "url": "https://rebellions.ai/newsroom/rebellions-and-ai-partner-to-bring-energy-efficient-ai-inference-infrastructure-to-japan/",
+      "discoveredAt": "2026-09-16T06:07:18.214Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "REBEL"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "9b73f9d1ebd5",
+      "sourceId": "dmatrix-newsroom",
+      "publisher": "d-Matrix Newsroom",
+      "title": "Read More &gt;",
+      "url": "https://www.d-matrix.ai/introducing-d-matrix-demo-cloud-ultra-low-latency-inference-ready-to-test-in-minutes/",
+      "discoveredAt": "2026-09-16T06:07:18.214Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "d99052c3b5fd",
       "sourceId": "micron-hbm",
