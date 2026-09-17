@@ -1,7 +1,59 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T06:07:18.214Z",
+  "generatedAt": "2026-09-17T06:11:12.638Z",
   "items": [
+    {
+      "id": "ea0372b8ce1e",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI Infra Summit",
+      "url": "https://news.skhynix.com/en/tag/ai-infra-summit/",
+      "discoveredAt": "2026-09-17T06:11:12.638Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "3cad6f85091e",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "No plans have been confirmed regarding the reported talks between SK hynix and Intel on memory chip production in the U.S. Sep 16, 2026",
+      "url": "https://news.skhynix.com/en/fact-10/",
+      "discoveredAt": "2026-09-17T06:11:12.638Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "7c2a297aad49",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI Infra Summit",
+      "url": "https://news.skhynix.com/en/tag/ai-infra-summit",
+      "discoveredAt": "2026-09-17T06:11:12.638Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "8ffcc05b2734",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’ Sep 17, 2026",
+      "url": "https://news.skhynix.com/en/ai-infra-summit-2026/",
+      "discoveredAt": "2026-09-17T06:11:12.638Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "d316f44b88e7",
       "sourceId": "rebellions-news",
