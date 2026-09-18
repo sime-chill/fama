@@ -1,7 +1,59 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T06:11:12.638Z",
+  "generatedAt": "2026-09-18T06:00:02.766Z",
   "items": [
+    {
+      "id": "d13c519d7f57",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI ecosystem",
+      "url": "https://news.skhynix.com/en/tag/ai-ecosystem/",
+      "discoveredAt": "2026-09-18T06:00:02.766Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "18e6b0b63d46",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI ecosystem",
+      "url": "https://news.skhynix.com/en/tag/ai-ecosystem",
+      "discoveredAt": "2026-09-18T06:00:02.766Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "7dddd6742ca5",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI data center",
+      "url": "https://news.skhynix.com/en/tag/ai-data-center",
+      "discoveredAt": "2026-09-18T06:00:02.766Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "1f9b9bcbee75",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "SK hynix Launches ‘SK hynix Ventures’ in Silicon Valley to Expand Global AI Ecosystem Investment Sep 18, 2026",
+      "url": "https://news.skhynix.com/en/sk-hynix-ventures/",
+      "discoveredAt": "2026-09-18T06:00:02.766Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "ea0372b8ce1e",
       "sourceId": "skhynix-newsroom",
