@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-18T06:00:02.766Z",
+  "lastScanAt": "2026-09-19T05:58:43.076Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -340,12 +340,14 @@
       ]
     },
     "dmatrix-news": {
-      "fingerprint": "c97771f98a9a55b6f713bb58a01df0ebeb0dcc2547730e21c96eac9e3ee7ad46",
-      "updatedAt": "2026-09-10T06:03:26.364Z",
+      "fingerprint": "27dd172165c4bd1799b778f0a3d0d49a8ff6603e21477c3b4be34c268f3b7486",
+      "updatedAt": "2026-09-19T05:58:43.076Z",
       "seenUrls": [
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
         "https://www.d-matrix.ai/solutions/inference-optimization/",
+        "https://www.d-matrix.ai/frontier-class-ultra-low-latency-rack-scale-inference-with-raptor-xpus-and-nvlink-fusion/",
+        "https://www.d-matrix.ai/introducing-d-matrix-demo-cloud-ultra-low-latency-inference-ready-to-test-in-minutes/",
         "https://www.d-matrix.ai/advancing-full-model-ai-inference-on-corsair-with-infinity/",
         "https://www.d-matrix.ai/how-disaggregated-ai-inference-pipelines-generate-less-heat-and-smaller-bills/",
         "https://www.d-matrix.ai/how-accelerating-feed-forward-networks-in-disaggregated-inference-pipelines-power-next-generation-ai/"

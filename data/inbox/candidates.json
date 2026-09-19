@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T06:00:02.766Z",
+  "generatedAt": "2026-09-19T05:58:43.076Z",
   "items": [
+    {
+      "id": "fd3d59ebd759",
+      "sourceId": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "title": "Frontier class ultra-low-latency rack-scale inference with Raptor XPUs and NVLINK Fusion",
+      "url": "https://www.d-matrix.ai/frontier-class-ultra-low-latency-rack-scale-inference-with-raptor-xpus-and-nvlink-fusion/",
+      "discoveredAt": "2026-09-19T05:58:43.076Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Raptor",
+        "inference"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "d13c519d7f57",
       "sourceId": "skhynix-newsroom",
