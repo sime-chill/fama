@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T06:28:23.221Z",
+  "generatedAt": "2026-09-22T06:19:53.631Z",
   "items": [
+    {
+      "id": "fd56d87b1449",
+      "sourceId": "aws-trainium",
+      "publisher": "AWS Trainium",
+      "title": "Getting Started",
+      "url": "https://aws.amazon.com/ai/machine-learning/trainium/getting-started/",
+      "discoveredAt": "2026-09-22T06:19:53.631Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Trainium"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "529f707aed81",
       "sourceId": "skhynix-newsroom",

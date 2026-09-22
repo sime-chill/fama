@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-21T06:28:23.221Z",
+  "lastScanAt": "2026-09-22T06:19:53.631Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -23,13 +23,14 @@
       ]
     },
     "aws-trainium": {
-      "fingerprint": "cd9e3784699e9014488b76da7d7002411f90a1fd1f79840fc4d3c834325e6cdd",
-      "updatedAt": "2026-09-10T06:03:26.364Z",
+      "fingerprint": "bfd9849577b6a6a7a44dd1486e834d16f2fd6f2062713cdd443976605d71b52f",
+      "updatedAt": "2026-09-22T06:19:53.631Z",
       "seenUrls": [
         "https://aws.amazon.com/ai/machine-learning/trainium/",
         "https://aws.amazon.com/ai/machine-learning/inferentia/",
         "https://aws.amazon.com/ai/machine-learning/neuron/",
         "https://aws.amazon.com/ai/machine-learning/trainium/research/",
+        "https://aws.amazon.com/ai/machine-learning/trainium/getting-started/",
         "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/",
         "https://aws.amazon.com/ec2/instance-types/trn3/",
         "https://aws.amazon.com/blogs/machine-learning/fine-tune-and-deploy-llama-2-models-cost-effectively-in-amazon-sagemaker-jumpstart-with-aws-inferentia-and-aws-trainium/",
