@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-22T06:19:53.631Z",
+  "lastScanAt": "2026-09-24T06:13:52.389Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -83,8 +83,8 @@
       ]
     },
     "huawei-ascend": {
-      "fingerprint": "c6146cba8ec378b7f525ac2db92bd73da9c96ca3c153e2fae82a84e382bf3012",
-      "updatedAt": "2026-09-21T06:28:23.221Z",
+      "fingerprint": "0042597b52a9862dc55a500aafcf04377ea64f894e46a06a63500c5285aa8bb3",
+      "updatedAt": "2026-09-24T06:13:52.389Z",
       "seenUrls": [
         "https://www.hiascend.com/en",
         "https://www.hiascend.com/en/hardware/cluster?tag=950",
@@ -107,7 +107,7 @@
         "https://www.hiascend.com/eng/developer/recommendation",
         "https://www.hiascend.com/eng/developer/operator",
         "https://www.hiascend.com/eng/cann",
-        "https://www.hiascend.com/en/developer/software/ai-frameworks/pytorch",
+        "https://www.hiascend.com/eng/developer/software/ai-frameworks/pytorch",
         "https://www.hiascend.com/en/developer/software/ai-frameworks/tensorflow",
         "https://www.hiascend.com/en/software/mindx",
         "https://www.hiascend.com/eng/developer/software/mindspeed",
@@ -118,6 +118,7 @@
         "https://www.hiascend.com/eng/developer/software/mindstudio",
         "https://www.hiascend.com/en/developer/download",
         "https://www.hiascend.com/en/developer/ascendhub",
+        "https://www.hiascend.com/en/developer/opensource-ecosystem",
         "https://www.hiascend.com/en/developer/models",
         "https://www.hiascend.com/en/document",
         "https://www.hiascend.com/en/edu/growth",
@@ -131,7 +132,7 @@
         "https://www.hiascend.com/zh/document",
         "https://www.hiascend.com/zh/feedback",
         "https://www.hiascend.com/zh/report",
-        "https://www.hiascend.com/opensource-ecosystem",
+        "https://www.hiascend.com/developer/opensource-ecosystem",
         "https://www.hiascend.com/zh/legal/law",
         "https://www.hiascend.com/zh/legal/privacy",
         "https://www.hiascend.com/zh/legal/cookies",

@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T06:19:53.631Z",
+  "generatedAt": "2026-09-24T06:13:52.389Z",
   "items": [
+    {
+      "id": "01b98cba4582",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "第三方开源软件",
+      "url": "https://www.hiascend.com/developer/opensource-ecosystem",
+      "discoveredAt": "2026-09-24T06:13:52.389Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "380f26e4ad92",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Open-Source Software",
+      "url": "https://www.hiascend.com/en/developer/opensource-ecosystem",
+      "discoveredAt": "2026-09-24T06:13:52.389Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "35b63194e156",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Ascend for PyTorch",
+      "url": "https://www.hiascend.com/eng/developer/software/ai-frameworks/pytorch",
+      "discoveredAt": "2026-09-24T06:13:52.389Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "fd56d87b1449",
       "sourceId": "aws-trainium",
