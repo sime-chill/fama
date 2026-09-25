@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-24T06:13:52.389Z",
+  "lastScanAt": "2026-09-25T06:11:30.707Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -304,9 +304,10 @@
       ]
     },
     "cerebras-blog": {
-      "fingerprint": "2416ddf48f021c4d5a5c49e15939148f5c8d95e62a3b323cf436593dc274b1bd",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "f33da46f059bb11f9ec1cf6f64f592102f01157dd143c5d572c16563a5fac30a",
+      "updatedAt": "2026-09-25T06:11:30.707Z",
       "seenUrls": [
+        "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
         "https://www.cerebras.ai/blog/ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026",
         "https://www.cerebras.ai/blog/ai-inference-cybersecurity",
         "https://www.cerebras.ai/blog/gemma-4-on-cerebras-the-fastest-inference-is-now-multimodal",

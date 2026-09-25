@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T06:13:52.389Z",
+  "generatedAt": "2026-09-25T06:11:30.707Z",
   "items": [
+    {
+      "id": "dd8f77101f70",
+      "sourceId": "cerebras-blog",
+      "publisher": "Cerebras",
+      "title": "Why Cyber Defense Needs Faster Inference September 24, 2026",
+      "url": "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
+      "discoveredAt": "2026-09-25T06:11:30.707Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "01b98cba4582",
       "sourceId": "huawei-ascend",
