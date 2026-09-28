@@ -1,7 +1,60 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T06:11:30.707Z",
+  "generatedAt": "2026-09-28T07:01:59.273Z",
   "items": [
+    {
+      "id": "9b197cbb5b69",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI Semiconductor",
+      "url": "https://news.skhynix.com/en/tag/ai-semiconductor/",
+      "discoveredAt": "2026-09-28T07:01:59.273Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "0cefedddb3bc",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "HBM",
+      "url": "https://news.skhynix.com/en/tag/hbm",
+      "discoveredAt": "2026-09-28T07:01:59.273Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "HBM"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "91503b2899de",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI Semiconductor",
+      "url": "https://news.skhynix.com/en/tag/ai-semiconductor",
+      "discoveredAt": "2026-09-28T07:01:59.273Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "7f9c738b4466",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "“Behind AI’s Rapid Growth Lies Memory” — SK hynix Shares Its Next-Generation Memory Portfolio at the TSMC OIP Conference Sep 28, 2026",
+      "url": "https://news.skhynix.com/en/tsmc-oip-conference-2026/",
+      "discoveredAt": "2026-09-28T07:01:59.273Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "memory",
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "dd8f77101f70",
       "sourceId": "cerebras-blog",
