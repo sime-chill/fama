@@ -343,6 +343,71 @@
         "memory",
         "AI"
       ]
+    },
+    {
+      "id": "nvidia-blog",
+      "publisher": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/",
+      "kind": "vendor",
+      "keywords": [
+        "Rubin",
+        "Groq",
+        "NVLink",
+        "memory",
+        "inference"
+      ]
+    },
+    {
+      "id": "amd-newsroom",
+      "publisher": "AMD Newsroom",
+      "url": "https://ir.amd.com/news-events/press-releases",
+      "kind": "vendor",
+      "keywords": [
+        "Instinct",
+        "MI400",
+        "MI450",
+        "memory",
+        "AI"
+      ]
+    },
+    {
+      "id": "huawei-newsroom",
+      "publisher": "Huawei Newsroom",
+      "url": "https://www.huawei.com/cn/news",
+      "kind": "vendor",
+      "keywords": [
+        "昇腾",
+        "超节点",
+        "内存",
+        "Ascend",
+        "Atlas"
+      ]
+    },
+    {
+      "id": "samsung-tech-blog",
+      "publisher": "Samsung Semiconductor Tech Blog",
+      "url": "https://semiconductor.samsung.com/news-events/tech-blog/",
+      "kind": "vendor",
+      "keywords": [
+        "HBM",
+        "LPDDR",
+        "memory",
+        "DRAM",
+        "PIM"
+      ]
+    },
+    {
+      "id": "micron-newsroom",
+      "publisher": "Micron Newsroom",
+      "url": "https://investors.micron.com/news/default.aspx",
+      "kind": "vendor",
+      "keywords": [
+        "HBM",
+        "DDR",
+        "memory",
+        "DRAM",
+        "SOCAMM"
+      ]
     }
   ]
 }

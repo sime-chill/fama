@@ -1,7 +1,77 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T06:59:56.610Z",
+  "generatedAt": "2026-09-29T08:10:57.671271+00:00",
   "items": [
+    {
+      "id": "1033bfc82fae",
+      "sourceId": "samsung-tech-blog",
+      "publisher": "Samsung Semiconductor",
+      "title": "LPDDR6：补充平台验证线索",
+      "url": "https://semiconductor.samsung.com/news-events/tech-blog/",
+      "discoveredAt": "2026-09-29T08:10:57.671271+00:00",
+      "status": "accepted",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": "Samsung 官方技术博客目录列出 9 月 23 日 Qualcomm 新 Snapdragon 平台验证公告。本次仅核验标题与日期，未用目录摘要修改内存数值或量产状态。",
+      "reviewedAt": "2026-09-29"
+    },
+    {
+      "id": "4af44949fe43",
+      "sourceId": "nvidia-blog",
+      "publisher": "NVIDIA",
+      "title": "Groq：补录 NVIDIA Groq 3 LPX 代际",
+      "url": "https://www.nvidia.com/en-us/data-center/lpx/",
+      "discoveredAt": "2026-09-29T08:10:57.671271+00:00",
+      "status": "accepted",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": "补录 8 月 24 日量产公告，并核验产品页：500 MB SRAM / LPU、150 TB/s / LPU；整柜另含 128 GB SRAM 与 12 TB DDR5。早期 GroqChip 记录保留。",
+      "reviewedAt": "2026-09-29"
+    },
+    {
+      "id": "a425146e5e22",
+      "sourceId": "nvidia-blog",
+      "publisher": "NVIDIA",
+      "title": "Rubin：新增 MLPerf preview 证据",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "discoveredAt": "2026-09-29T08:10:57.671271+00:00",
+      "status": "accepted",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": "9 月 16 日公布 NVL72 的 MLPerf Inference v6.1 结果；保留 preview、模型和系统边界，不将系统吞吐倍数写成单 GPU 通用性能。",
+      "reviewedAt": "2026-09-29"
+    },
+    {
+      "id": "eb93d2d08771",
+      "sourceId": "micron-newsroom",
+      "publisher": "Micron",
+      "title": "DDR5：512 GB RDIMM 验证进展",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Advances-Memory-Innovation-With-the-Worlds-First-Ultra-Dense-Module-for-Next-Generation-Servers/default.aspx",
+      "discoveredAt": "2026-09-29T08:10:57.671271+00:00",
+      "status": "accepted",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": "Micron 9 月 15 日演示 512 GB 模组，最高 9200 MT/s，AMD/Intel 正在验证；预计 2027 下半年量产。不是已经量产的通用 DDR5 规格。",
+      "reviewedAt": "2026-09-29"
+    },
+    {
+      "id": "5378475cf736",
+      "sourceId": "huawei-newsroom",
+      "publisher": "Huawei",
+      "title": "华为：新增 Atlas 960E 与 960 路线",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-wang-keynote",
+      "discoveredAt": "2026-09-29T08:10:57.671271+00:00",
+      "status": "accepted",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": "9 月 17 日发布最多 4096 NPU 的 NPO 超节点；960DT / 960PR 计划分别提前至 Q1 / Q3 2027。保留 950DT 历史条目，不把系统指标写成单芯片参数。",
+      "reviewedAt": "2026-09-29"
+    },
     {
       "id": "ff21eca65948",
       "sourceId": "intel-ai",
@@ -9,11 +79,12 @@
       "title": "Data Center Intel® AI for Enterprise Agent Toolkit Adds NVIDIA OpenShell for Policy-Enforced Agent Governance September 29,2026",
       "url": "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
       "discoveredAt": "2026-09-29T06:59:56.610Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Xe"
       ],
-      "reviewNote": ""
+      "reviewNote": "标题为 Agent 工具与软件治理更新，不属于加速器内存架构；仅做相关性筛选。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "3271a32b9fc7",
@@ -22,11 +93,12 @@
       "title": "Gimlet Labs Adds Cerebras to Deliver Ultrafast AI Inference through Gimlet Cloud. &gt;&gt;",
       "url": "https://www.cerebras.ai/press-release/gimlet-labs-adds-cerebras-to-deliver-ultrafast-ai-inference-through-gimlet-cloud-deployment",
       "discoveredAt": "2026-09-29T06:59:56.610Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "9 月 28 日宣布将晶圆级计算与 GPU 结合，首个相关数据中心预计年内上线，并提到 CS-4 首发合作；不改写 WSE-3 内存规格。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "f08a00193bf9",
@@ -35,11 +107,12 @@
       "title": "Architecture AI-native silicon for inference →",
       "url": "https://furiosa.ai/architecture",
       "discoveredAt": "2026-09-29T06:59:56.610Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "已读 TCP 官方架构页，补充厂商雷达的编译期数据布局描述；未披露新的 HBM 参数。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "9b197cbb5b69",
@@ -48,11 +121,12 @@
       "title": "AI Semiconductor",
       "url": "https://news.skhynix.com/en/tag/ai-semiconductor/",
       "discoveredAt": "2026-09-28T07:01:59.273Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 筛除标签/分类入口，不是独立新闻；未将目录链接当成新品证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "0cefedddb3bc",
@@ -61,11 +135,12 @@
       "title": "HBM",
       "url": "https://news.skhynix.com/en/tag/hbm",
       "discoveredAt": "2026-09-28T07:01:59.273Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "HBM"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 筛除标签/分类入口，不是独立新闻；未将目录链接当成新品证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "91503b2899de",
@@ -74,11 +149,12 @@
       "title": "AI Semiconductor",
       "url": "https://news.skhynix.com/en/tag/ai-semiconductor",
       "discoveredAt": "2026-09-28T07:01:59.273Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 筛除标签/分类入口，不是独立新闻；未将目录链接当成新品证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "7f9c738b4466",
@@ -87,12 +163,13 @@
       "title": "“Behind AI’s Rapid Growth Lies Memory” — SK hynix Shares Its Next-Generation Memory Portfolio at the TSMC OIP Conference Sep 28, 2026",
       "url": "https://news.skhynix.com/en/tsmc-oip-conference-2026/",
       "discoveredAt": "2026-09-28T07:01:59.273Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "memory",
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "通过直接访问成功读取原文。9 月 28 日原文：Vera Rubin 展示 36 GB 12H HBM4 与 96 GB SOCAMM2；另展示 48 GB 12H HBM4E 和 48 GB 16H HBM4。展示、验证不等于量产，未据此替换 Micron 的供货状态。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "dd8f77101f70",
@@ -101,11 +178,12 @@
       "title": "Why Cyber Defense Needs Faster Inference September 24, 2026",
       "url": "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
       "discoveredAt": "2026-09-25T06:11:30.707Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "已读 9 月 24 日安全应用场景文章；不是新的内存或芯片参数。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "01b98cba4582",
@@ -114,11 +192,12 @@
       "title": "第三方开源软件",
       "url": "https://www.hiascend.com/developer/opensource-ecosystem",
       "discoveredAt": "2026-09-24T06:13:52.389Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "按标题和 URL 筛除开发入门/软件导航，不作为新硬件规格证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "380f26e4ad92",
@@ -127,11 +206,12 @@
       "title": "Open-Source Software",
       "url": "https://www.hiascend.com/en/developer/opensource-ecosystem",
       "discoveredAt": "2026-09-24T06:13:52.389Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "按标题和 URL 筛除开发入门/软件导航，不作为新硬件规格证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "35b63194e156",
@@ -140,11 +220,12 @@
       "title": "Ascend for PyTorch",
       "url": "https://www.hiascend.com/eng/developer/software/ai-frameworks/pytorch",
       "discoveredAt": "2026-09-24T06:13:52.389Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "按标题和 URL 筛除开发入门/软件导航，不作为新硬件规格证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "fd56d87b1449",
@@ -153,11 +234,12 @@
       "title": "Getting Started",
       "url": "https://aws.amazon.com/ai/machine-learning/trainium/getting-started/",
       "discoveredAt": "2026-09-22T06:19:53.631Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Trainium"
       ],
-      "reviewNote": ""
+      "reviewNote": "按标题和 URL 筛除开发入门/软件导航，不作为新硬件规格证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "529f707aed81",
@@ -166,12 +248,13 @@
       "title": "AI Memory AI Memory",
       "url": "https://news.skhynix.com/en/tag/ai-memory-ai-memory",
       "discoveredAt": "2026-09-21T06:28:23.221Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "memory",
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 筛除标签/分类入口，不是独立新闻；未将目录链接当成新品证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "3e7fd16bd7bd",
@@ -180,11 +263,12 @@
       "title": "SK hynix Hosts ‘2026 Global Forum,’ Sharing Its Technology Vision and Future Strategy for the AI Era Sep 21, 2026",
       "url": "https://news.skhynix.com/en/2026-global-forum/",
       "discoveredAt": "2026-09-21T06:28:23.221Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "已读 9 月 21 日人才/技术愿景活动说明；没有可采纳的新增产品规格。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "fd3d59ebd759",
@@ -193,12 +277,13 @@
       "title": "Frontier class ultra-low-latency rack-scale inference with Raptor XPUs and NVLINK Fusion",
       "url": "https://www.d-matrix.ai/frontier-class-ultra-low-latency-rack-scale-inference-with-raptor-xpus-and-nvlink-fusion/",
       "discoveredAt": "2026-09-19T05:58:43.076Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "Raptor",
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "9 月 17 日官方披露 144 R4 / rack、128 GB / tray、约 2.3 TB 与 7.2 PB/s / rack；仍是规划，不能与旧卡级目标或网络带宽混用。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "d13c519d7f57",
@@ -207,11 +292,12 @@
       "title": "AI ecosystem",
       "url": "https://news.skhynix.com/en/tag/ai-ecosystem/",
       "discoveredAt": "2026-09-18T06:00:02.766Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 筛除标签/分类入口，不是独立新闻；未将目录链接当成新品证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "18e6b0b63d46",
@@ -220,11 +306,12 @@
       "title": "AI ecosystem",
       "url": "https://news.skhynix.com/en/tag/ai-ecosystem",
       "discoveredAt": "2026-09-18T06:00:02.766Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 筛除标签/分类入口，不是独立新闻；未将目录链接当成新品证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "7dddd6742ca5",
@@ -233,11 +320,12 @@
       "title": "AI data center",
       "url": "https://news.skhynix.com/en/tag/ai-data-center",
       "discoveredAt": "2026-09-18T06:00:02.766Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 筛除标签/分类入口，不是独立新闻；未将目录链接当成新品证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "1f9b9bcbee75",
@@ -246,11 +334,12 @@
       "title": "SK hynix Launches ‘SK hynix Ventures’ in Silicon Valley to Expand Global AI Ecosystem Investment Sep 18, 2026",
       "url": "https://news.skhynix.com/en/sk-hynix-ventures/",
       "discoveredAt": "2026-09-18T06:00:02.766Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "官方投资机构与生态公告，不用于更新硬件规格。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "ea0372b8ce1e",
@@ -259,11 +348,12 @@
       "title": "AI Infra Summit",
       "url": "https://news.skhynix.com/en/tag/ai-infra-summit/",
       "discoveredAt": "2026-09-17T06:11:12.638Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 筛除标签/分类入口，不是独立新闻；未将目录链接当成新品证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "3cad6f85091e",
@@ -272,11 +362,12 @@
       "title": "No plans have been confirmed regarding the reported talks between SK hynix and Intel on memory chip production in the U.S. Sep 16, 2026",
       "url": "https://news.skhynix.com/en/fact-10/",
       "discoveredAt": "2026-09-17T06:11:12.638Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "memory"
       ],
-      "reviewNote": ""
+      "reviewNote": "官方对美国内存生产洽谈传闻的澄清，不构成产品技术更新。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "7c2a297aad49",
@@ -285,11 +376,12 @@
       "title": "AI Infra Summit",
       "url": "https://news.skhynix.com/en/tag/ai-infra-summit",
       "discoveredAt": "2026-09-17T06:11:12.638Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "按 URL 筛除标签/分类入口，不是独立新闻；未将目录链接当成新品证据。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "8ffcc05b2734",
@@ -298,11 +390,12 @@
       "title": "SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’ Sep 17, 2026",
       "url": "https://news.skhynix.com/en/ai-infra-summit-2026/",
       "discoveredAt": "2026-09-17T06:11:12.638Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "9 月 17 日展示 HBF 结构模型、AiMX 和 SALT-KV；SALT-KV 在 HBM、DRAM、SSD 间安排 KV 数据，不代表 HBF 已量产。另补录 8 月首版 HBF 规格一手来源。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "d316f44b88e7",
@@ -311,11 +404,12 @@
       "title": "https://rebellions.ai/newsroom/rebellions-and-ai-partner-to-bring-energy-efficient-ai-inference-infrastructure-to-japan/",
       "url": "https://rebellions.ai/newsroom/rebellions-and-ai-partner-to-bring-energy-efficient-ai-inference-infrastructure-to-japan/",
       "discoveredAt": "2026-09-16T06:07:18.214Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "REBEL"
       ],
-      "reviewNote": ""
+      "reviewNote": "官方新闻页列出 9 月 15 日与 ai& 的日本推理基础设施合作；本次只更新合作状态与来源，不据此修改芯片内存规格。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "9b73f9d1ebd5",
@@ -324,11 +418,12 @@
       "title": "Read More &gt;",
       "url": "https://www.d-matrix.ai/introducing-d-matrix-demo-cloud-ultra-low-latency-inference-ready-to-test-in-minutes/",
       "discoveredAt": "2026-09-16T06:07:18.214Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "已读 9 月 15 日 Corsair Demo Cloud 公告；属于旧代硬件的试用服务，不改变 Raptor 规格。",
+      "reviewedAt": "2026-09-29"
     },
     {
       "id": "d99052c3b5fd",

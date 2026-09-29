@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-29T06:59:56.610Z",
+  "lastScanAt": "2026-09-29T08:08:41.808Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -479,6 +479,65 @@
         "https://news.skhynix.com/en/series/global-ai-company-hbm",
         "https://news.skhynix.com/en/series/global-ai-company",
         "https://news.skhynix.com/en/series/global-ai-company-nand"
+      ]
+    },
+    "huawei-newsroom": {
+      "fingerprint": "ed52fefd7e371375a9d9dcfe71089355f17bd701848e484921f070c374f014ab",
+      "updatedAt": "2026-09-29T08:08:41.808Z",
+      "seenUrls": [
+        "https://e.huawei.com/cn/solutions/computing/ascend-computing",
+        "https://www.hiascend.com/zh/developer"
+      ]
+    },
+    "amd-newsroom": {
+      "fingerprint": "9ba46ef3235dbb712dfd13a878a388cc5c829de5d0716e363ea833671a4b72f2",
+      "updatedAt": "2026-09-29T08:08:41.808Z",
+      "seenUrls": [
+        "https://ir.amd.com/news-events/press-releases",
+        "https://ir.amd.com/contacts-faq/email-alerts",
+        "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+        "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
+        "https://ir.amd.com/news-events/press-releases/detail/1297/amd-appoints-tim-ryan-to-board-of-directors",
+        "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
+        "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+        "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
+        "https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference-solution",
+        "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+        "https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership",
+        "https://ir.amd.com/news-events/press-releases/detail/1290/amd-appoints-alan-smith-as-newest-corporate-fellow",
+        "https://x.com/AIatAMD",
+        "https://www.amd.com/content/dam/amd/en/documents/corporate/cr/supply-chain-transparency.pdf",
+        "https://www.amd.com/en/corporate/competition"
+      ]
+    },
+    "samsung-tech-blog": {
+      "fingerprint": "3dac17517c00017683d28d2a851a9f610da4885cb614ec4209d1890a2234c823",
+      "updatedAt": "2026-09-29T08:08:41.808Z",
+      "seenUrls": [
+        "https://semiconductor.samsung.com/dram/",
+        "https://semiconductor.samsung.com/dram/ddr/",
+        "https://semiconductor.samsung.com/dram/hbm/",
+        "https://semiconductor.samsung.com/dram/gddr/",
+        "https://semiconductor.samsung.com/dram/lpddr/",
+        "https://semiconductor.samsung.com/cxl-memory/",
+        "https://semiconductor.samsung.com/cxl-memory/cmm-d/",
+        "https://semiconductor.samsung.com/power-ic/memory-power-ic/"
+      ]
+    },
+    "nvidia-blog": {
+      "fingerprint": "b51d8d6c40e1797993ce42cee83de3220092983a4eccfd77807eac8b6ceefe78",
+      "updatedAt": "2026-09-29T08:08:41.808Z",
+      "seenUrls": [
+        "https://blogs.nvidia.com/search/?q=NVIDIA%20Vera%20Rubin&",
+        "https://blogs.nvidia.com/search/?q=Inference%20performance&",
+        "https://blogs.nvidia.com/blog/tag/inference/",
+        "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+        "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+        "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+        "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+        "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+        "https://blogs.nvidia.com/blog/ai-storage-fms/",
+        "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/"
       ]
     }
   }

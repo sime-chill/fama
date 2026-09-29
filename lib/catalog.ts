@@ -85,6 +85,7 @@ const legacyChips: ChipRecord[] = [
     workload: 'Agentic AI / 长上下文 / MoE',
     oneLiner: '把 HBM4、TMA 与 NVLink 6 组合成面向长上下文 Agent 的机架级存储与通信域。',
     overview: [
+      "2026-09-16 官方公布 NVL72 的 MLPerf Inference v6.1 preview 结果，涵盖 Qwen3-VL 与 DeepSeek-R1；结果依赖模型、场景和软件栈，不改变此处单 GPU 容量与带宽口径。",
       'Rubin 延续通用 GPU 路线，但设计边界已从单颗 GPU 扩展到整机架。双计算裸片通过 NV-HBI 统一，计算、HBM4、CPU 一致性互联与 scale-up 网络共同决定可实现性能。',
       '对大模型而言，288 GB HBM4 主要扩大模型、KV Cache 与并发请求的驻留空间；22 TB/s 带宽则直接服务 decode 阶段持续搬运权重与 KV 状态。',
     ],
@@ -100,13 +101,14 @@ const legacyChips: ChipRecord[] = [
     architecture: ['双裸片统一 GPU', 'HBM4 2048-bit 级接口', '增强 TMA 数据搬移', 'NVLink 6 机架级 scale-up'],
     watchItems: ['官方规格仍标注 preliminary', '实际可用容量与带宽效率', 'Rubin Ultra 扩展拓扑'],
     officialSources: [
+      { title: 'Vera Rubin NVL72 MLPerf Inference v6.1 debut', publisher: 'NVIDIA', url: 'https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/', date: '2026-09-16', note: '新增 preview 系统测试证据，不能当作单 GPU 性能或统一倍数。' },
       { title: 'Inside NVIDIA Rubin GPU Architecture', publisher: 'NVIDIA Technical Blog', url: 'https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/', date: '2026-07-21', note: 'GPU、HBM4、TMA 与 NVLink 6 的官方架构解读。' },
       { title: 'Vera Rubin NVL72', publisher: 'NVIDIA', url: 'https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/', note: '单 GPU、Superchip 与 NVL72 的官方规格口径。' },
     ],
     thirdPartySources: [
       { title: 'NVIDIA Vera Rubin：已知规格与系统边界', publisher: 'SiliconReport', url: 'https://www.siliconreport.com/nvidia-vera-rubin-everything-we-know-33727d4d', date: '2026-07', note: '从机架级容量与带宽理解 Rubin；非官方，需与 NVIDIA 规格交叉核验。' },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-09-29',
   },
   {
     id: 'nvidia-b200',
@@ -466,6 +468,7 @@ const legacyChips: ChipRecord[] = [
     workload: '低延迟推理 / 超大模型训练',
     oneLiner: '把 44 GB SRAM 铺满晶圆，牺牲容量换取极低延迟与 PB/s 级片上数据流。',
     overview: [
+      "2026-09-28 Cerebras 宣布与 Gimlet Labs 合作，将晶圆级计算和 GPU 组合进行分离式推理，首个相关数据中心预计年内上线；该部署计划不等同于 WSE-3 硬件参数更新。",
       'WSE-3 用单片晶圆级处理器消除传统多芯片边界，约一半硅面积用于分布式 SRAM。权重和激活若能驻留在晶圆上，可避免 HBM 与 off-package 通信。',
       '代价是容量仅 44 GB，模型往往必须跨多片晶圆按层流水。外部 I/O 远低于片上带宽，因此映射策略与模型大小决定实际优势。',
     ],
@@ -481,12 +484,13 @@ const legacyChips: ChipRecord[] = [
     architecture: ['晶圆级集成', '44 GB 分布式 SRAM', '数据流执行', '系统级容错'],
     watchItems: ['125 PFLOPS 为稀疏口径', '模型跨晶圆流水开销', 'CS-4 复用 WSE-3 的容量上限'],
     officialSources: [
+      { title: 'Gimlet Labs and Cerebras disaggregated inference collaboration', publisher: 'Cerebras', url: 'https://www.cerebras.ai/press-release/gimlet-labs-adds-cerebras-to-deliver-ultrafast-ai-inference-through-gimlet-cloud-deployment', date: '2026-09-28', note: '系统部署合作，CS-4 首发伙伴；未提供新的 WSE-3 内存参数。' },
       { title: 'Cerebras Announces Third-Generation Wafer Scale Engine', publisher: 'Cerebras', url: 'https://www.cerebras.ai/press-release/cerebras-announces-third-generation-wafer-scale-engine', date: '2024-03-13', note: 'WSE-3 制程、晶体管、核心、SRAM 与峰值官方发布。' },
     ],
     thirdPartySources: [
       { title: 'Cerebras — Faster Tokens Please', publisher: 'SemiAnalysis', url: 'https://newsletter.semianalysis.com/p/cerebras-faster-tokens-please', date: '2026', note: '深入讨论 SRAM machine 的带宽、容量、I/O 与系统功耗权衡。' },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-09-29',
   },
   {
     id: 'meta-mtia300',
@@ -675,9 +679,10 @@ export const memoryTopics: MemoryTopic[] = [
       { label: 'AI 角色', value: '权重、KV Cache、激活主存' },
     ],
     howItWorks: ['TSV 把多层 DRAM 垂直连接。', '宽并行接口以较低每 pin 速率换取极高总带宽。', '逻辑 base die 与 GPU/ASIC 的封装协同变得更深。'],
-    aiRole: ['训练时承载权重、激活与优化器状态。', 'decode 时持续流式读取权重和 KV Cache。', '容量决定模型驻留与 batch，上行带宽决定 memory-bound token 速度。'],
+    aiRole: ["2026-09-28 SK hynix 展示 36 GB 12H HBM4、48 GB 12H HBM4E 和 48 GB 16H HBM4；其中 HBM4E 为展示进展，本公告未确认其量产时间。", '训练时承载权重、激活与优化器状态。', 'decode 时持续流式读取权重和 KV Cache。', '容量决定模型驻留与 batch，上行带宽决定 memory-bound token 速度。'],
     tradeoffs: ['先进封装产能、良率与散热共同抬高成本。', '每字节成本显著高于 DDR/LPDDR/Flash。', '算力增长仍快于带宽增长，需要缓存、量化和 kernel 融合。'],
     officialSources: [
+      { title: 'SK hynix memory portfolio at TSMC OIP 2026', publisher: 'SK hynix', url: 'https://news.skhynix.com/en/tsmc-oip-conference-2026/', date: '2026-09-28', note: '9 月 28 日原文：Vera Rubin 展示 36 GB 12H HBM4 与 96 GB SOCAMM2；另展示 48 GB 12H HBM4E 和 48 GB 16H HBM4。展示、验证不等于量产，未据此替换 Micron 的供货状态。' },
       { title: 'Micron HBM4 volume production and 48GB 16H sampling', publisher: 'Micron', url: 'https://investors.micron.com/news/press-release/2026/Micron-in-High-Volume-Production-of-HBM4-Designed-for-NVIDIA-Vera-Rubin-PCIe-Gen6-SSD-and-SOCAMM2-03-16-2026/default.aspx', date: '2026-03-16', note: '36 GB 12H 于 2026 年第一季度开始批量出货；48 GB 16H 为客户样品。补录历史官方证据，不作为 9 月新品发布。' },
       { title: 'Micron HBM4', publisher: 'Micron', url: 'https://www.micron.com/products/memory/hbm/hbm4', note: 'HBM4 接口、容量、带宽与量产节奏的厂商资料。' },
       { title: 'Samsung HBM4', publisher: 'Samsung Semiconductor', url: 'https://semiconductor.samsung.com/dram/hbm/hbm4/', note: 'HBM4 2048 I/O、DRAM 与逻辑工艺说明。' },
@@ -685,13 +690,13 @@ export const memoryTopics: MemoryTopic[] = [
     thirdPartySources: [
       { title: 'HBM4 走向定制逻辑基底：要关注什么', publisher: 'Tom’s Hardware', url: 'https://www.tomshardware.com/pc-components/dram/samsung-teases-new-hbm5-with-twice-the-performance-of-hbm4e-ambitious-data-transfer-rates-could-hint-at-4-096-bit-interface', date: '2026-09', note: '追踪 HBM4E / HBM5 路线；新闻分析，需与厂商资料交叉阅读。' },
     ],
-    lastVerified: '2026-09-14',
+    lastVerified: '2026-09-29',
   },
   {
     id: 'lpddr',
     name: 'LPDDR5X → LPDDR6',
     fullName: 'Low Power Double Data Rate DRAM',
-    maturity: 'LPDDR5X 广泛量产 · LPDDR6 初期导入',
+    maturity: 'LPDDR5X 量产 · LPDDR6 平台验证进展',
     accent: '#62c8ff',
     headline: '以能效和容量密度承接端侧 AI，也开始进入服务器',
     summary: 'LPDDR 原本服务移动设备，随着边缘模型和推理服务器追求每瓦容量，它正扩展到 AI PC、汽车与大容量服务器。LPDDR6 通过更多、更窄的子通道提高并发，并加强动态电压频率管理。',
@@ -705,19 +710,20 @@ export const memoryTopics: MemoryTopic[] = [
     aiRole: ['端侧 LLM 共享 CPU/GPU/NPU 统一内存。', '低功耗服务器以更大容量承载模型与 KV Cache。', '适合容量/能效优先、带宽要求低于 HBM 的层级。'],
     tradeoffs: ['绝对带宽低于 HBM。', '高容量多通道布线和信号完整性复杂。', '焊接式封装利于能效但不利于维修，模块化方案仍在演进。'],
     officialSources: [
+      { title: 'Samsung LPDDR6 platform validation announcement index', publisher: 'Samsung Semiconductor', url: 'https://semiconductor.samsung.com/news-events/tech-blog/', date: '2026-09-23', note: '官方目录公布在 Qualcomm 新 Snapdragon 平台完成 LPDDR6 验证；仅核验目录标题和日期，未据此修改速度或量产状态。' },
       { title: 'Samsung LPDDR6', publisher: 'Samsung Semiconductor', url: 'https://semiconductor.samsung.com/dram/lpddr/lpddr6/', note: '速度、带宽、DVFS / DEM 与 AI 场景官方介绍。' },
       { title: 'LPDDR at Scale for LLM Inference', publisher: 'Micron', url: 'https://www.micron.com/content/dam/micron/global/public/products/memory/mobile-dram/lpddr5/documents/lpddr-at-scale-llm-inference-white-paper.pdf', date: '2026', note: '大容量 LPDDR5X 服务器推理的厂商白皮书。' },
     ],
     thirdPartySources: [
       { title: 'JEDEC publishes first LPDDR6 standard', publisher: 'Tom’s Hardware', url: 'https://www.tomshardware.com/pc-components/dram/jedec-publishes-first-lpddr6-standard-new-interface-promises-double-the-effective-bandwidth-of-current-gen', date: '2025-07-10', note: '从子通道与标准变化解读 LPDDR6。' },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-09-29',
   },
   {
     id: 'ddr',
     name: 'DDR5 / MRDIMM',
     fullName: 'Double Data Rate Main Memory',
-    maturity: 'DDR5 主流 · MRDIMM 加速导入',
+    maturity: 'DDR5 主流 · 512 GB RDIMM 验证中',
     accent: '#a88cff',
     headline: '容量、可维护性与成本主导的主机内存层',
     summary: 'DDR5 是 CPU 主存与大容量内存池的基础。MRDIMM 通过多路复用 rank 和缓冲逻辑提升有效数据率，使主机侧带宽更适合数据预处理、Embedding、KV Cache 卸载与 disaggregated serving。',
@@ -728,16 +734,17 @@ export const memoryTopics: MemoryTopic[] = [
       { label: 'AI 角色', value: 'Host / KV / Embedding / offload' },
     ],
     howItWorks: ['DIMM 在 CPU 内存通道上并行工作。', 'DDR5 把传统 64-bit 通道拆成两个 32-bit 子通道。', 'MRDIMM 以寄存器和多路复用缓冲器聚合多个 rank 的数据。'],
-    aiRole: ['支撑 CPU 预处理、数据加载与检查点。', '作为 HBM 之外的 KV Cache 或模型卸载层。', 'CXL 可进一步把 DDR5 组织为共享或分层内存池。'],
+    aiRole: ['Micron 512 GB RDIMM 已演示并在 AMD/Intel 平台验证，最高 9200 MT/s；24 槽双路服务器可达 12 TB，预计 2027 下半年量产。', '支撑 CPU 预处理、数据加载与检查点。', '作为 HBM 之外的 KV Cache 或模型卸载层。', 'CXL 可进一步把 DDR5 组织为共享或分层内存池。'],
     tradeoffs: ['带宽密度与能效远低于封装内 HBM。', 'NUMA、通道人口和 rank 组织强烈影响性能。', 'MRDIMM 增加缓冲延迟、功耗和平台依赖。'],
     officialSources: [
+      { title: 'Micron demonstrates 512GB DDR5 RDIMM', publisher: 'Micron', url: 'https://investors.micron.com/news/press-release/2026/Micron-Advances-Memory-Innovation-With-the-Worlds-First-Ultra-Dense-Module-for-Next-Generation-Servers/default.aspx', date: '2026-09-15', note: '512 GB / RDIMM，最高 9200 MT/s 目标，AMD/Intel 验证中；预计 2027 下半年量产。' },
       { title: 'Micron DDR5 SDRAM', publisher: 'Micron', url: 'https://www.micron.com/products/memory/dram-components/ddr5-sdram', note: 'DDR5 产品与技术支持入口。' },
       { title: 'DDR5 AI Workload Performance', publisher: 'Micron', url: 'https://tw.micron.com/content/dam/micron/global/public/documents/products/technical-marketing-brief/ddr5-ai-inference-workload-performance-tech-brief.pdf', note: 'CPU 内存带宽对 AI 推理的厂商测试资料。' },
     ],
     thirdPartySources: [
       { title: 'Performance and Energy Benefits of MRDIMMs', publisher: 'arXiv preprint', url: 'https://arxiv.org/abs/2605.02371', date: '2026-05', note: '生产服务器上的 MRDIMM 性能与能耗评估。' },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-09-29',
   },
   {
     id: 'hbf',
@@ -754,9 +761,11 @@ export const memoryTopics: MemoryTopic[] = [
       { label: '定位', value: 'HBM 与 NVMe SSD 之间' },
     ],
     howItWorks: ['用 3D NAND 获得远高于 DRAM 的密度。', '通过宽并行接口和封装内连接减少传统 SSD 协议开销。', '围绕模型权重等读多写少数据简化 FTL 与耐久需求。'],
-    aiRole: ['存放不常更新的模型权重。', '作为超大 KV Cache 的温数据层。', '配合 HBM 做容量扩展，减少频繁经过 PCIe/NVMe。'],
+    aiRole: ['9 月 17 日 SK hynix 展示 HBF 结构模型；同期 SALT-KV 演示按上下文复用价值在 HBM、DRAM 和 SSD 间分层 KV Cache，不能理解为 HBF 已量产部署。', '存放不常更新的模型权重。', '作为超大 KV Cache 的温数据层。', '配合 HBM 做容量扩展，减少频繁经过 PCIe/NVMe。'],
     tradeoffs: ['NAND 写入延迟和耐久性远逊于 DRAM。', '控制器、刷新、地址转换与软件分层仍未成熟。', '公开规格刚起步，2026–2027 以样片与生态验证为主。'],
     officialSources: [
+      { title: 'HBF, PIM/AiMX and SALT-KV at AI Infra Summit 2026', publisher: 'SK hynix', url: 'https://news.skhynix.com/en/ai-infra-summit-2026/', date: '2026-09-17', note: 'HBF 结构模型和 PIM/AiMX 演示；SALT-KV 在 HBM、DRAM、SSD 分层，并非 HBF 量产声明。' },
+      { title: 'First HBF standard specifications at FMS 2026', publisher: 'SK hynix', url: 'https://news.skhynix.com/en/hbf-at-fms-2026/', date: '2026-08-04', note: '补录官方首版规格：最高 512 GB、0.4–3.0 TB/s 分档、8/16-high NAND 与 UCIe。' },
       { title: 'SK hynix and Sandisk Begin Global Standardization of HBF', publisher: 'SK hynix Newsroom', url: 'https://news.skhynix.com/en/sk-hynix-and-sandisk-begin-global-standardization-ofnext-generation-memory-hbf/', date: '2026-02-26', note: 'HBF 定位、标准化与 AI 推理目标。' },
       { title: 'Memory-Centric AI: High Bandwidth Flash', publisher: 'Sandisk', url: 'https://www.sandisk.com/en-ca/company/newsroom/blogs/2025/memory-centric-ai', date: '2025-08', note: 'HBF 的厂商技术背景与路线。' },
     ],
@@ -764,7 +773,7 @@ export const memoryTopics: MemoryTopic[] = [
       { title: 'New HBF spec: up to 512GB and 3 TB/s', publisher: 'Tom’s Hardware', url: 'https://www.tomshardware.com/pc-components/ssds/sandisk-and-sk-hynix-unveil-hbf-spec-up-to-16-hi-nand-stacks-3-tb-s-bandwidth-ucie', date: '2026-08-04', note: '首版规格与 UCIe 路线新闻解读。' },
       { title: 'Full-Stack Characterization of HBF for KV-Centric LLM Serving', publisher: 'arXiv preprint', url: 'https://arxiv.org/abs/2608.11668', date: '2026-08', note: '分析 HBF 在 KV-centric serving 中的潜力与限制。' },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-09-29',
   },
 ];
 

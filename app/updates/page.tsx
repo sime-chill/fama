@@ -85,8 +85,9 @@ export default function UpdatesPage() {
         <h2 className="text-2xl font-semibold">最近核验：{researchUpdates.verifiedAt}</h2>
         <p className="mt-3 text-xs leading-6 text-muted-foreground">{researchUpdates.scope}</p>
         <p className="mt-1 text-xs leading-6 text-muted-foreground">
-          扫描未成功的入口：{researchUpdates.failedSources.join('、')}。AMD 与 Google 的具体产品原文已另行打开核验。
+          扫描未成功的入口：{researchUpdates.failedSources.join('、')}。
         </p>
+        <p className="mt-1 text-xs leading-6 text-muted-foreground">{researchUpdates.limitations}</p>
         <div className="mt-5 grid gap-3 md:grid-cols-2">
           {researchUpdates.items.map((item) => (
             <article key={item.url} className="rounded-[20px] border border-white/8 bg-white/[0.025] p-5">

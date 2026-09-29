@@ -12,9 +12,27 @@ export type VendorRadarEntry = {
 /** 厂商雷达包含已建完整档案和等待扩展的路线，链接只使用公司一手入口。 */
 export const vendorRadar: VendorRadarEntry[] = [
   {
+    vendor: 'NVIDIA / Groq',
+    region: '美国',
+    platform: 'Groq 3 LPU / LPX',
+    focus: '与 Vera Rubin 配合的低时延推理',
+    memoryPath: '500 MB SRAM / LPU · 150 TB/s / LPU；128 GB SRAM + 12 TB DDR5 / rack',
+    status: '2026-08-24 官方宣布量产 · 补录代际进展',
+    officialUrl: 'https://www.nvidia.com/en-us/data-center/lpx/',
+  },
+  {
+    vendor: '华为',
+    region: '中国',
+    platform: 'Atlas 960E / 昇腾 960 超节点',
+    focus: 'UnifiedBus 统一编址与 NPO 光互联',
+    memoryPath: '最多 4096 NPU / SuperPoD · 单芯片内存不从系统指标反推',
+    status: '2026-09-17 发布系统；960DT 计划 Q1 2027，960PR 计划 Q3 2027',
+    officialUrl: 'https://www.huawei.com/en/news/2026/9/hc-wang-keynote',
+  },
+  {
     vendor: 'Groq',
     region: '美国',
-    platform: 'GroqChip LPU',
+    platform: 'GroqChip LPU（早期代际）',
     focus: '确定性低时延 LLM 推理',
     memoryPath: '230 MB 片上 SRAM · 最高 80 TB/s',
     status: '待扩展完整档案',
@@ -34,7 +52,7 @@ export const vendorRadar: VendorRadarEntry[] = [
     vendor: 'FuriosaAI',
     region: '韩国',
     platform: 'RNGD',
-    focus: '高能效 LLM 推理',
+    focus: '高能效 LLM 推理 · TCP 编译期数据布局',
     memoryPath: '256 MB SRAM + 48 GB HBM3 · 1.5 TB/s',
     status: '2026-01 量产 · 2026-09 扩展亚太部署',
     officialUrl: 'https://furiosa.ai/blog/furiosaai-establishes-singapore-hub-apac-expansion',
@@ -84,8 +102,8 @@ export const vendorRadar: VendorRadarEntry[] = [
     platform: 'REBEL / REBEL-Quad',
     focus: 'Chiplet AI 推理',
     memoryPath: '512 MB SRAM + 144 GB HBM3E · 4.8 TB/s',
-    status: '已发布 · 待扩展完整档案',
-    officialUrl: 'https://rebellions.ai/',
+    status: '2026-09-15 公布日本推理基础设施合作 · 芯片参数沿用原记录',
+    officialUrl: 'https://rebellions.ai/newsroom/rebellions-and-ai-partner-to-bring-energy-efficient-ai-inference-infrastructure-to-japan/',
   },
   {
     vendor: 'SambaNova',

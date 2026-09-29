@@ -619,20 +619,20 @@ export const latestChips: ChipRecord[] = [
     confidence: '中',
     accent: '#f0bc62',
     process: '4 nm compute die · 3D bonded custom DRAM',
-    memory: '目标 32 GB / card',
-    bandwidth: '目标 100 TB/s / card',
+    memory: '规划 128 GB / tray · 约 2.3 TB / rack',
+    bandwidth: '规划 7.2 PB/s / rack（聚合）',
     compute: '未披露',
     power: '未披露',
-    interconnect: '规划 NVLink Fusion / NVIDIA MGX',
+    interconnect: 'NVLink Fusion · 规划 144 R4 / rack',
     software: 'd-Matrix Aviator',
     workload: '低时延生成式 AI 推理',
     oneLiner:
       '把定制 DRAM 直接堆在数字近存计算裸片上，目标是绕开 HBM PHY 的带宽与能耗边界。',
     overview: [
       '2026-09-10 官方宣布 Raptor 将接入 NVIDIA NVLink Fusion 与 MGX 机架，计划于 2026 年底前流片；集成 MGX 的 Raptor XPU 初步供货预计在 2027 年第四季度。这里的日期属于路线图，不代表已量产。',
-      '该合作规划用 GPU 承担 prefill、Raptor 承担低时延 decode；正式互联带宽、机架规模与功耗尚未披露。',
+      '9 月 17 日官方进一步公布机架设计：18 个加速托盘，每托盘 8 颗 Raptor R4，合计 144 颗；每托盘 128 GB 3D DRAM，整柜约 2.3 TB，整柜聚合内存带宽 7.2 PB/s。均为规划系统口径，不是单芯片规格或量产实测。',
       'd-Matrix 先用 Pavehawk 测试芯片验证 3D DRAM 接口，再计划把技术用于第二代 Raptor。官方披露最差约 0.4 pJ/bit，并以相对 HBM4 约 10 倍的带宽与能效提升作为设计目标。',
-      '媒体从 Hot Chips 资料报道 32 GB、100 TB/s/card 等目标值；由于 Raptor 尚无最终数据表，这些数字在图谱中明确标为“目标/会议报道”，不能等同量产规格。',
+      '早期媒体报道的 32 GB、100 TB/s/card 保留为历史目标；9 月官方新机架包含不同板卡与托盘边界，不能用旧卡级数字代替新 R4、tray 或 rack 规格。',
     ],
     memoryType: '3D bonded custom DRAM + digital in-memory compute',
     memoryLayers: [
@@ -649,7 +649,7 @@ export const latestChips: ChipRecord[] = [
       {
         name: 'NVLink Fusion / MGX',
         role: '容量与请求调度',
-        detail: '计划连接 Raptor XPU 与 NVIDIA 机架生态；最终容量、互联带宽和整机规模仍待产品资料确认。',
+        detail: '规划每柜 144 R4、9 个 scale-up switch trays；ConnectX-9 scale-out 为每托盘 3.2 Tb/s。该网络带宽不可与 7.2 PB/s 整柜内存聚合带宽混用。',
       },
     ],
     memoryBottleneck:
@@ -664,10 +664,17 @@ export const latestChips: ChipRecord[] = [
     ],
     watchItems: [
       '2026 年底流片及 Q4 2027 MGX 供货目标的兑现',
-      '32 GB / 100 TB/s 目标验证',
+      '144 R4 / 2.3 TB / 7.2 PB/s 机架目标验证',
       '散热、良率和模型映射限制',
     ],
     officialSources: [
+      {
+        title: 'Frontier class ultra-low-latency rack-scale inference with Raptor XPUs and NVLINK Fusion',
+        publisher: 'd-Matrix',
+        url: 'https://www.d-matrix.ai/frontier-class-ultra-low-latency-rack-scale-inference-with-raptor-xpus-and-nvlink-fusion/',
+        date: '2026-09-17',
+        note: '公布 144 R4 / rack、128 GB / tray、约 2.3 TB 与 7.2 PB/s / rack 的规划；未宣告量产。',
+      },
       {
         title: 'd-Matrix Adopts NVIDIA NVLink Fusion Rackscale Infrastructure',
         publisher: 'd-Matrix',
@@ -706,7 +713,7 @@ export const latestChips: ChipRecord[] = [
         note: 'Hot Chips 资料中的卡级容量、带宽与键合参数；按目标值使用。',
       },
     ],
-    lastVerified: '2026-09-14',
+    lastVerified: '2026-09-29',
   },
   {
     id: 'sambanova-sn50',
