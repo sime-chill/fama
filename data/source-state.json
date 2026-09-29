@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-09-28T07:01:59.273Z",
+  "lastScanAt": "2026-09-29T06:59:56.610Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -143,13 +143,12 @@
       ]
     },
     "google-cloud-ai-infra": {
-      "fingerprint": "235efa4149892b0515b7ce92541a36a8dbd584c4394cec9f52a93d5ef760118f",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "1b8509a74f83eff1eb37c9a8ef7faecb4ccb1494f9146c1f847db6f7a6228086",
+      "updatedAt": "2026-09-29T06:59:56.610Z",
       "seenUrls": [
         "https://cloud.google.com/blog/topics/training-certifications",
         "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
-        "https://cloud.google.com/blog/topics/ai-infrastructure/best-practices-for-dynamic-capacity-management",
-        "https://cloud.google.com/blog/topics/ai-infrastructure/google-is-a-leader-in-gartner-magic-quadrant-for-ai-infra"
+        "https://cloud.google.com/blog/topics/ai-infrastructure/best-practices-for-dynamic-capacity-management"
       ]
     },
     "groq-blog": {
@@ -192,11 +191,12 @@
       ]
     },
     "furiosa-news": {
-      "fingerprint": "dca5aea842548cf5191eaddbf6bad2ced461b0757b8bf5713a2304c551263ace",
-      "updatedAt": "2026-09-11T06:05:30.545Z",
+      "fingerprint": "a9acc8b6518422bbbadd9536b562be58370e028e029d531b9314b241da54c41d",
+      "updatedAt": "2026-09-29T06:59:56.610Z",
       "seenUrls": [
         "https://furiosa.ai/nxt-rndg-server",
         "https://furiosa.ai/rngd",
+        "https://furiosa.ai/architecture",
         "https://furiosa.ai/blog/furiosaai-establishes-singapore-hub-apac-expansion",
         "https://furiosa.ai/blog/white-paper-benchmarking-rngd-on-backend-ai",
         "https://furiosa.ai/blog/furiosa-rngd-powers-ai-generated-overviews-for-millions-of-users-on-daum",
@@ -220,8 +220,8 @@
       ]
     },
     "rebellions-news": {
-      "fingerprint": "c371822a6ac57f7366226738495b71e1c894d81f5db47791980030e75e2abce4",
-      "updatedAt": "2026-09-16T06:07:18.214Z",
+      "fingerprint": "43339138b4ad42531916ef6e88d0c1e4948d0384ff2b73d3e1e4ef764cc0860b",
+      "updatedAt": "2026-09-29T06:59:56.610Z",
       "seenUrls": [
         "https://rebellions.ai/",
         "https://rebellions.ai/newsroom/",
@@ -275,8 +275,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "f80aae543bc3a635c85aa83c7a8503b87ed67a89db07b37e1cef87efb9ca0514",
-      "updatedAt": "2026-09-11T06:05:30.545Z",
+      "fingerprint": "174edc81e92ae935528fba42f1b2ab455449b3d75ed9c9eef5cb30a7dfafbc75",
+      "updatedAt": "2026-09-29T06:59:56.610Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -285,6 +285,7 @@
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/flex-series.html",
         "https://newsroom.intel.com/content/www/us/en/foundry/accelerator.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-puts-agentic-ai-xeon-6-networking-ai-systems.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-and-sambanova-advance-agentic-ai-with-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-xeon-6-used-as-host-cpus-in-nvidia-dgx-rubin-nvl8-systems.html",
@@ -304,9 +305,10 @@
       ]
     },
     "cerebras-blog": {
-      "fingerprint": "f33da46f059bb11f9ec1cf6f64f592102f01157dd143c5d572c16563a5fac30a",
-      "updatedAt": "2026-09-25T06:11:30.707Z",
+      "fingerprint": "17ebb40929fb9f482bc800d229a4d139537121986461c1c656557b051561f7b6",
+      "updatedAt": "2026-09-29T06:59:56.610Z",
       "seenUrls": [
+        "https://www.cerebras.ai/press-release/gimlet-labs-adds-cerebras-to-deliver-ultrafast-ai-inference-through-gimlet-cloud-deployment",
         "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
         "https://www.cerebras.ai/blog/ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026",
         "https://www.cerebras.ai/blog/ai-inference-cybersecurity",
