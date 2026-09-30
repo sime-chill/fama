@@ -1,7 +1,72 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:10:57.671271+00:00",
+  "generatedAt": "2026-09-30T06:48:56.763Z",
   "items": [
+    {
+      "id": "173943f8845a",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI Infrastructure",
+      "url": "https://news.skhynix.com/en/tag/ai-infrastructure/",
+      "discoveredAt": "2026-09-30T06:48:56.763Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "82d9a06d121c",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI Infrastructure",
+      "url": "https://news.skhynix.com/en/tag/ai-infrastructure",
+      "discoveredAt": "2026-09-30T06:48:56.763Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "b84cfaf8121a",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "[AI infrastructure insight] Why power and cooling have become the next challenge for AI data centers Sep 30, 2026",
+      "url": "https://news.skhynix.com/en/ai-infrastructure-insight-ep3/",
+      "discoveredAt": "2026-09-30T06:48:56.763Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "8bfd1d8d654d",
+      "sourceId": "cerebras-blog",
+      "publisher": "Cerebras",
+      "title": "General Compute Selects Cerebras to Bring Ultra-Fast Inference to Agentic Coding &gt;&gt;",
+      "url": "https://www.cerebras.ai/press-release/general-compute-selects-cerebras-to-bring-ultra-fast-inference-to-agentic-coding",
+      "discoveredAt": "2026-09-30T06:48:56.763Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "e05285af4341",
+      "sourceId": "furiosa-news",
+      "publisher": "FuriosaAI",
+      "title": "Furiosa NXT RNGD Server",
+      "url": "https://furiosa.ai/nxt-rngd-server",
+      "discoveredAt": "2026-09-30T06:48:56.763Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "RNGD"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "1033bfc82fae",
       "sourceId": "samsung-tech-blog",
