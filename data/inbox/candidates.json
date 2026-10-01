@@ -1,7 +1,47 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T06:48:56.763Z",
+  "generatedAt": "2026-10-01T07:13:44.281Z",
   "items": [
+    {
+      "id": "9c486db49df6",
+      "sourceId": "nvidia-blog",
+      "publisher": "NVIDIA Blog",
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "discoveredAt": "2026-10-01T07:13:44.281Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Rubin"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "d0c8816cc984",
+      "sourceId": "marvell-custom-asic",
+      "publisher": "Marvell Custom Silicon",
+      "title": "AI Accelerators",
+      "url": "https://www.marvell.com/products/custom-ai-accelerators.html",
+      "discoveredAt": "2026-10-01T07:13:44.281Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI",
+        "accelerator"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "d8b50c41f7e9",
+      "sourceId": "cerebras-blog",
+      "publisher": "Cerebras",
+      "title": "How AlphaSense Uses Fast Inference to Make Agentic Research Interactive September 30, 2026",
+      "url": "https://www.cerebras.ai/blog/how-alphasense-uses-fast-inference-to-make-agentic-research-interactive",
+      "discoveredAt": "2026-10-01T07:13:44.281Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "173943f8845a",
       "sourceId": "skhynix-newsroom",
