@@ -1,7 +1,85 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T07:13:44.281Z",
+  "generatedAt": "2026-10-02T07:03:51.804Z",
   "items": [
+    {
+      "id": "088353918a60",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "Agentic AI",
+      "url": "https://news.skhynix.com/en/tag/agentic-ai/",
+      "discoveredAt": "2026-10-02T07:03:51.804Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "eb4112d57e88",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "[AI Ecosystem] Redesigning infrastructure: Why architecture determines performance Oct 2, 2026",
+      "url": "https://news.skhynix.com/en/ai-ecosystem-series-ep3/",
+      "discoveredAt": "2026-10-02T07:03:51.804Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "ad25903ce5e3",
+      "sourceId": "cerebras-blog",
+      "publisher": "Cerebras",
+      "title": "Disaggregated Inference From The Ground Up October 01, 2026",
+      "url": "https://www.cerebras.ai/blog/disaggregated-inference-from-the-ground-up",
+      "discoveredAt": "2026-10-02T07:03:51.804Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "3981f3c46f1f",
+      "sourceId": "dmatrix-newsroom",
+      "publisher": "d-Matrix Newsroom",
+      "title": "Read on The Next Platform ↗",
+      "url": "https://www.nextplatform.com/compute/2026/09/10/startup-d-matrix-will-pair-its-raptor-memory-based-xpu-to-nvidia-rackscale-iron/5295601",
+      "discoveredAt": "2026-10-02T07:03:51.804Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Raptor"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "0d8c56824e23",
+      "sourceId": "dmatrix-newsroom",
+      "publisher": "d-Matrix Newsroom",
+      "title": "Read on Bloomberg ↗",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-10/d-matrix-joins-nvidia-s-ai-inference-push-video",
+      "discoveredAt": "2026-10-02T07:03:51.804Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "25377155db24",
+      "sourceId": "tenstorrent-news",
+      "publisher": "Tenstorrent",
+      "title": "Newsroom Announcements Tenstorrent and Smallest.ai Partner to Bring Production-Grade Voice AI On-Prem Oct 1, 2026",
+      "url": "https://tenstorrent.com/newsroom/tenstorrent-and-smallestai-partner-to-bring-production-grade-voice-ai-on-prem",
+      "discoveredAt": "2026-10-02T07:03:51.804Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "9c486db49df6",
       "sourceId": "nvidia-blog",
