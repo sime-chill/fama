@@ -10,6 +10,78 @@ const verified = '2026-09-04';
  */
 export const latestChips: ChipRecord[] = [
   {
+    id: 'taalas-hc1',
+    vendor: 'Taalas',
+    name: 'HC1',
+    generation: '第一代 Hardcore Model Silicon',
+    category: 'ASIC',
+    year: '2026',
+    status: '技术演示芯片 / API Beta',
+    confidence: '高',
+    accent: '#f3ae68',
+    process: 'TSMC 6 nm · 815 mm² · 530 亿晶体管',
+    memory: '模型固化于硅 · 物理存储容量未披露',
+    bandwidth: '未披露',
+    compute: '17,000 tokens/s/user（厂商测试）',
+    power: '2.5 kW / server；芯片 TDP 未披露',
+    interconnect: '接口与多芯片拓扑未披露',
+    software: 'HC1 API · OpenAI 兼容接口 · LoRA',
+    workload: 'Llama 3.1 8B 专用低时延推理',
+    oneLiner: '将特定模型固化为专用硅，融合存储与计算，减少推理中的权重搬运。',
+    overview: [
+      'HC1 是 Taalas 的技术演示芯片，运行固化的 Llama 3.1 8B，提供聊天演示与 Beta API。其设计以单个模型为中心，不能视作任意模型可直接加载的通用加速器。',
+      '官方产品页报告单用户 17,000 tokens/s，测试模型为 Llama 3.1 8B，图注序列条件为 1k/1k，由 Taalas 实验室测试；该指标不能等同于系统总吞吐或跨精度公平比较。',
+    ],
+    memoryType: '模型专用片上存储与计算融合（非 HBM 路线）',
+    memoryLayers: [
+      {
+        name: 'Hardcore Model Silicon',
+        role: '模型专用存储与计算',
+        detail: '官方称在同一芯片融合存储和计算，达到 DRAM 级密度；这不是使用 DRAM 单元的证明。物理容量、存储单元类型和内部带宽未披露。',
+      },
+      {
+        name: 'Context / LoRA',
+        role: '可配置状态',
+        detail: '支持可配置上下文和 LoRA；KV Cache、激活及适配器的具体存储位置、容量和带宽未披露。',
+      },
+    ],
+    memoryBottleneck: '从架构推断，固化模型可降低通用权重搬运需求；动态状态的存储成本和并发扩展仍需更多实测。',
+    memoryVerdict: '以模型专用性换取推理效率；不能由 8B 参数量反推物理存储容量，也不能把 DRAM 级密度直接标为 DRAM 或 SRAM。',
+    architecture: [
+      '按模型定制硅；官方称架构无需 HBM、3D 堆叠或先进封装',
+      'HC1 混合 3-bit / 6-bit 参数；官方承认相对 GPU 基准存在质量损失',
+      '保留上下文配置与 LoRA 适配能力',
+    ],
+    watchItems: [
+      '芯片级功耗、物理存储容量与带宽',
+      '相同质量与上下文条件下的独立测试、并发吞吐',
+      'HC2 与标准 4-bit 浮点格式属于官方路线图；本次未找到正式交付公告',
+    ],
+    officialSources: [
+      {
+        title: 'Taalas HC1 Technology Demonstrator',
+        publisher: 'Taalas',
+        url: 'https://taalas.com/products/',
+        note: '工艺、面积、晶体管数、服务器功耗及厂商性能测试口径。',
+      },
+      {
+        title: 'The path to ubiquitous AI',
+        publisher: 'Taalas',
+        url: 'https://taalas.com/the-path-to-ubiquitous-ai/',
+        date: '2026-02-19',
+        note: '模型固化、存储计算融合、量化与质量限制、LoRA 和 HC2 路线图；日期来自官方 Mission Log。',
+      },
+      {
+        title: 'Taalas HC1 API documentation',
+        publisher: 'Taalas',
+        url: 'https://api.taalas.com/',
+        note: 'HC1 推理服务及 OpenAI 兼容接口。',
+      },
+    ],
+    thirdPartySources: [],
+    lastVerified: '2026-10-02',
+  },
+  {
     id: 'google-tpu8i',
     vendor: 'Google',
     name: 'TPU 8i',

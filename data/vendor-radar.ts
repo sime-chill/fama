@@ -12,6 +12,16 @@ export type VendorRadarEntry = {
 /** 厂商雷达包含已建完整档案和等待扩展的路线，链接只使用公司一手入口。 */
 export const vendorRadar: VendorRadarEntry[] = [
   {
+    vendor: 'Taalas',
+    region: '加拿大',
+    platform: 'HC1 / Hardcore Model Silicon',
+    focus: '模型固化的低时延 LLM 推理',
+    memoryPath: '片上存储与计算融合 · 容量和带宽未披露',
+    status: '技术演示 / API Beta · 已有完整档案',
+    officialUrl: 'https://taalas.com/products/',
+    chipId: 'taalas-hc1',
+  },
+  {
     vendor: 'NVIDIA / Groq',
     region: '美国',
     platform: 'Groq 3 LPU / LPX',

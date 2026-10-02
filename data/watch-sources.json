@@ -408,6 +408,20 @@
         "DRAM",
         "SOCAMM"
       ]
+    },
+    {
+      "id": "taalas-log",
+      "publisher": "Taalas",
+      "url": "https://taalas.com/mission-log/",
+      "kind": "vendor",
+      "keywords": [
+        "AI",
+        "HC1",
+        "HC2",
+        "model",
+        "inference",
+        "memory"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "verifiedAt": "2026-09-29",
-  "scope": "检查原有 26 个官方入口，补充 5 个新闻/技术博客入口后共扫描 31 个：25 个成功、6 个失败，成功入口中有 3 个未提取到关键词链接。定向检索并人工复核新增公告；扫描成功不等于所有芯片参数均已重验，未修改记录保留原日期。",
+  "verifiedAt": "2026-10-02",
+  "scope": "2026-10-02 定向核验 Taalas 官方产品、架构说明及 API，新增 HC1 档案与监控入口。以下全量人工复核与扫描限制沿用 2026-09-29 记录：检查原有 26 个官方入口，补充 5 个新闻/技术博客入口后共扫描 31 个：25 个成功、6 个失败，成功入口中有 3 个未提取到关键词链接。定向检索并人工复核新增公告；扫描成功不等于所有芯片参数均已重验，未修改记录保留原日期。",
   "failedSources": [
     "AMD Instinct",
     "Google Cloud AI Infrastructure",
@@ -16,6 +16,15 @@
   ],
   "limitations": "动态新闻列表可能无法被静态链接扫描完整覆盖；Micron 公告正文已另行核验。SK hynix 9 月 28 日原文已通过直接访问核验。Samsung LPDDR6 仅核验官方目录，不推断新参数。",
   "items": [
+    {
+      "title": "Taalas HC1：模型固化与存储计算融合",
+      "summary": "补录 HC1 技术演示芯片及官方来源；区分服务器功耗、厂商单用户测速与未知存储参数，HC2 保留为路线图。",
+      "url": "https://taalas.com/the-path-to-ubiquitous-ai/",
+      "sourceId": "taalas-log",
+      "publisher": "Taalas",
+      "kind": "新增芯片档案",
+      "publishedAt": "2026-02-19"
+    },
     {
       "title": "SK hynix：9 月 28 日 HBM4E 展示进展",
       "summary": "9 月 28 日原文：Vera Rubin 展示 36 GB 12H HBM4 与 96 GB SOCAMM2；另展示 48 GB 12H HBM4E 和 48 GB 16H HBM4。展示、验证不等于量产，未据此替换 Micron 的供货状态。",
