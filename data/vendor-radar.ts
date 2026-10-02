@@ -16,7 +16,7 @@ export const vendorRadar: VendorRadarEntry[] = [
     region: '加拿大',
     platform: 'HC1 / Hardcore Model Silicon',
     focus: '模型固化的低时延 LLM 推理',
-    memoryPath: '片上存储与计算融合 · 容量和带宽未披露',
+    memoryPath: 'Mask ROM 固定权重 + 可编程 SRAM · 容量和带宽未披露',
     status: '技术演示 / API Beta · 已有完整档案',
     officialUrl: 'https://taalas.com/products/',
     chipId: 'taalas-hc1',
