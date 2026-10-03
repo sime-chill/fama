@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-02T07:03:51.804Z",
+  "lastScanAt": "2026-10-03T06:36:36.821Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -334,8 +334,8 @@
       ]
     },
     "tenstorrent-news": {
-      "fingerprint": "286034ececa46356a85538d206fb67f324ac98539e16d0ee2f706d611fcde4df",
-      "updatedAt": "2026-10-02T07:03:51.804Z",
+      "fingerprint": "fccc14bd7159065cdde39bf03bdb043ec33d187c3797748af30a89531d1920fd",
+      "updatedAt": "2026-10-03T06:36:36.821Z",
       "seenUrls": [
         "https://tenstorrent.com/newsroom",
         "https://tenstorrent.com/newsroom/aiand-and-tenstorrent-launch-japanfold",
@@ -540,6 +540,11 @@
         "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
         "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/"
       ]
+    },
+    "taalas-log": {
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "updatedAt": "2026-10-03T06:36:36.821Z",
+      "seenUrls": []
     }
   }
 }
