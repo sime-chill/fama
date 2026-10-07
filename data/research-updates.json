@@ -1,6 +1,6 @@
 {
-  "verifiedAt": "2026-10-02",
-  "scope": "2026-10-02 定向核验 Taalas 官方资料及 EE Times 技术采访，补充 HC1 的 Mask ROM 结构。以下全量人工复核与扫描限制沿用 2026-09-29 记录：检查原有 26 个官方入口，补充 5 个新闻/技术博客入口后共扫描 31 个：25 个成功、6 个失败，成功入口中有 3 个未提取到关键词链接。定向检索并人工复核新增公告；扫描成功不等于所有芯片参数均已重验，未修改记录保留原日期。",
+  "verifiedAt": "2026-10-07",
+  "scope": "2026-10-07 定向核验 SambaNova SN50 产品资料表、现行产品网页及用户提供的 Hot Chips 2026 演讲稿，修正 DDR5 容量并保留资料口径差异。2026-10-02 定向核验 Taalas 官方资料及 EE Times 技术采访，补充 HC1 的 Mask ROM 结构。以下全量人工复核与扫描限制沿用 2026-09-29 记录：检查原有 26 个官方入口，补充 5 个新闻/技术博客入口后共扫描 31 个：25 个成功、6 个失败，成功入口中有 3 个未提取到关键词链接。定向检索并人工复核新增公告；扫描成功不等于所有芯片参数均已重验，未修改记录保留原日期。",
   "failedSources": [
     "AMD Instinct",
     "Google Cloud AI Infrastructure",
@@ -16,6 +16,14 @@
   ],
   "limitations": "动态新闻列表可能无法被静态链接扫描完整覆盖；Micron 公告正文已另行核验。SK hynix 9 月 28 日原文已通过直接访问核验。Samsung LPDDR6 仅核验官方目录，不推断新参数。",
   "items": [
+    {
+      "title": "SambaNova SN50：产品资料表列 DDR5 最高 2 TB",
+      "summary": "官方 SN50 产品资料表第 2 页列 DDR5 最高 2 TB；现行产品网页仍列 512 GB，Hot Chips 2026 演讲稿在 16 RDU 机架汇总下列 RDU DDR 256 GB–2 TB。条目按资料表标称上限更新，并注明配置与边界尚待澄清。",
+      "url": "https://sambanova.ai/hubfs/SambaNova%20SN50%20RDU.pdf",
+      "sourceId": "sambanova-rdu",
+      "publisher": "SambaNova",
+      "kind": "参数更正"
+    },
     {
       "title": "Taalas HC1：Mask ROM 固定权重与可编程 SRAM",
       "summary": "补充 EE Times 对 Taalas 负责人的采访：HC1 使用 Mask ROM 固定模型权重，配合可编程 SRAM；两层掩膜可定制权重与数据流。具体单元电路、容量与带宽未披露。",

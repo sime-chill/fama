@@ -120,7 +120,7 @@ export const vendorRadar: VendorRadarEntry[] = [
     region: '美国',
     platform: 'SN50 RDU',
     focus: '可重构数据流推理',
-    memoryPath: '432 MB SRAM + 64 GB HBM2E + 512 GB DDR5',
+    memoryPath: '432 MB SRAM + 64 GB HBM2E + 最高 2 TB DDR5（产品资料表）',
     status: '已有完整档案',
     officialUrl: 'https://sambanova.ai/products/rdu-ai-chips',
     chipId: 'sambanova-sn50',

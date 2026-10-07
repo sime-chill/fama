@@ -807,7 +807,7 @@ export const latestChips: ChipRecord[] = [
     confidence: '高',
     accent: '#ff57a8',
     process: 'TSMC 5 nm',
-    memory: '432 MB SRAM + 64 GB HBM2E + 512 GB DDR5',
+    memory: '432 MB SRAM + 64 GB HBM2E + 最高 2 TB DDR5（资料表）',
     bandwidth: '分层带宽 · 官方未给总值',
     compute: '1.6 PFLOPS BF16 · 3.2 PFLOPS FP8',
     power: '未披露',
@@ -817,8 +817,8 @@ export const latestChips: ChipRecord[] = [
     oneLiner:
       '以 SRAM、HBM2E、DDR5 三层显式数据流存储，换取大模型推理的容量和带宽平衡。',
     overview: [
-      'SN50 是 SambaNova 第五代 RDU。它不是传统缓存型 GPU，而是由编译器把算子和数据映射到可重构数据流结构，并在 432 MB SRAM、64 GB HBM2E 与最高 512 GB DDR5 之间显式组织工作集。',
-      '这种分层容量特别适合 memory-bound inference：热数据留在 SRAM/HBM，更大的模型和 KV 状态进入 DDR5，但软件映射质量会直接影响有效带宽。',
+      'SN50 是 SambaNova 第五代 RDU。编译器将算子和数据映射到可重构数据流结构；SambaNova 的 SN50 产品资料表将其三层存储列为 432 MB 片上 SRAM、64 GB HBM2E 与最高 2 TB DDR5。',
+      '热数据留在 SRAM/HBM，较冷的模型、prompt cache 和 KV 状态使用 DDR5。官网产品页仍列 DDR5 最高 512 GB；所附 Hot Chips 2026 演讲稿第 12 页则在 16 RDU 机架汇总下列出 RDU DDR 256 GB–2 TB。资料口径尚未统一，因此 2 TB 作为产品资料表标称上限，不代表芯片片上容量或所有机架的实装容量。',
     ],
     memoryType: 'SRAM + HBM2E + DDR5 显式分层数据流',
     memoryLayers: [
@@ -835,7 +835,7 @@ export const latestChips: ChipRecord[] = [
       {
         name: 'DDR5',
         role: '大容量模型与 KV 层',
-        detail: '最高 512 GB，以较低成本扩大单 RDU 可承载模型规模。',
+        detail: '产品资料表在 SN50 RDU 规格栏标“最高 2 TB”，官网产品页仍写“最高 512 GB”；两者配置口径未解释清楚。DDR5 为片外容量层，不是片上 SRAM 或 HBM。',
       },
       {
         name: 'Scale-out Fabric',
@@ -854,24 +854,32 @@ export const latestChips: ChipRecord[] = [
       'Up to 256 RDU scaling',
     ],
     watchItems: [
+      '核对产品资料表 2 TB 与产品网页 512 GB 的配置口径、单 RDU 和机架边界',
       '各层实测带宽',
       '主流开源模型支持度',
       '256-RDU 规模下的延迟与利用率',
     ],
     officialSources: [
       {
+        title: 'SambaNova SN50 RDU product sheet',
+        publisher: 'SambaNova Systems',
+        url: 'https://sambanova.ai/hubfs/SambaNova%20SN50%20RDU.pdf',
+        date: '2026',
+        note: '第 2 页 SN50 RDU 规格表列 DDR5 最高 2 TB；资料表上限不等于实装容量。',
+      },
+      {
         title: 'SambaNova RDU AI Chips',
         publisher: 'SambaNova Systems',
         url: 'https://sambanova.ai/products/rdu-ai-chips',
         date: '2026',
-        note: 'SN50 工艺、算力和 SRAM/HBM/DDR 分层官方规格。',
+        note: '官网产品页仍列 DDR5 最高 512 GB；与产品资料表 2 TB 的配置口径待澄清。',
       },
       {
         title: 'Hot Chips 2026 Program',
         publisher: 'Hot Chips',
         url: 'https://hc2026.hotchips.org/',
         date: '2026-08',
-        note: 'SN50 RDU 正式会议议程。',
+        note: 'SN50 RDU 正式会议议程；用户提供的演讲稿第 12 页将 RDU DDR 256 GB–2 TB 列在 16 RDU 机架汇总下。',
       },
     ],
     thirdPartySources: [
@@ -883,7 +891,7 @@ export const latestChips: ChipRecord[] = [
         note: '会议架构、扩展与分层内存解读。',
       },
     ],
-    lastVerified: verified,
+    lastVerified: '2026-10-07',
   },
   {
     id: 'aws-trainium3',
