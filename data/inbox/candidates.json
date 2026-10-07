@@ -1,7 +1,33 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T07:37:45.936Z",
+  "generatedAt": "2026-10-07T07:18:22.499Z",
   "items": [
+    {
+      "id": "6c6680771981",
+      "sourceId": "intel-ai",
+      "publisher": "Intel AI Newsroom",
+      "title": "Data Centers Boosting Agentic AI Throughput with Intel® Xeon® CPUs October 06,2026",
+      "url": "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/boosting-agentic-ai-throughput-with-intel-xeon-cpus.html",
+      "discoveredAt": "2026-10-07T07:18:22.499Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Xe"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "925a94d6d264",
+      "sourceId": "amd-newsroom",
+      "publisher": "AMD Newsroom",
+      "title": "AMD to Report Fiscal Third Quarter 2026 Financial Results",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "discoveredAt": "2026-10-07T07:18:22.499Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "088353918a60",
       "sourceId": "skhynix-newsroom",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-06T07:37:45.936Z",
+  "lastScanAt": "2026-10-07T07:18:22.499Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -83,8 +83,8 @@
       ]
     },
     "huawei-ascend": {
-      "fingerprint": "0042597b52a9862dc55a500aafcf04377ea64f894e46a06a63500c5285aa8bb3",
-      "updatedAt": "2026-10-06T07:37:45.936Z",
+      "fingerprint": "d67ee5eed2ffd34bd5f5eec2b3f08f1ee974550ed8591452d924a7bb94e19874",
+      "updatedAt": "2026-10-07T07:18:22.499Z",
       "seenUrls": [
         "https://www.hiascend.com/en",
         "https://www.hiascend.com/en/hardware/cluster?tag=950",
@@ -123,6 +123,9 @@
         "https://www.hiascend.com/en/document",
         "https://www.hiascend.com/en/edu/growth",
         "https://www.hiascend.com/en/edu/courses",
+        "https://www.hiascend.com/industries/solutions/large-model",
+        "https://www.hiascend.com/industries/internet",
+        "https://www.hiascend.com/industries/fintech",
         "https://www.hiascend.com/en/legal/cookies",
         "https://www.hiascend.com/ecosystem/industry",
         "https://www.hiascend.com/activities/news",
@@ -275,8 +278,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "2c8eae3b64336c78bc529d3ca375158b805b3895db7e3539ff9be40b70aaae35",
-      "updatedAt": "2026-10-01T07:13:44.281Z",
+      "fingerprint": "72e64029172f5685489ca4144a218564b627fba953cb6151ffdae3022dc070f5",
+      "updatedAt": "2026-10-07T07:18:22.499Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -285,19 +288,19 @@
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/flex-series.html",
         "https://newsroom.intel.com/content/www/us/en/foundry/accelerator.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/boosting-agentic-ai-throughput-with-intel-xeon-cpus.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-puts-agentic-ai-xeon-6-networking-ai-systems.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-and-sambanova-advance-agentic-ai-with-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-xeon-6-used-as-host-cpus-in-nvidia-dgx-rubin-nvl8-systems.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-to-expand-ai-accelerator-portfolio-with-new-gpu.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-arc-pro-b-series-gpus-and-xeon-6-shine-in-mlperf-inference-v5-1.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/client-computing/intel-launches-new-intel-xeon-600-processors-for-workstation.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-appoints-aparna-bawa-as-executive-vice-president-and-chief-legal-people-officer.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-announces-key-leadership-appointments.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-and-aws-drive-cloud-innovation-powered-by-xeon-6-processors.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-and-sambanova-planning-multi-year-collaboration-for-xeon-based-ai-inference.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/postcard-from-intel-tech-tour-arizona-intel-data-center-group-leader-kevork-kechichian-shows-off-xeon-6.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-and-aws-drive-cloud-innovation-powered-by-xeon-6-processors.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-intel-xeon-6-soc-barcelona.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/intel-xeon-6-slashes-power-consumption-for-nokia-core-network-customers.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-seeing-intel-xeon-6-soc-action.html",
@@ -491,11 +494,12 @@
       ]
     },
     "amd-newsroom": {
-      "fingerprint": "9ba46ef3235dbb712dfd13a878a388cc5c829de5d0716e363ea833671a4b72f2",
-      "updatedAt": "2026-09-29T08:08:41.808Z",
+      "fingerprint": "0b65a86e0b67e2425fd1879d5c5b134b32332f4c2744603284600f6f46651923",
+      "updatedAt": "2026-10-07T07:18:22.499Z",
       "seenUrls": [
         "https://ir.amd.com/news-events/press-releases",
         "https://ir.amd.com/contacts-faq/email-alerts",
+        "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
         "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
         "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
         "https://ir.amd.com/news-events/press-releases/detail/1297/amd-appoints-tim-ryan-to-board-of-directors",
@@ -505,7 +509,6 @@
         "https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference-solution",
         "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
         "https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership",
-        "https://ir.amd.com/news-events/press-releases/detail/1290/amd-appoints-alan-smith-as-newest-corporate-fellow",
         "https://x.com/AIatAMD",
         "https://www.amd.com/content/dam/amd/en/documents/corporate/cr/supply-chain-transparency.pdf",
         "https://www.amd.com/en/corporate/competition"
@@ -545,6 +548,25 @@
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "updatedAt": "2026-10-03T06:36:36.821Z",
       "seenUrls": []
+    },
+    "micron-newsroom": {
+      "fingerprint": "6e14910f6930c361f72fca35b3926c618d4e763cbc0da0a12dd0bb0cfb5bd27d",
+      "updatedAt": "2026-10-07T07:18:22.499Z",
+      "seenUrls": [
+        "https://www.micron.com/products/memory",
+        "https://www.micron.com/products/memory/hbm",
+        "https://www.micron.com/products/memory/dram-components",
+        "https://www.micron.com/products/memory/dram-modules",
+        "https://www.micron.com/products/memory/lpddr-components",
+        "https://www.micron.com/products/memory/lpddr-modules",
+        "https://www.micron.com/products/memory/cxl-memory",
+        "https://www.micron.com/products/memory/graphics-memory",
+        "https://www.micron.com/products/memory/data-center-memory",
+        "https://www.micron.com/products/storage/memory-cards",
+        "https://www.micron.com/products/memory/1gamma-dram-technology",
+        "https://www.micron.com/sales-support/design-tools/dram-power-calculator",
+        "https://www.micron.com/partners/technology-enablement-programs/ddr5-tep-resources"
+      ]
     }
   }
 }
