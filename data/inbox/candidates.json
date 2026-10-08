@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T07:18:22.499Z",
+  "generatedAt": "2026-10-08T07:29:32.465Z",
   "items": [
+    {
+      "id": "2564ff8cc463",
+      "sourceId": "rebellions-news",
+      "publisher": "Rebellions",
+      "title": "https://semiwiki.com/ceo-interviews/373808-ceo-interview-with-sunghyun-park-of-rebellions/",
+      "url": "https://semiwiki.com/ceo-interviews/373808-ceo-interview-with-sunghyun-park-of-rebellions/",
+      "discoveredAt": "2026-10-08T07:29:32.465Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "REBEL"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "6c6680771981",
       "sourceId": "intel-ai",

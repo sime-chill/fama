@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-07T07:18:22.499Z",
+  "lastScanAt": "2026-10-08T07:29:32.465Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -83,8 +83,8 @@
       ]
     },
     "huawei-ascend": {
-      "fingerprint": "d67ee5eed2ffd34bd5f5eec2b3f08f1ee974550ed8591452d924a7bb94e19874",
-      "updatedAt": "2026-10-07T07:18:22.499Z",
+      "fingerprint": "0042597b52a9862dc55a500aafcf04377ea64f894e46a06a63500c5285aa8bb3",
+      "updatedAt": "2026-10-08T07:29:32.465Z",
       "seenUrls": [
         "https://www.hiascend.com/en",
         "https://www.hiascend.com/en/hardware/cluster?tag=950",
@@ -123,9 +123,6 @@
         "https://www.hiascend.com/en/document",
         "https://www.hiascend.com/en/edu/growth",
         "https://www.hiascend.com/en/edu/courses",
-        "https://www.hiascend.com/industries/solutions/large-model",
-        "https://www.hiascend.com/industries/internet",
-        "https://www.hiascend.com/industries/fintech",
         "https://www.hiascend.com/en/legal/cookies",
         "https://www.hiascend.com/ecosystem/industry",
         "https://www.hiascend.com/activities/news",
@@ -223,8 +220,8 @@
       ]
     },
     "rebellions-news": {
-      "fingerprint": "43339138b4ad42531916ef6e88d0c1e4948d0384ff2b73d3e1e4ef764cc0860b",
-      "updatedAt": "2026-09-29T06:59:56.610Z",
+      "fingerprint": "0fcce25954296f67b84b13b84b75c4a0f1cfa37cc21b5b7c43552292efcb1e13",
+      "updatedAt": "2026-10-08T07:29:32.465Z",
       "seenUrls": [
         "https://rebellions.ai/",
         "https://rebellions.ai/newsroom/",
@@ -254,6 +251,7 @@
         "https://rebellions.ai/news-category/media-coverage/",
         "https://rebellions.ai/news-category/news/",
         "https://rebellions.ai/news-category/press-release/",
+        "https://semiwiki.com/ceo-interviews/373808-ceo-interview-with-sunghyun-park-of-rebellions/",
         "https://rebellions.ai/newsroom/rebellions-and-ai-partner-to-bring-energy-efficient-ai-inference-infrastructure-to-japan/",
         "https://rebellions.ai/newsroom/rebelserver_run_k1/",
         "https://rebellions.ai/newsroom/rebellions_squeezebits_acquisition_260630/",
@@ -265,7 +263,6 @@
         "https://rebellions.ai/newsroom/rebellions-scales-global-growth-with-silicon-valley-backed-series-c/",
         "https://rebellions.ai/newsroom/rebellions-ranked-no-2-in-cb-insights-global-ai-inference-startup-ranking/",
         "https://rebellions.ai/newsroom/rebellions-joins-arm-total-design-to-drive-next-gen-ai-infrastructure-solutions/",
-        "https://rebellions.ai/newsroom/rebellions-and-tomen-devices-sign-mou-to-enter-japans-ai-inference-market/",
         "https://rebellions.ai/company/newsroom//page/2",
         "https://rebellions.ai/company/newsroom//page/3",
         "https://rebellions.ai/company/newsroom//page/4",
@@ -337,16 +334,15 @@
       ]
     },
     "tenstorrent-news": {
-      "fingerprint": "fccc14bd7159065cdde39bf03bdb043ec33d187c3797748af30a89531d1920fd",
-      "updatedAt": "2026-10-03T06:36:36.821Z",
+      "fingerprint": "40419bf8c684c61e6d4f7c385787e6b8bf031114078a7e9bface03c7b80f398e",
+      "updatedAt": "2026-10-08T07:29:32.465Z",
       "seenUrls": [
         "https://tenstorrent.com/newsroom",
         "https://tenstorrent.com/newsroom/aiand-and-tenstorrent-launch-japanfold",
-        "https://tenstorrent.com/newsroom/jim-keller-ai-still-obeys-the-old-laws-of-compute",
         "https://tenstorrent.com/newsroom/tenstorrent-and-smallestai-partner-to-bring-production-grade-voice-ai-on-prem",
         "https://tenstorrent.com/newsroom/stealthium-and-tenstorrent-partner-to-deliver-runtime-observability-for-ai-infrastructure",
-        "https://tenstorrent.com/newsroom/tt-deploy",
-        "https://tenstorrent.com/newsroom/tenstorrent-enables-ai-at-scale-with-industry-leading-performance"
+        "https://tenstorrent.com/newsroom/jim-keller-ai-still-obeys-the-old-laws-of-compute",
+        "https://tenstorrent.com/newsroom/tt-deploy"
       ]
     },
     "dmatrix-news": {
@@ -529,17 +525,16 @@
       ]
     },
     "nvidia-blog": {
-      "fingerprint": "d6c80b27adab1f47f57d209de6fa539636809143bd5c3b4961f6064c7456c4c7",
-      "updatedAt": "2026-10-01T07:13:44.281Z",
+      "fingerprint": "75f946e0aac6c3301e6f4be223da78bb40633f3dc3822ec006b5424774a73178",
+      "updatedAt": "2026-10-08T07:29:32.465Z",
       "seenUrls": [
         "https://blogs.nvidia.com/search/?q=NVIDIA%20Vera%20Rubin&",
         "https://blogs.nvidia.com/search/?q=Inference%20performance&",
-        "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
         "https://blogs.nvidia.com/blog/tag/inference/",
+        "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
         "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
         "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
         "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-        "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
         "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
         "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/"
       ]
