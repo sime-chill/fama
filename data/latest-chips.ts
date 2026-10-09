@@ -810,7 +810,7 @@ export const latestChips: ChipRecord[] = [
     memory: '432 MB SRAM + 64 GB HBM2E + 最高 2 TB DDR5（资料表）',
     bandwidth: '分层带宽 · 官方未给总值',
     compute: '1.6 PFLOPS BF16 · 3.2 PFLOPS FP8',
-    power: '未披露',
+    power: '单 RDU 未披露；16 RDU 机架典型 15–20 kW、最高 34 kW',
     interconnect: '最高 256 RDU scale-out',
     software: 'SambaNova DataScale · SambaFlow',
     workload: 'Memory-bound LLM inference',
@@ -819,6 +819,7 @@ export const latestChips: ChipRecord[] = [
     overview: [
       'SN50 是 SambaNova 第五代 RDU。编译器将算子和数据映射到可重构数据流结构；SambaNova 的 SN50 产品资料表将其三层存储列为 432 MB 片上 SRAM、64 GB HBM2E 与最高 2 TB DDR5。',
       '热数据留在 SRAM/HBM，较冷的模型、prompt cache 和 KV 状态使用 DDR5。官网产品页仍列 DDR5 最高 512 GB；所附 Hot Chips 2026 演讲稿第 12 页则在 16 RDU 机架汇总下列出 RDU DDR 256 GB–2 TB。资料口径尚未统一，因此 2 TB 作为产品资料表标称上限，不代表芯片片上容量或所有机架的实装容量。',
+      '同一演讲稿第 12 页披露风冷机架包含 16 颗 SN50 RDU、2 个节点，整机架典型功耗 15–20 kW、最高 34 kW。机架还包含主机 CPU、DDR5、SSD、网络与供电设备；官方资料未披露单 RDU 或板卡 TDP，不能将机架功耗除以 16 当作芯片功耗。',
     ],
     memoryType: 'SRAM + HBM2E + DDR5 显式分层数据流',
     memoryLayers: [
@@ -855,6 +856,7 @@ export const latestChips: ChipRecord[] = [
     ],
     watchItems: [
       '核对产品资料表 2 TB 与产品网页 512 GB 的配置口径、单 RDU 和机架边界',
+      '单 RDU 或板卡 TDP 与实测功耗',
       '各层实测带宽',
       '主流开源模型支持度',
       '256-RDU 规模下的延迟与利用率',
@@ -879,7 +881,7 @@ export const latestChips: ChipRecord[] = [
         publisher: 'Hot Chips',
         url: 'https://hc2026.hotchips.org/',
         date: '2026-08',
-        note: 'SN50 RDU 正式会议议程；用户提供的演讲稿第 12 页将 RDU DDR 256 GB–2 TB 列在 16 RDU 机架汇总下。',
+        note: 'SN50 RDU 正式会议议程；用户提供的演讲稿第 12 页在 16 RDU 机架汇总下列 RDU DDR 256 GB–2 TB，并标明整机架典型功耗 15–20 kW、最高 34 kW；会议议程页本身不列具体功耗。',
       },
     ],
     thirdPartySources: [
@@ -891,7 +893,7 @@ export const latestChips: ChipRecord[] = [
         note: '会议架构、扩展与分层内存解读。',
       },
     ],
-    lastVerified: '2026-10-07',
+    lastVerified: '2026-10-09',
   },
   {
     id: 'aws-trainium3',

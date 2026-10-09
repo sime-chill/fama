@@ -1,6 +1,6 @@
 {
   "verifiedAt": "2026-10-09",
-  "scope": "2026-10-09 定向核验 OpenAI Hot Chips 2026 演讲稿及 OpenAI 官方首批实测公告，补全 Jalapeño 单 ASIC 的 HBM4、算力、互联与功耗规格。2026-10-07 定向核验 SambaNova SN50 产品资料表、现行产品网页及用户提供的 Hot Chips 2026 演讲稿，修正 DDR5 容量并保留资料口径差异。2026-10-02 定向核验 Taalas 官方资料及 EE Times 技术采访，补充 HC1 的 Mask ROM 结构。以下全量人工复核与扫描限制沿用 2026-09-29 记录：检查原有 26 个官方入口，补充 5 个新闻/技术博客入口后共扫描 31 个：25 个成功、6 个失败，成功入口中有 3 个未提取到关键词链接。定向检索并人工复核新增公告；扫描成功不等于所有芯片参数均已重验，未修改记录保留原日期。",
+  "scope": "2026-10-09 复核用户提供的 SambaNova Hot Chips 2026 演讲稿，补充 16 RDU 机架功耗并明确单 RDU TDP 未披露。2026-10-09 定向核验 OpenAI Hot Chips 2026 演讲稿及 OpenAI 官方首批实测公告，补全 Jalapeño 单 ASIC 的 HBM4、算力、互联与功耗规格。2026-10-07 定向核验 SambaNova SN50 产品资料表、现行产品网页及用户提供的 Hot Chips 2026 演讲稿，修正 DDR5 容量并保留资料口径差异。2026-10-02 定向核验 Taalas 官方资料及 EE Times 技术采访，补充 HC1 的 Mask ROM 结构。以下全量人工复核与扫描限制沿用 2026-09-29 记录：检查原有 26 个官方入口，补充 5 个新闻/技术博客入口后共扫描 31 个：25 个成功、6 个失败，成功入口中有 3 个未提取到关键词链接。定向检索并人工复核新增公告；扫描成功不等于所有芯片参数均已重验，未修改记录保留原日期。",
   "failedSources": [
     "AMD Instinct",
     "Google Cloud AI Infrastructure",
@@ -16,6 +16,15 @@
   ],
   "limitations": "动态新闻列表可能无法被静态链接扫描完整覆盖；Micron 公告正文已另行核验。SK hynix 9 月 28 日原文已通过直接访问核验。Samsung LPDDR6 仅核验官方目录，不推断新参数。",
   "items": [
+    {
+      "title": "SambaNova SN50：补充 16 RDU 机架功耗",
+      "summary": "SambaNova Hot Chips 2026 演讲稿第 12 页披露风冷机架（16 RDU、2 节点）典型功耗 15–20 kW、最高 34 kW。机架还包含主机 CPU、DDR5、SSD、网络及供电设备；单 RDU 或板卡 TDP 未披露，不能据此均摊推算。",
+      "url": "https://hc2026.hotchips.org/",
+      "sourceId": "hotchips",
+      "publisher": "SambaNova / Hot Chips",
+      "kind": "参数边界澄清",
+      "publishedAt": "2026-08"
+    },
     {
       "title": "OpenAI Jalapeño：补齐 HBM4、矩阵算力与功耗",
       "summary": "OpenAI Hot Chips 演讲稿第 32 页列单颗 ASIC：216 GiB HBM4、15.4 TB/s，MXFP8×MXFP8 / MXFP8×MXFP4 / MXFP4×MXFP4 峰值分别为 3.4 / 6.7 / 13.4 PFLOP/s；额定 700 W，官方公告称测试负载持续不超过 550 W。2,048 ASIC 系统的 432 TiB 与 32 PB/s 为汇总值。",
