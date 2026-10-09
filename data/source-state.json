@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-08T07:29:32.465Z",
+  "lastScanAt": "2026-10-09T07:27:52.771Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
@@ -275,8 +275,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "72e64029172f5685489ca4144a218564b627fba953cb6151ffdae3022dc070f5",
-      "updatedAt": "2026-10-07T07:18:22.499Z",
+      "fingerprint": "e4b735474ed46a1acf41bd3ebd85ca8a770931b4d195741991915e4514046cb5",
+      "updatedAt": "2026-10-09T07:27:52.771Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -285,6 +285,7 @@
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/flex-series.html",
         "https://newsroom.intel.com/content/www/us/en/foundry/accelerator.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/scaling-sandboxed-agentic-ai-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/boosting-agentic-ai-throughput-with-intel-xeon-cpus.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-puts-agentic-ai-xeon-6-networking-ai-systems.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-and-sambanova-advance-agentic-ai-with-xeon-6.html",
