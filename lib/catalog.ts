@@ -331,7 +331,7 @@ const legacyChips: ChipRecord[] = [
     status: '工程样片 / 年底部署',
     confidence: '高',
     accent: '#ff8b4d',
-    process: '定制推理 ASIC · 具体工艺未正式披露',
+    process: 'B0 计算裸片：TSMC N3P；I/O 芯粒：N3E（SemiAnalysis）',
     memory: '216 GiB HBM4 / ASIC · 6 stacks',
     bandwidth: '15.4 TB/s HBM4 / ASIC',
     compute: 'MXFP8×MXFP8 3.4 · MXFP8×MXFP4 6.7 · MXFP4×MXFP4 13.4 PFLOP/s',
@@ -343,6 +343,7 @@ const legacyChips: ChipRecord[] = [
     overview: [
       'Jalapeño 是 OpenAI 与 Broadcom 联合开发的首代推理加速器。OpenAI 的 Hot Chips 2026 演讲稿第 32 页给出单颗 ASIC 的 216 GiB HBM4、15.4 TB/s 带宽，以及分别对应 MXFP8×MXFP8、MXFP8×MXFP4、MXFP4×MXFP4 的 3.4、6.7、13.4 PFLOP/s 矩阵计算峰值；这些不是端到端模型吞吐。',
       '模型状态与 KV Cache 可显式放置并保持局部，prefill 与 decode 按需激活计算、内存和网络。OpenAI 报告芯片额定功耗 700 W，所测工作负载的持续功耗不超过 550 W；其 InferenceX 结果衡量完整请求的延迟和每瓦吞吐，不能与矩阵峰值混为一谈。',
+      'SemiAnalysis 在 OpenAI 实验室测试了 A0 工程样片，并报道 B0 版计算裸片采用台积电 N3P、I/O 芯粒采用 N3E。OpenAI 的公开资料未单独确认这些工艺节点，因此不将 B0 的 N3P 直接套用于 A0。',
     ],
     memoryType: '6-stack HBM4 + 核心局部 L1 + 分层网络',
     memoryLayers: [
@@ -354,13 +355,14 @@ const legacyChips: ChipRecord[] = [
     memoryBottleneck: '虽然 HBM4 的理论带宽为 15.4 TB/s，但 OpenAI 的演讲稿强调原始带宽无法直接换算为可达 token 速率；局部数据放置、片上/跨芯片通信与调度仍会限制有效利用率。',
     memoryVerdict: '216 GiB 和 15.4 TB/s 是单颗 ASIC 的 HBM4 规格；2,048 颗系统的 432 TiB 和 32 PB/s 是汇总容量与带宽。端到端效率需结合模型、并行方式及负载测试解读。',
     architecture: ['6 堆 HBM4 与核心局部内存视图', '显式 locality / KV Cache 放置', '本地与全局两级 scale-up', 'AI 辅助芯片与 kernel 优化'],
-    watchItems: ['工艺与片上 L1 容量', '更多模型与第三方独立实测', '2026 年底计划部署的实际进展'],
+    watchItems: ['A0 计算裸片工艺及 OpenAI 对 B0/N3P、I/O/N3E 的确认', '片上 L1 容量', '更多模型与第三方独立实测', '2026 年底计划部署的实际进展'],
     officialSources: [
       { title: 'OpenAI and Broadcom unveil LLM-optimized inference chip', publisher: 'OpenAI', url: 'https://openai.com/index/openai-broadcom-jalapeno-inference-chip/', date: '2026-06-24', note: '首发公告与系统合作边界。' },
       { title: 'Jalapeño’s first results', publisher: 'OpenAI', url: 'https://openai.com/index/jalapeno-first-results/', date: '2026-08-25', note: '700 W 额定与测试负载持续不超过 550 W；InferenceX 端到端测试与数据局部性。' },
       { title: 'OpenAI Jalapeño at Hot Chips 2026 (public slide mirror)', publisher: 'OpenAI / Hot Chips', url: 'https://github.com/xqdan/mlsys-paper/blob/main/arch/Hotchip%202026/OpenAI%20Jalapeno%20-%20V2%20Final%20-%20HotChips%20_26.pdf', date: '2026-08-25', note: 'OpenAI 署名演讲稿的第三方公开镜像；第 32 页区分单颗 ASIC 与 2,048 颗系统的计算、HBM4 和互联规格。' },
     ],
     thirdPartySources: [
+      { title: 'OpenAI Jalapeño: Better Than Nvidia Blackwell', publisher: 'SemiAnalysis / InferenceX', url: 'https://inferencex.semianalysis.com/blog/openai-jalapeno-better-than-nvidia', date: '2026-08-25', note: '在 OpenAI 实验室测试 A0；报道 B0 计算裸片采用 TSMC N3P，I/O 芯粒采用 N3E。工艺信息并非 OpenAI 公开确认。' },
       { title: 'Inside OpenAI Jalapeño’s Inference Chip Architecture', publisher: 'TechInsights', url: 'https://www.techinsights.com/openai-jalapeno-inference-chip-architecture', date: '2026-09-04', note: '基于 Hot Chips 资料的独立架构解读。' },
     ],
     lastVerified: '2026-10-09',
