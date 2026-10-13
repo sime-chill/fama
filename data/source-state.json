@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-09T07:27:52.771Z",
+  "lastScanAt": "2026-10-13T07:47:47.559Z",
   "sources": {
     "meta-engineering": {
-      "fingerprint": "b8d7627955f8fbc17b464ae353df5f9c6594aeece95d5cad0c2b6c5b6c650232",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "cc849f1fb0f18c8844f88277465b6c9f541fb1a974dd59f28c9f945c96d0312b",
+      "updatedAt": "2026-10-13T07:47:47.559Z",
       "seenUrls": [
         "https://engineering.fb.com/category/ai-research/",
         "https://ai.facebook.com/results/?content_types%5B0%5D=publication",
+        "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
         "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
         "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
         "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
@@ -16,9 +17,9 @@
         "https://engineering.fb.com/2025/10/20/data-center-engineering/disaggregated-scheduled-fabric-scaling-metas-ai-journey/",
         "https://engineering.fb.com/2025/10/16/data-center-engineering/10x-backbone-how-meta-is-scaling-backbone-connectivity-for-ai/",
         "https://engineering.fb.com/2025/10/14/data-center-engineering/design-for-sustainability-new-design-principles-for-reducing-it-hardware-emissions/",
-        "https://engineering.fb.com/2025/10/14/data-center-engineering/how-meta-is-leveraging-ai-to-improve-the-quality-of-scope-3-emission-estimates-for-it-hardware/",
-        "https://engineering.fb.com/2025/07/16/data-center-engineering/ai-make-lower-carbon-faster-curing-concrete/",
         "https://sustainability.atmeta.com/2025-sustainability-report/",
+        "https://engineering.fb.com/2025/07/16/data-center-engineering/ai-make-lower-carbon-faster-curing-concrete/",
+        "https://engineering.fb.com/2024/08/26/data-infrastructure/retinas-real-time-infrastructure-accounting-for-sustainability/",
         "https://ai.meta.com/blog/"
       ]
     },
@@ -328,10 +329,11 @@
       ]
     },
     "microsoft-silicon": {
-      "fingerprint": "387ecfbc1979323e14b27c2a06a3ab3807a6b54500d9aa45e32abebb180d73aa",
-      "updatedAt": "2026-09-04T02:05:19.523Z",
+      "fingerprint": "625b74da7cc0983d69b6af659040483f2be4a2030a047faa25736372399ca034",
+      "updatedAt": "2026-10-13T07:47:47.559Z",
       "seenUrls": [
-        "https://azure.microsoft.com/en-us/solutions/high-performance-computing/ai-infrastructure/"
+        "https://azure.microsoft.com/en-us/solutions/high-performance-computing/ai-infrastructure/",
+        "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/"
       ]
     },
     "tenstorrent-news": {
@@ -347,12 +349,14 @@
       ]
     },
     "dmatrix-news": {
-      "fingerprint": "27dd172165c4bd1799b778f0a3d0d49a8ff6603e21477c3b4be34c268f3b7486",
-      "updatedAt": "2026-09-19T05:58:43.076Z",
+      "fingerprint": "0c3700416cd1e517a5516557c30ef0a26a7bdd108f7da82849f83f0d581f9966",
+      "updatedAt": "2026-10-13T07:47:47.559Z",
       "seenUrls": [
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
         "https://www.d-matrix.ai/solutions/inference-optimization/",
+        "https://www.d-matrix.ai/announcements/squadron-compute-clusters/",
+        "https://www.d-matrix.ai/accelerating-ai-inference-with-attention-ffn-disaggregation/",
         "https://www.d-matrix.ai/frontier-class-ultra-low-latency-rack-scale-inference-with-raptor-xpus-and-nvlink-fusion/",
         "https://www.d-matrix.ai/introducing-d-matrix-demo-cloud-ultra-low-latency-inference-ready-to-test-in-minutes/",
         "https://www.d-matrix.ai/advancing-full-model-ai-inference-on-corsair-with-infinity/",
@@ -366,9 +370,11 @@
       "seenUrls": []
     },
     "ibm-research-ai-hardware": {
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "updatedAt": "2026-09-04T02:14:42.640Z",
-      "seenUrls": []
+      "fingerprint": "18ee8c97d95f0a9f6f0a2424225d1c1f7c50b0580aa21191c83d4747c5a73604",
+      "updatedAt": "2026-10-13T07:47:47.559Z",
+      "seenUrls": [
+        "https://research.ibm.com/blog/distributed-inference"
+      ]
     },
     "marvell-custom-asic": {
       "fingerprint": "4cf27acacba14cbba768ffabb85f7601e81bc71a95b202ba6d3dfd44efc076b4",
@@ -386,16 +392,17 @@
       ]
     },
     "dmatrix-newsroom": {
-      "fingerprint": "641af053c265d9bb5afb00c1c137516b6e07fd1dbffc9e638e0ef53aa118fc61",
-      "updatedAt": "2026-10-02T07:03:51.804Z",
+      "fingerprint": "628989e2b476a19226ef7413c766bbcf1ed8010705aa60617a0e5a17d1d17646",
+      "updatedAt": "2026-10-13T07:47:47.559Z",
       "seenUrls": [
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
         "https://www.d-matrix.ai/solutions/inference-optimization/",
+        "https://www.d-matrix.ai/announcements/squadron-compute-clusters/",
         "https://www.d-matrix.ai/announcements/d-matrix-rackscale-nvidia/",
-        "https://www.d-matrix.ai/announcements/d-matrix-acquires-wallaroo/",
         "https://www.bloomberg.com/news/videos/2026-09-10/d-matrix-joins-nvidia-s-ai-inference-push-video",
         "https://www.nextplatform.com/compute/2026/09/10/startup-d-matrix-will-pair-its-raptor-memory-based-xpu-to-nvidia-rackscale-iron/5295601",
+        "https://www.d-matrix.ai/accelerating-ai-inference-with-attention-ffn-disaggregation/",
         "https://www.d-matrix.ai/frontier-class-ultra-low-latency-rack-scale-inference-with-raptor-xpus-and-nvlink-fusion/",
         "https://www.d-matrix.ai/introducing-d-matrix-demo-cloud-ultra-low-latency-inference-ready-to-test-in-minutes/"
       ]
@@ -491,11 +498,12 @@
       ]
     },
     "amd-newsroom": {
-      "fingerprint": "0b65a86e0b67e2425fd1879d5c5b134b32332f4c2744603284600f6f46651923",
-      "updatedAt": "2026-10-07T07:18:22.499Z",
+      "fingerprint": "69350512c823c4a26602a1e0bc0e0aab3ff7f01d3955d65056ee3cf74c3a67e5",
+      "updatedAt": "2026-10-13T07:47:47.559Z",
       "seenUrls": [
         "https://ir.amd.com/news-events/press-releases",
         "https://ir.amd.com/contacts-faq/email-alerts",
+        "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
         "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
         "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
         "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
@@ -505,7 +513,6 @@
         "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
         "https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference-solution",
         "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
-        "https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership",
         "https://x.com/AIatAMD",
         "https://www.amd.com/content/dam/amd/en/documents/corporate/cr/supply-chain-transparency.pdf",
         "https://www.amd.com/en/corporate/competition"
@@ -526,16 +533,15 @@
       ]
     },
     "nvidia-blog": {
-      "fingerprint": "75f946e0aac6c3301e6f4be223da78bb40633f3dc3822ec006b5424774a73178",
-      "updatedAt": "2026-10-08T07:29:32.465Z",
+      "fingerprint": "776e12194c7732b806f215b7171b21499ca3eea411d004c9cd530da8014ac322",
+      "updatedAt": "2026-10-13T07:47:47.559Z",
       "seenUrls": [
         "https://blogs.nvidia.com/search/?q=NVIDIA%20Vera%20Rubin&",
         "https://blogs.nvidia.com/search/?q=Inference%20performance&",
+        "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
         "https://blogs.nvidia.com/blog/tag/inference/",
         "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
         "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-        "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-        "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
         "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
         "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/"
       ]

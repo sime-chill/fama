@@ -1,7 +1,112 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T07:27:52.771Z",
+  "generatedAt": "2026-10-13T07:47:47.559Z",
   "items": [
+    {
+      "id": "a1beca24bb9b",
+      "sourceId": "microsoft-silicon",
+      "publisher": "Microsoft Azure Hardware",
+      "title": "Deep dive into Azure Maia 300 architecture",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "discoveredAt": "2026-10-13T07:47:47.559Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Maia"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "d4860e94c68a",
+      "sourceId": "amd-newsroom",
+      "publisher": "AMD Newsroom",
+      "title": "Introducing AMD Helion, Agentic AI Compute at Rack Scale",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
+      "discoveredAt": "2026-10-13T07:47:47.559Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "9c679f3096ea",
+      "sourceId": "nvidia-blog",
+      "publisher": "NVIDIA Blog",
+      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+      "discoveredAt": "2026-10-13T07:47:47.559Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Rubin"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "327b871c6992",
+      "sourceId": "ibm-research-ai-hardware",
+      "publisher": "IBM Research",
+      "title": "How distributed inference keeps large AI models moving",
+      "url": "https://research.ibm.com/blog/distributed-inference",
+      "discoveredAt": "2026-10-13T07:47:47.559Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "26d8c2c13f5e",
+      "sourceId": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "title": "Accelerating attention-FFN disaggregation with Corsair and Nvidia H100: inside the industry’s first ultra-low latency heterogeneous pipeline",
+      "url": "https://www.d-matrix.ai/accelerating-ai-inference-with-attention-ffn-disaggregation/",
+      "discoveredAt": "2026-10-13T07:47:47.559Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Corsair",
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "ed48571955c8",
+      "sourceId": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "title": "d-Matrix Announces Squadron Compute Clusters for AI Inference at Data Center Scale",
+      "url": "https://www.d-matrix.ai/announcements/squadron-compute-clusters/",
+      "discoveredAt": "2026-10-13T07:47:47.559Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "487ea60e3c46",
+      "sourceId": "meta-engineering",
+      "publisher": "Meta Engineering",
+      "title": "Aug 26, 2024 RETINAS: Real-Time Infrastructure Accounting for Sustainability",
+      "url": "https://engineering.fb.com/2024/08/26/data-infrastructure/retinas-real-time-infrastructure-accounting-for-sustainability/",
+      "discoveredAt": "2026-10-13T07:47:47.559Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "9dd69dee0c0d",
+      "sourceId": "meta-engineering",
+      "publisher": "Meta Engineering",
+      "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+      "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+      "discoveredAt": "2026-10-13T07:47:47.559Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "5b6e1d7f7037",
       "sourceId": "intel-ai",
