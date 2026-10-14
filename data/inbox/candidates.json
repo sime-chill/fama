@@ -1,7 +1,47 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T07:47:47.559Z",
+  "generatedAt": "2026-10-14T06:12:58.804Z",
   "items": [
+    {
+      "id": "01caa83e176d",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "[Inside the Research] In the AI era, NAND moves beyond storage to computing… 3D FeNAND co-optimization at IEEE Oct 14, 2026",
+      "url": "https://news.skhynix.com/en/research-inside-ep2/",
+      "discoveredAt": "2026-10-14T06:12:58.804Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "4cac281cbf0a",
+      "sourceId": "ibm-research-ai-hardware",
+      "publisher": "IBM Research",
+      "title": "Preparing chip designers for the nanostack era",
+      "url": "https://research.ibm.com/blog/preparing-chip-designers-for-the-nanostack-era",
+      "discoveredAt": "2026-10-14T06:12:58.804Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "chip"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "67f85c60691d",
+      "sourceId": "ibm-research-ai-hardware",
+      "publisher": "IBM Research",
+      "title": "Making AI-driven chip design affordable with open agent factories and distributed inference at scale",
+      "url": "https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design",
+      "discoveredAt": "2026-10-14T06:12:58.804Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "chip",
+        "inference"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "a1beca24bb9b",
       "sourceId": "microsoft-silicon",
