@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-14T06:12:58.804Z",
+  "lastScanAt": "2026-10-15T05:56:30.622Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "cc849f1fb0f18c8844f88277465b6c9f541fb1a974dd59f28c9f945c96d0312b",
@@ -276,8 +276,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "e4b735474ed46a1acf41bd3ebd85ca8a770931b4d195741991915e4514046cb5",
-      "updatedAt": "2026-10-09T07:27:52.771Z",
+      "fingerprint": "36d515a9957ad1709c3175170ad53b0bf2a25e609aba11320399faaabc6cc2e6",
+      "updatedAt": "2026-10-15T05:56:30.622Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -288,21 +288,20 @@
         "https://newsroom.intel.com/content/www/us/en/foundry/accelerator.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/scaling-sandboxed-agentic-ai-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/boosting-agentic-ai-throughput-with-intel-xeon-cpus.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-puts-agentic-ai-xeon-6-networking-ai-systems.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-and-sambanova-advance-agentic-ai-with-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-xeon-6-used-as-host-cpus-in-nvidia-dgx-rubin-nvl8-systems.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-to-expand-ai-accelerator-portfolio-with-new-gpu.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/client-computing/intel-launches-new-intel-xeon-600-processors-for-workstation.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-appoints-aparna-bawa-as-executive-vice-president-and-chief-legal-people-officer.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-announces-key-leadership-appointments.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-puts-agentic-ai-xeon-6-networking-ai-systems.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-and-sambanova-planning-multi-year-collaboration-for-xeon-based-ai-inference.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/postcard-from-intel-tech-tour-arizona-intel-data-center-group-leader-kevork-kechichian-shows-off-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-and-aws-drive-cloud-innovation-powered-by-xeon-6-processors.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-intel-xeon-6-soc-barcelona.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/intel-xeon-6-slashes-power-consumption-for-nokia-core-network-customers.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-seeing-intel-xeon-6-soc-action.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-intel-xeon-6-soc-barcelona.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/mwc-2025-intel-xeon-6-proves-foundational-network-infrastructure.html"
       ]
     },
