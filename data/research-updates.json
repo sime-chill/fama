@@ -1,6 +1,6 @@
 {
-  "verifiedAt": "2026-10-09",
-  "scope": "2026-10-09 核验 SemiAnalysis 对 Jalapeño A0 样片的现场报道，补充 B0 计算裸片 N3P 与 I/O 芯粒 N3E 的工艺口径，并保留 OpenAI 未公开确认的限制。2026-10-09 复核用户提供的 SambaNova Hot Chips 2026 演讲稿，补充 16 RDU 机架功耗并明确单 RDU TDP 未披露。2026-10-09 定向核验 OpenAI Hot Chips 2026 演讲稿及 OpenAI 官方首批实测公告，补全 Jalapeño 单 ASIC 的 HBM4、算力、互联与功耗规格。2026-10-07 定向核验 SambaNova SN50 产品资料表、现行产品网页及用户提供的 Hot Chips 2026 演讲稿，修正 DDR5 容量并保留资料口径差异。2026-10-02 定向核验 Taalas 官方资料及 EE Times 技术采访，补充 HC1 的 Mask ROM 结构。以下全量人工复核与扫描限制沿用 2026-09-29 记录：检查原有 26 个官方入口，补充 5 个新闻/技术博客入口后共扫描 31 个：25 个成功、6 个失败，成功入口中有 3 个未提取到关键词链接。定向检索并人工复核新增公告；扫描成功不等于所有芯片参数均已重验，未修改记录保留原日期。",
+  "verifiedAt": "2026-10-15",
+  "scope": "2026-10-15 定向核验微软 Maia 300 官方发布、Azure 架构文章及规格图，新增 Maia 300 档案，并更新 Maia 200 的生产状态与对照规格。单加速器、机架和 superpod 数值分别标注；其他芯片和官方监控源本轮未全量复核，保留既有核验日期及扫描限制。",
   "failedSources": [
     "AMD Instinct",
     "Google Cloud AI Infrastructure",
@@ -16,6 +16,24 @@
   ],
   "limitations": "动态新闻列表可能无法被静态链接扫描完整覆盖；Micron 公告正文已另行核验。SK hynix 9 月 28 日原文已通过直接访问核验。Samsung LPDDR6 仅核验官方目录，不推断新参数。",
   "items": [
+    {
+      "title": "微软 Maia 300：新增 HBM4、芯粒级 NUMA 与机架规格",
+      "summary": "微软 10 月 12 日公布 Maia 300：单加速器 288 GB HBM4、18 TB/s、13.8 / 6.9 POPS FP4 / FP8 峰值及 950 W SoC TDP，计算裸片采用 TSMC N2P；96 加速器、167 kW、27.6 TB HBM 和 1.7 PB/s 为机架口径。生产部署计划于 2027 年开始；片上 SRAM 容量未披露。",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "sourceId": "microsoft-silicon",
+      "publisher": "Microsoft Azure",
+      "kind": "新增芯片档案",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "title": "微软 Maia 200：确认生产部署与对照规格",
+      "summary": "微软确认 Maia 200 已用于 Microsoft Copilot 等生产负载；同期官方对照图列出单加速器 7.1 TB/s HBM 和 10.1 / 5.1 POPS FP4 / FP8 峰值。保留 Maia 200 独立条目，不以 Maia 300 数据覆盖旧代。",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "sourceId": "microsoft-silicon",
+      "publisher": "Microsoft",
+      "kind": "状态与规格核验",
+      "publishedAt": "2026-10-12"
+    },
     {
       "title": "OpenAI Jalapeño：B0 计算裸片 N3P、I/O 芯粒 N3E",
       "summary": "SemiAnalysis 在 OpenAI 实验室测试了 A0 工程样片，并报道 B0 版计算裸片采用台积电 N3P、I/O 芯粒采用 N3E。OpenAI 公开资料未单独确认工艺，因此不将 B0 的 N3P 直接套用于 A0。",
