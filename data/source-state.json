@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-15T05:56:30.622Z",
+  "lastScanAt": "2026-10-16T05:55:16.716Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "cc849f1fb0f18c8844f88277465b6c9f541fb1a974dd59f28c9f945c96d0312b",
@@ -454,21 +454,21 @@
       ]
     },
     "skhynix-newsroom": {
-      "fingerprint": "0a2645e4a4cc9ce26cd77f4fd0a9a416bd5731c7d2afc393ad0f814afd1a75eb",
-      "updatedAt": "2026-10-14T06:12:58.804Z",
+      "fingerprint": "08a7eae8e2a2c75c3b301ecc8642e183b2c36a15eba514a90724540965877153",
+      "updatedAt": "2026-10-16T05:55:16.716Z",
       "seenUrls": [
         "https://news.skhynix.com/en/category/tech-and-ai/",
         "https://news.skhynix.com/en/category/tech-and-ai",
-        "https://news.skhynix.com/en/research-inside-ep2/",
+        "https://news.skhynix.com/en/ocp-global-summit-2026/",
         "https://news.skhynix.com/en/tag/ai",
-        "https://news.skhynix.com/en/ai-ecosystem-series-ep3/",
         "https://news.skhynix.com/en/tag/hbm",
-        "https://news.skhynix.com/en/ai-infrastructure-insight-ep3/",
-        "https://news.skhynix.com/en/tag/ai-data-center",
-        "https://news.skhynix.com/en/tag/ai-infrastructure",
-        "https://news.skhynix.com/en/tag/ai/",
+        "https://news.skhynix.com/en/research-inside-ep2/",
+        "https://news.skhynix.com/en/ai-ecosystem-series-ep3/",
         "https://news.skhynix.com/en/tag/agentic-ai/",
+        "https://news.skhynix.com/en/tag/ai/",
+        "https://news.skhynix.com/en/tag/dram/",
         "https://news.skhynix.com/en/tag/hbm/",
+        "https://news.skhynix.com/en/ai-infrastructure-insight-ep3/",
         "https://news.skhynix.com/en/tag/ai-data-center/",
         "https://news.skhynix.com/en/tag/ai-infrastructure/",
         "https://news.skhynix.com/en/tsmc-oip-conference-2026/",
@@ -481,7 +481,6 @@
         "https://news.skhynix.com/en/tag/ai-infra-summit/",
         "https://news.skhynix.com/en/fact-10/",
         "https://news.skhynix.com/en/tag/3d-memory/",
-        "https://news.skhynix.com/en/ai-ecosystem-series-ep2/",
         "https://news.skhynix.com/en/series/global-ai-company-dram",
         "https://news.skhynix.com/en/series/global-ai-company-hbm",
         "https://news.skhynix.com/en/series/global-ai-company",
