@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T05:55:16.716Z",
+  "generatedAt": "2026-10-17T05:39:42.805Z",
   "items": [
+    {
+      "id": "07ba5258ec92",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud AI Infrastructure",
+      "title": "AI infrastructure Day 0 support for Reflection’s Beam on Google Cloud: 5x faster perf with llm-d and NVIDIA Dynamo By Injae Kwak • 8-minute read",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud",
+      "discoveredAt": "2026-10-17T05:39:42.805Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI infrastructure"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "cd39de505018",
       "sourceId": "skhynix-newsroom",

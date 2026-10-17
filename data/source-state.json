@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-16T05:55:16.716Z",
+  "lastScanAt": "2026-10-17T05:39:42.805Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "cc849f1fb0f18c8844f88277465b6c9f541fb1a974dd59f28c9f945c96d0312b",
@@ -144,10 +144,11 @@
       ]
     },
     "google-cloud-ai-infra": {
-      "fingerprint": "b127b34ed2c90c99f5bbded0319239017978358326d254d297432d3214bf7b1f",
-      "updatedAt": "2026-10-01T07:13:44.281Z",
+      "fingerprint": "8e9bfd940e04a6ba73d02de8804078ba9fca7e46701b435217b0eb0b4661d446",
+      "updatedAt": "2026-10-17T05:39:42.805Z",
       "seenUrls": [
         "https://cloud.google.com/blog/topics/training-certifications",
+        "https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud",
         "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
         "https://cloud.google.com/blog/topics/ai-infrastructure/best-practices-for-dynamic-capacity-management"
       ]
@@ -192,8 +193,8 @@
       ]
     },
     "furiosa-news": {
-      "fingerprint": "3a23ee60ae6c755e0a783a4bd5d495580a9531dc6360047e81b5bba5eefc7d50",
-      "updatedAt": "2026-09-30T06:48:56.763Z",
+      "fingerprint": "d33572356359bb9181363fabeb3fc9541295b98ed88eddecb8f5c8beb8c39a98",
+      "updatedAt": "2026-10-17T05:39:42.805Z",
       "seenUrls": [
         "https://furiosa.ai/nxt-rngd-server",
         "https://furiosa.ai/rngd",
@@ -202,7 +203,6 @@
         "https://furiosa.ai/blog/white-paper-benchmarking-rngd-on-backend-ai",
         "https://furiosa.ai/blog/furiosa-rngd-powers-ai-generated-overviews-for-millions-of-users-on-daum",
         "https://furiosa.ai/blog/furiosaai-equinixs-lisbon-data-center-press-release",
-        "https://furiosa.ai/blog/furiosaai-partners-with-broadcom-to-build-next-generation-inference-platform-for-the-agentic-era",
         "https://cdn.prod.website-files.com/69289524195a1f9e06ade49b/6979171827e7b80294ca6913_4b1b72a5b8212206153cb0e1a2ea346b_fai-datasheetRNGD-19-v1.1-A4-CMYK.pdf"
       ]
     },
