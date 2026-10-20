@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-17T05:39:42.805Z",
+  "lastScanAt": "2026-10-20T06:06:14.013Z",
   "sources": {
     "meta-engineering": {
-      "fingerprint": "cc849f1fb0f18c8844f88277465b6c9f541fb1a974dd59f28c9f945c96d0312b",
-      "updatedAt": "2026-10-13T07:47:47.559Z",
+      "fingerprint": "e66c8f03eb43474d0fbd35e2929fb09b0f0b0cbda02cdb037c653e68f6e19b4e",
+      "updatedAt": "2026-10-20T06:06:14.013Z",
       "seenUrls": [
         "https://engineering.fb.com/category/ai-research/",
         "https://ai.facebook.com/results/?content_types%5B0%5D=publication",
@@ -16,10 +16,9 @@
         "https://engineering.fb.com/2025/11/21/data-infrastructure/zoomer-powering-ai-performance-meta-intelligent-debugging-optimization/",
         "https://engineering.fb.com/2025/10/20/data-center-engineering/disaggregated-scheduled-fabric-scaling-metas-ai-journey/",
         "https://engineering.fb.com/2025/10/16/data-center-engineering/10x-backbone-how-meta-is-scaling-backbone-connectivity-for-ai/",
-        "https://engineering.fb.com/2025/10/14/data-center-engineering/design-for-sustainability-new-design-principles-for-reducing-it-hardware-emissions/",
-        "https://sustainability.atmeta.com/2025-sustainability-report/",
-        "https://engineering.fb.com/2025/07/16/data-center-engineering/ai-make-lower-carbon-faster-curing-concrete/",
-        "https://engineering.fb.com/2024/08/26/data-infrastructure/retinas-real-time-infrastructure-accounting-for-sustainability/",
+        "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
+        "https://engineering.fb.com/2024/06/12/production-engineering/maintaining-large-scale-ai-capacity-meta/",
+        "https://engineering.fb.com/2025/07/22/data-infrastructure/how-meta-keeps-its-ai-hardware-reliable/",
         "https://ai.meta.com/blog/"
       ]
     },
@@ -306,10 +305,9 @@
       ]
     },
     "cerebras-blog": {
-      "fingerprint": "3e4b28b0e39dddb7e0b5465311d1461fe1091e11e0ce99ef567256dfc54e1c2c",
-      "updatedAt": "2026-10-02T07:03:51.804Z",
+      "fingerprint": "5cd3dc52c36731db5a29d6bc17e5f52c8c3e1a94dec8432ec9988b66900cdff1",
+      "updatedAt": "2026-10-20T06:06:14.013Z",
       "seenUrls": [
-        "https://www.cerebras.ai/press-release/general-compute-selects-cerebras-to-bring-ultra-fast-inference-to-agentic-coding",
         "https://www.cerebras.ai/blog/disaggregated-inference-from-the-ground-up",
         "https://www.cerebras.ai/blog/how-alphasense-uses-fast-inference-to-make-agentic-research-interactive",
         "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
@@ -323,8 +321,7 @@
         "https://www.cerebras.ai/blog/speedandaccuracyblog",
         "https://www.cerebras.ai/blog/stackai-cerebras-enabling-the-fastest-inference-for-enterprise-ai-agents",
         "https://www.cerebras.ai/blog/openai-partners-with-cerebras-to-bring-high-speed-inference-to-the-mainstream",
-        "https://www.cerebras.ai/blog/2026Insights",
-        "https://www.cerebras.ai/blog/cerebras-at-neurips-2025-nine-papers-from-pretraining-to-inference"
+        "https://www.cerebras.ai/blog/2026Insights"
       ]
     },
     "microsoft-silicon": {
@@ -336,15 +333,16 @@
       ]
     },
     "tenstorrent-news": {
-      "fingerprint": "40419bf8c684c61e6d4f7c385787e6b8bf031114078a7e9bface03c7b80f398e",
-      "updatedAt": "2026-10-08T07:29:32.465Z",
+      "fingerprint": "ceaee7105dcc5a82798b9ea6d74e587a2b478858daf92645753fdb17bb093147",
+      "updatedAt": "2026-10-20T06:06:14.013Z",
       "seenUrls": [
         "https://tenstorrent.com/newsroom",
+        "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
         "https://tenstorrent.com/newsroom/aiand-and-tenstorrent-launch-japanfold",
         "https://tenstorrent.com/newsroom/tenstorrent-and-smallestai-partner-to-bring-production-grade-voice-ai-on-prem",
         "https://tenstorrent.com/newsroom/stealthium-and-tenstorrent-partner-to-deliver-runtime-observability-for-ai-infrastructure",
-        "https://tenstorrent.com/newsroom/jim-keller-ai-still-obeys-the-old-laws-of-compute",
-        "https://tenstorrent.com/newsroom/tt-deploy"
+        "https://tenstorrent.com/newsroom/tenstorrent-sets-new-performance-records-launches-tt--ascalon-s",
+        "https://tenstorrent.com/newsroom/jim-keller-ai-still-obeys-the-old-laws-of-compute"
       ]
     },
     "dmatrix-news": {

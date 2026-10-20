@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T05:39:42.805Z",
+  "generatedAt": "2026-10-20T06:06:14.013Z",
   "items": [
+    {
+      "id": "ae2a1d7be061",
+      "sourceId": "tenstorrent-news",
+      "publisher": "Tenstorrent",
+      "title": "Tenstorrent Sets New Performance Records, Launches TT- Ascalon S, and Expands Across Japan At TT-Deploy JP, Tenstorrent set new records on language and video models, launched TT-Ascalon S RISC-V CPU IP for agentic AI, and joins ai&’s sovere",
+      "url": "https://tenstorrent.com/newsroom/tenstorrent-sets-new-performance-records-launches-tt--ascalon-s",
+      "discoveredAt": "2026-10-20T06:06:14.013Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "8520667dfd6f",
+      "sourceId": "tenstorrent-news",
+      "publisher": "Tenstorrent",
+      "title": "Announcements Newsroom Tenstorrent Announces a $1.5B Series E at a $6.2B valuation The equity raise will fund volume manufacturing and global commercial expansion as chip designers, sovereign players, and inference platforms move to own the",
+      "url": "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
+      "discoveredAt": "2026-10-20T06:06:14.013Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI",
+        "chip"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "eb9e7b037ff1",
+      "sourceId": "meta-engineering",
+      "publisher": "Meta Engineering",
+      "title": "Jul 22, 2025 How Meta keeps its AI hardware reliable",
+      "url": "https://engineering.fb.com/2025/07/22/data-infrastructure/how-meta-keeps-its-ai-hardware-reliable/",
+      "discoveredAt": "2026-10-20T06:06:14.013Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "ac3ead8662fb",
+      "sourceId": "meta-engineering",
+      "publisher": "Meta Engineering",
+      "title": "Jun 12, 2024 Maintaining large-scale AI capacity at Meta",
+      "url": "https://engineering.fb.com/2024/06/12/production-engineering/maintaining-large-scale-ai-capacity-meta/",
+      "discoveredAt": "2026-10-20T06:06:14.013Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "e099e4f26282",
+      "sourceId": "meta-engineering",
+      "publisher": "Meta Engineering",
+      "title": "Sep 29, 2025 Meta’s Infrastructure Evolution and the Advent of AI",
+      "url": "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
+      "discoveredAt": "2026-10-20T06:06:14.013Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "07ba5258ec92",
       "sourceId": "google-cloud-ai-infra",
