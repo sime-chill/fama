@@ -1,7 +1,47 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T06:06:14.013Z",
+  "generatedAt": "2026-10-21T06:06:09.589Z",
   "items": [
+    {
+      "id": "eaf299689c13",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI Infrastructure Insight",
+      "url": "https://news.skhynix.com/en/tag/ai-infrastructure-insight/",
+      "discoveredAt": "2026-10-21T06:06:09.589Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "de8c13aca60a",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "[AI Ecosystem] The semiconductor paradigm shifts toward memory Oct 21, 2026",
+      "url": "https://news.skhynix.com/en/ai-ecosystem-series-ep4/",
+      "discoveredAt": "2026-10-21T06:06:09.589Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "memory",
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "8a14a92d09a1",
+      "sourceId": "ibm-research-ai-hardware",
+      "publisher": "IBM Research",
+      "title": "llm-d 1.0 hardens open-source AI inference for day 2 production operations",
+      "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
+      "discoveredAt": "2026-10-21T06:06:09.589Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "ae2a1d7be061",
       "sourceId": "tenstorrent-news",
