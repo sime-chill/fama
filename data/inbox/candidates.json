@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T06:06:09.589Z",
+  "generatedAt": "2026-10-22T06:09:23.887Z",
   "items": [
+    {
+      "id": "cf174516b3d8",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "[AI Infrastructure Insight] How AI infrastructure will be designed for the future Oct 22, 2026",
+      "url": "https://news.skhynix.com/en/ai-infrastructure-insight-ep4/",
+      "discoveredAt": "2026-10-22T06:09:23.887Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "622e369dec5f",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud AI Infrastructure",
+      "title": "AI infrastructure Hardware-backed security at global scale: Confidential G4 with NVIDIA Blackwell is GA By Meghna Sreenivasan • 4-minute read",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga",
+      "discoveredAt": "2026-10-22T06:09:23.887Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI infrastructure"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "feebe41d9f24",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud AI Infrastructure",
+      "title": "AI infrastructure Google Cloud and NVIDIA expand co-engineering collaboration to scale infrastructure for the agentic era By Mark Lohmeyer • 7-minute read",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026",
+      "discoveredAt": "2026-10-22T06:09:23.887Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI infrastructure"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "eaf299689c13",
       "sourceId": "skhynix-newsroom",
