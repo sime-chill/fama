@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T06:09:23.887Z",
+  "generatedAt": "2026-10-23T06:04:48.735Z",
   "items": [
+    {
+      "id": "d26b5dbbd169",
+      "sourceId": "tenstorrent-news",
+      "publisher": "Tenstorrent",
+      "title": "Announcements Newsroom Architecture Tenstorrent Releases Open Source Beta of the Open Chiplet Atlas® (OCA) Harness Oct 22, 2026",
+      "url": "https://tenstorrent.com/newsroom/tenstorrent-releases-open-source-beta-of-the-oca-harness",
+      "discoveredAt": "2026-10-23T06:04:48.735Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "chip"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "0d299af9f60b",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud AI Infrastructure",
+      "title": "AI infrastructure Introducing Agent Compute Engine and expanded agent governance By The Google Cloud infrastructure team • 7-minute read",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+      "discoveredAt": "2026-10-23T06:04:48.735Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI infrastructure"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "cfdc2639bf91",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud AI Infrastructure",
+      "title": "AI infrastructure Inside Agent Compute Engine: Building the compute foundation for the agentic era By Ramanathan Venkatapathy • 18-minute read",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
+      "discoveredAt": "2026-10-23T06:04:48.735Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI infrastructure"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "cf174516b3d8",
       "sourceId": "skhynix-newsroom",

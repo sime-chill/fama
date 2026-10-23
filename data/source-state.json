@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-22T06:09:23.887Z",
+  "lastScanAt": "2026-10-23T06:04:48.735Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "e66c8f03eb43474d0fbd35e2929fb09b0f0b0cbda02cdb037c653e68f6e19b4e",
@@ -143,10 +143,12 @@
       ]
     },
     "google-cloud-ai-infra": {
-      "fingerprint": "cb2497795a94c94411642320b8e2cc68fe20f65e35c075d6f55400b1351154d5",
-      "updatedAt": "2026-10-22T06:09:23.887Z",
+      "fingerprint": "d77bcb452f810c19094d417a4ec2a6eef494af442565966f2e3abef166bae395",
+      "updatedAt": "2026-10-23T06:04:48.735Z",
       "seenUrls": [
         "https://cloud.google.com/blog/topics/training-certifications",
+        "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
+        "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
         "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026",
         "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga",
         "https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud",
@@ -334,20 +336,19 @@
       ]
     },
     "tenstorrent-news": {
-      "fingerprint": "afb2e8743292f9245b0a5a6c8668eb55ad6ee8bb48d591159198ac15a86ff4dd",
-      "updatedAt": "2026-10-22T06:09:23.887Z",
+      "fingerprint": "c4512a27b33b7d894494002f606bde2f2c663be8359c4b78026169340b407a69",
+      "updatedAt": "2026-10-23T06:04:48.735Z",
       "seenUrls": [
         "https://tenstorrent.com/newsroom",
         "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
-        "https://tenstorrent.com/newsroom/aiand-and-tenstorrent-launch-japanfold",
+        "https://tenstorrent.com/newsroom/tenstorrent-releases-open-source-beta-of-the-oca-harness",
         "https://tenstorrent.com/newsroom/tenstorrent-and-smallestai-partner-to-bring-production-grade-voice-ai-on-prem",
-        "https://tenstorrent.com/newsroom/stealthium-and-tenstorrent-partner-to-deliver-runtime-observability-for-ai-infrastructure",
-        "https://tenstorrent.com/newsroom/tenstorrent-sets-new-performance-records-launches-tt--ascalon-s"
+        "https://tenstorrent.com/newsroom/aiand-and-tenstorrent-launch-japanfold"
       ]
     },
     "dmatrix-news": {
-      "fingerprint": "de5169f48562ec1aa9318a85c034d2e0a252537acf8f03ae05c795dafbe20690",
-      "updatedAt": "2026-10-22T06:09:23.887Z",
+      "fingerprint": "0c3700416cd1e517a5516557c30ef0a26a7bdd108f7da82849f83f0d581f9966",
+      "updatedAt": "2026-10-23T06:04:48.735Z",
       "seenUrls": [
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
@@ -453,8 +454,8 @@
       ]
     },
     "skhynix-newsroom": {
-      "fingerprint": "833e2aa7f44c26c56878f4dc1859d003930e8443b827f6bfa081320a46717af1",
-      "updatedAt": "2026-10-22T06:09:23.887Z",
+      "fingerprint": "6ed09800f291c0e1d62a8eaf83ad655183e51aafd0df2634e836ecff45d83295",
+      "updatedAt": "2026-10-23T06:04:48.735Z",
       "seenUrls": [
         "https://news.skhynix.com/en/category/tech-and-ai/",
         "https://news.skhynix.com/en/ai-infrastructure-insight-ep4/",
@@ -466,7 +467,6 @@
         "https://news.skhynix.com/en/tag/ai-ecosystem",
         "https://news.skhynix.com/en/ocp-global-summit-2026/",
         "https://news.skhynix.com/en/tag/ai",
-        "https://news.skhynix.com/en/research-inside-ep2/",
         "https://news.skhynix.com/en/tag/agentic-ai/",
         "https://news.skhynix.com/en/tag/ai-data-center/",
         "https://news.skhynix.com/en/tag/ai-infrastructure/",
@@ -475,13 +475,13 @@
         "https://news.skhynix.com/en/tag/ai-ecosystem/",
         "https://news.skhynix.com/en/tag/ai/",
         "https://news.skhynix.com/en/tag/dram/",
+        "https://news.skhynix.com/en/research-inside-ep2/",
         "https://news.skhynix.com/en/ai-ecosystem-series-ep3/",
         "https://news.skhynix.com/en/ai-infrastructure-insight-ep3/",
         "https://news.skhynix.com/en/tsmc-oip-conference-2026/",
         "https://news.skhynix.com/en/tag/ai-semiconductor/",
         "https://news.skhynix.com/en/2026-global-forum/",
         "https://news.skhynix.com/en/tag/ai-memory/",
-        "https://news.skhynix.com/en/sk-hynix-ventures/",
         "https://news.skhynix.com/en/series/global-ai-company-dram",
         "https://news.skhynix.com/en/series/global-ai-company-hbm",
         "https://news.skhynix.com/en/series/global-ai-company",
