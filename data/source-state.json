@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-23T06:04:48.735Z",
+  "lastScanAt": "2026-10-26T06:22:27.297Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "e66c8f03eb43474d0fbd35e2929fb09b0f0b0cbda02cdb037c653e68f6e19b4e",
@@ -347,8 +347,8 @@
       ]
     },
     "dmatrix-news": {
-      "fingerprint": "0c3700416cd1e517a5516557c30ef0a26a7bdd108f7da82849f83f0d581f9966",
-      "updatedAt": "2026-10-23T06:04:48.735Z",
+      "fingerprint": "de5169f48562ec1aa9318a85c034d2e0a252537acf8f03ae05c795dafbe20690",
+      "updatedAt": "2026-10-26T06:22:27.297Z",
       "seenUrls": [
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
