@@ -1,7 +1,72 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T06:22:27.297Z",
+  "generatedAt": "2026-10-27T06:23:26.089Z",
   "items": [
+    {
+      "id": "91796b5e1f2b",
+      "sourceId": "ibm-research-ai-hardware",
+      "publisher": "IBM Research",
+      "title": "PyTorch opens the AI ecosystem to a new class of accelerators",
+      "url": "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates",
+      "discoveredAt": "2026-10-27T06:23:26.089Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Spyre"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "ed2ab90be65b",
+      "sourceId": "ibm-research-ai-hardware",
+      "publisher": "IBM Research",
+      "title": "Distributed Inference",
+      "url": "https://research.ibm.com/artificial-intelligence",
+      "discoveredAt": "2026-10-27T06:23:26.089Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "a1e1f6594325",
+      "sourceId": "meta-engineering",
+      "publisher": "Meta Engineering",
+      "title": "Sep 26, 2025 Networking at the Heart of AI — @Scale: Networking 2025 Recap",
+      "url": "https://engineering.fb.com/2025/09/26/networking-traffic/networking-at-the-heart-of-ai-scale-networking-2025-recap/",
+      "discoveredAt": "2026-10-27T06:23:26.089Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "1d96ae04b08e",
+      "sourceId": "meta-engineering",
+      "publisher": "Meta Engineering",
+      "title": "Oct 13, 2025 OCP Summit 2025: The Open Future of Networking Hardware for AI",
+      "url": "https://engineering.fb.com/2025/10/13/data-infrastructure/ocp-summit-2025-the-open-future-of-networking-hardware-for-ai/",
+      "discoveredAt": "2026-10-27T06:23:26.089Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "ff1684dfffde",
+      "sourceId": "meta-engineering",
+      "publisher": "Meta Engineering",
+      "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+      "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+      "discoveredAt": "2026-10-27T06:23:26.089Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "d26b5dbbd169",
       "sourceId": "tenstorrent-news",

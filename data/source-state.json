@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-26T06:22:27.297Z",
+  "lastScanAt": "2026-10-27T06:23:26.089Z",
   "sources": {
     "meta-engineering": {
-      "fingerprint": "e66c8f03eb43474d0fbd35e2929fb09b0f0b0cbda02cdb037c653e68f6e19b4e",
-      "updatedAt": "2026-10-20T06:06:14.013Z",
+      "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
+      "updatedAt": "2026-10-27T06:23:26.089Z",
       "seenUrls": [
         "https://engineering.fb.com/category/ai-research/",
         "https://ai.facebook.com/results/?content_types%5B0%5D=publication",
+        "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
         "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
         "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
         "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
@@ -15,10 +16,9 @@
         "https://engineering.fb.com/2026/02/09/data-center-engineering/building-prometheus-how-backend-aggregation-enables-gigawatt-scale-ai-clusters/",
         "https://engineering.fb.com/2025/11/21/data-infrastructure/zoomer-powering-ai-performance-meta-intelligent-debugging-optimization/",
         "https://engineering.fb.com/2025/10/20/data-center-engineering/disaggregated-scheduled-fabric-scaling-metas-ai-journey/",
-        "https://engineering.fb.com/2025/10/16/data-center-engineering/10x-backbone-how-meta-is-scaling-backbone-connectivity-for-ai/",
+        "https://engineering.fb.com/2025/10/13/data-infrastructure/ocp-summit-2025-the-open-future-of-networking-hardware-for-ai/",
         "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
-        "https://engineering.fb.com/2024/06/12/production-engineering/maintaining-large-scale-ai-capacity-meta/",
-        "https://engineering.fb.com/2025/07/22/data-infrastructure/how-meta-keeps-its-ai-hardware-reliable/",
+        "https://engineering.fb.com/2025/09/26/networking-traffic/networking-at-the-heart-of-ai-scale-networking-2025-recap/",
         "https://ai.meta.com/blog/"
       ]
     },
@@ -347,8 +347,8 @@
       ]
     },
     "dmatrix-news": {
-      "fingerprint": "de5169f48562ec1aa9318a85c034d2e0a252537acf8f03ae05c795dafbe20690",
-      "updatedAt": "2026-10-26T06:22:27.297Z",
+      "fingerprint": "0c3700416cd1e517a5516557c30ef0a26a7bdd108f7da82849f83f0d581f9966",
+      "updatedAt": "2026-10-27T06:23:26.089Z",
       "seenUrls": [
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
@@ -368,12 +368,14 @@
       "seenUrls": []
     },
     "ibm-research-ai-hardware": {
-      "fingerprint": "406b8308fcfa6f91d3ae5d9f67cf037e0983f13f0ae4eff33195bf9e77282a25",
-      "updatedAt": "2026-10-21T06:06:09.589Z",
+      "fingerprint": "4c32b2a6b7dc9054dc1ebd4231e87b313f6daba2ebcb113287d7ac8fd031ad4f",
+      "updatedAt": "2026-10-27T06:23:26.089Z",
       "seenUrls": [
         "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
-        "https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design",
+        "https://research.ibm.com/artificial-intelligence",
+        "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates",
         "https://research.ibm.com/blog/preparing-chip-designers-for-the-nanostack-era",
+        "https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design",
         "https://research.ibm.com/blog/distributed-inference"
       ]
     },
