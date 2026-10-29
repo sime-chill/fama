@@ -1,7 +1,59 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T06:53:51.648Z",
+  "generatedAt": "2026-10-29T07:12:16.454Z",
   "items": [
+    {
+      "id": "d7d9e6c44c3d",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "[Tech Note] Semiconductor Insights for the AI Era",
+      "url": "https://news.skhynix.com/en/series/tech-note-series",
+      "discoveredAt": "2026-10-29T07:12:16.454Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "d8143edeba31",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "[Tech Note] Why does AI still have to wait with tens of thousands of GPUs? How silicon photonics and CPO are building the ‘highways of light’ Oct 29, 2026",
+      "url": "https://news.skhynix.com/en/tech-note-series-ep3/",
+      "discoveredAt": "2026-10-29T07:12:16.454Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "9bf07d8bafb0",
+      "sourceId": "furiosa-news",
+      "publisher": "FuriosaAI",
+      "title": "FuriosaAI closes $620 million Series D to scale efficient, production-ready AI inference",
+      "url": "https://furiosa.ai/blog/furiosaai-620-million-series-d",
+      "discoveredAt": "2026-10-29T07:12:16.454Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "bec94db743f6",
+      "sourceId": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "title": "Corsair",
+      "url": "https://www.d-matrix.ai/product/",
+      "discoveredAt": "2026-10-29T07:12:16.454Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Corsair"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "dff5a1390bc0",
       "sourceId": "skhynix-newsroom",

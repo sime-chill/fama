@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-28T06:53:51.648Z",
+  "lastScanAt": "2026-10-29T07:12:16.454Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -83,8 +83,8 @@
       ]
     },
     "huawei-ascend": {
-      "fingerprint": "0042597b52a9862dc55a500aafcf04377ea64f894e46a06a63500c5285aa8bb3",
-      "updatedAt": "2026-10-08T07:29:32.465Z",
+      "fingerprint": "00bf18999c1ef02e89ce03059a431ad1791fb8a94a85a9a0db4a89bb917dcccd",
+      "updatedAt": "2026-10-29T07:12:16.454Z",
       "seenUrls": [
         "https://www.hiascend.com/en",
         "https://www.hiascend.com/en/hardware/cluster?tag=950",
@@ -124,7 +124,6 @@
         "https://www.hiascend.com/en/edu/growth",
         "https://www.hiascend.com/en/edu/courses",
         "https://www.hiascend.com/en/legal/cookies",
-        "https://www.hiascend.com/ecosystem/industry",
         "https://www.hiascend.com/activities/news",
         "https://www.hiascend.com/activities",
         "https://www.hiascend.com/forum/",
@@ -195,12 +194,13 @@
       ]
     },
     "furiosa-news": {
-      "fingerprint": "d33572356359bb9181363fabeb3fc9541295b98ed88eddecb8f5c8beb8c39a98",
-      "updatedAt": "2026-10-17T05:39:42.805Z",
+      "fingerprint": "09075a367a89d2459f648999662628e79c97c528503094fce665b590408a7b70",
+      "updatedAt": "2026-10-29T07:12:16.454Z",
       "seenUrls": [
         "https://furiosa.ai/nxt-rngd-server",
         "https://furiosa.ai/rngd",
         "https://furiosa.ai/architecture",
+        "https://furiosa.ai/blog/furiosaai-620-million-series-d",
         "https://furiosa.ai/blog/furiosaai-establishes-singapore-hub-apac-expansion",
         "https://furiosa.ai/blog/white-paper-benchmarking-rngd-on-backend-ai",
         "https://furiosa.ai/blog/furiosa-rngd-powers-ai-generated-overviews-for-millions-of-users-on-daum",
@@ -278,8 +278,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "36d515a9957ad1709c3175170ad53b0bf2a25e609aba11320399faaabc6cc2e6",
-      "updatedAt": "2026-10-15T05:56:30.622Z",
+      "fingerprint": "20a34082113a41a53878308badb3af323da929e743ec2a5c4558b482b65a0730",
+      "updatedAt": "2026-10-29T07:12:16.454Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -348,9 +348,10 @@
       ]
     },
     "dmatrix-news": {
-      "fingerprint": "de5169f48562ec1aa9318a85c034d2e0a252537acf8f03ae05c795dafbe20690",
-      "updatedAt": "2026-10-28T06:53:51.648Z",
+      "fingerprint": "a302d0ca92a3897fc8ba0e818b9b791bd7e7a9824967c010c2bb4010da4aef19",
+      "updatedAt": "2026-10-29T07:12:16.454Z",
       "seenUrls": [
+        "https://www.d-matrix.ai/product/",
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
         "https://www.d-matrix.ai/solutions/inference-optimization/",
@@ -396,16 +397,15 @@
       ]
     },
     "dmatrix-newsroom": {
-      "fingerprint": "628989e2b476a19226ef7413c766bbcf1ed8010705aa60617a0e5a17d1d17646",
-      "updatedAt": "2026-10-13T07:47:47.559Z",
+      "fingerprint": "7ed96b66aa2d3988ef3b36e46b78c09d69e91d32aa665e65980f0d91961aab08",
+      "updatedAt": "2026-10-29T07:12:16.454Z",
       "seenUrls": [
+        "https://www.d-matrix.ai/product/",
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
         "https://www.d-matrix.ai/solutions/inference-optimization/",
         "https://www.d-matrix.ai/announcements/squadron-compute-clusters/",
         "https://www.d-matrix.ai/announcements/d-matrix-rackscale-nvidia/",
-        "https://www.bloomberg.com/news/videos/2026-09-10/d-matrix-joins-nvidia-s-ai-inference-push-video",
-        "https://www.nextplatform.com/compute/2026/09/10/startup-d-matrix-will-pair-its-raptor-memory-based-xpu-to-nvidia-rackscale-iron/5295601",
         "https://www.d-matrix.ai/accelerating-ai-inference-with-attention-ffn-disaggregation/",
         "https://www.d-matrix.ai/frontier-class-ultra-low-latency-rack-scale-inference-with-raptor-xpus-and-nvlink-fusion/",
         "https://www.d-matrix.ai/introducing-d-matrix-demo-cloud-ultra-low-latency-inference-ready-to-test-in-minutes/"
@@ -457,30 +457,30 @@
       ]
     },
     "skhynix-newsroom": {
-      "fingerprint": "8dcf8074a71364ddb13398c4a9cc474d73649804d4baa851bcad63a69aec2df1",
-      "updatedAt": "2026-10-28T06:53:51.648Z",
+      "fingerprint": "84416bf608b8abe479cdcfe3477f81cb5132b7d926d34679d7b269dfb884fd67",
+      "updatedAt": "2026-10-29T07:12:16.454Z",
       "seenUrls": [
         "https://news.skhynix.com/en/category/tech-and-ai/",
-        "https://news.skhynix.com/en/ai-infrastructure-insight-ep4/",
         "https://news.skhynix.com/en/category/tech-and-ai",
+        "https://news.skhynix.com/en/tech-note-series-ep3/",
+        "https://news.skhynix.com/en/ai-infrastructure-insight-ep4/",
         "https://news.skhynix.com/en/tag/ai-data-center",
         "https://news.skhynix.com/en/tag/ai-infrastructure",
         "https://news.skhynix.com/en/tag/hbm",
-        "https://news.skhynix.com/en/ai-ecosystem-series-ep4/",
-        "https://news.skhynix.com/en/tag/ai-ecosystem",
+        "https://news.skhynix.com/en/tag/ai/",
+        "https://news.skhynix.com/en/tag/hbm/",
         "https://news.skhynix.com/en/q3-2026-earnings-conference-call/",
         "https://news.skhynix.com/en/tag/agentic-ai/",
         "https://news.skhynix.com/en/tag/ai-data-center/",
         "https://news.skhynix.com/en/tag/ai-infrastructure/",
         "https://news.skhynix.com/en/tag/ai-infrastructure-insight/",
-        "https://news.skhynix.com/en/tag/hbm/",
+        "https://news.skhynix.com/en/ai-ecosystem-series-ep4/",
         "https://news.skhynix.com/en/tag/ai-ecosystem/",
         "https://news.skhynix.com/en/ocp-global-summit-2026/",
-        "https://news.skhynix.com/en/tag/ai/",
         "https://news.skhynix.com/en/tag/dram/",
         "https://news.skhynix.com/en/research-inside-ep2/",
         "https://news.skhynix.com/en/ai-ecosystem-series-ep3/",
-        "https://news.skhynix.com/en/ai-infrastructure-insight-ep3/",
+        "https://news.skhynix.com/en/series/tech-note-series",
         "https://news.skhynix.com/en/series/global-ai-company-dram",
         "https://news.skhynix.com/en/series/global-ai-company-hbm",
         "https://news.skhynix.com/en/series/global-ai-company",
