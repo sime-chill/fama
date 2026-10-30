@@ -1,7 +1,488 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T07:12:16.454Z",
+  "generatedAt": "2026-10-30T07:15:07.485Z",
   "items": [
+    {
+      "id": "3acbe6f21c9e",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "Sustainability",
+      "url": "https://news.skhynix.com/en/tag/sustainability/",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "d006fcbb4523",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "Sustainability",
+      "url": "https://news.skhynix.com/en/tag/sustainability",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "12c8a6682dd9",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "User Agreement",
+      "url": "https://www.hiascend.com/legal/user",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "c9e0f5354f3f",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Privacy Policy",
+      "url": "https://www.hiascend.com/legal/privacy",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "17f1f8005b25",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Terms of Use",
+      "url": "https://www.hiascend.com/legal/law",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "1cd443c4d5d6",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "View Details",
+      "url": "https://www.hiascend.com/en-sg/legal/cookies",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "8ae91b28e191",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Developer Certifications",
+      "url": "https://www.hiascend.com/edu/developer-certification",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "1d592b1222ed",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Online Courses",
+      "url": "https://www.hiascend.com/edu/courses",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "3fae14b52cee",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Documentation",
+      "url": "https://www.hiascend.com/document",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "e27e4262bbc2",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Model Query Assistant",
+      "url": "https://www.hiascend.com/developer/models",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "f4da6309b47e",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Image Repository",
+      "url": "https://www.hiascend.com/developer/ascendhub",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "69f5f19d63df",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Resource Download Center",
+      "url": "https://www.hiascend.com/developer/download",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "570674449937",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "MindStudio",
+      "url": "https://www.hiascend.com/developer/software/mindstudio",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "d87c405a34ea",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "MindSDK",
+      "url": "https://www.hiascend.com/developer/software/mindsdk",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "eb244c55f2e5",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "MindEdge",
+      "url": "https://www.hiascend.com/developer/software/mindedge",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "f130182ac5ae",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "MindCluster",
+      "url": "https://www.hiascend.com/developer/software/mindcluster",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "599728b0ea07",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "MindIE",
+      "url": "https://www.hiascend.com/developer/software/mindie",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "709fc47c6e66",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "MindSpeed",
+      "url": "https://www.hiascend.com/developer/software/mindspeed",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "56b37d9da5b0",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Application Enablement",
+      "url": "https://www.hiascend.com/software/mindx",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "4f963fae5c35",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "TensorFlow Adaptation",
+      "url": "https://www.hiascend.com/developer/software/ai-frameworks/tensorflow",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "3bcf09d50ae6",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Ascend for PyTorch",
+      "url": "https://www.hiascend.com/developer/software/ai-frameworks/pytorch",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "9a24a6bfe067",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Operator Development",
+      "url": "https://www.hiascend.com/developer/operator",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "6c16a61ffac3",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Model Inference",
+      "url": "https://www.hiascend.com/developer/inference",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "f1e3d76b8273",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Model Training",
+      "url": "https://www.hiascend.com/developer/training",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "d93f2f3d16f5",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Atlas Foundation Model Solution",
+      "url": "https://www.hiascend.com/solutions/Foundation-Model",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "519da690db3c",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Healthcare",
+      "url": "https://www.hiascend.com/industries/healthcare",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "1a5005b89429",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Manufacturing",
+      "url": "https://www.hiascend.com/industries/manufacturing",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "bc1ddbe50696",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Transportation",
+      "url": "https://www.hiascend.com/industries/transportation",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "5d75c1e3e13c",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Energy",
+      "url": "https://www.hiascend.com/industries/electricity",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "80a2868c4dd6",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Education",
+      "url": "https://www.hiascend.com/industries/education",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "480b6e27d92b",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Urban Data Center",
+      "url": "https://www.hiascend.com/industries/solutions/smart-city",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "e8d25d5dc483",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Telecom",
+      "url": "https://www.hiascend.com/industries/telecom",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "c2508b4bbfb8",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "CCAE",
+      "url": "https://www.hiascend.com/software/ccae",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "28439ef059ec",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Atlas 650E",
+      "url": "https://www.hiascend.com/hardware/ai-server?tag=650e",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "7783e1c6e15c",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Atlas 850E SuperPoD Server",
+      "url": "https://www.hiascend.com/hardware/cluster?tag=850e",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "216005bf8e61",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Atlas 950 SuperPoD",
+      "url": "https://www.hiascend.com/hardware/cluster?tag=950",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "2fc56a21958c",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "Home",
+      "url": "https://www.hiascend.com/",
+      "discoveredAt": "2026-10-30T07:15:07.485Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "d7d9e6c44c3d",
       "sourceId": "skhynix-newsroom",
