@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-30T07:15:07.485Z",
+  "lastScanAt": "2026-10-31T07:03:47.953Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -131,16 +131,16 @@
       ]
     },
     "google-cloud-ai-infra": {
-      "fingerprint": "d77bcb452f810c19094d417a4ec2a6eef494af442565966f2e3abef166bae395",
-      "updatedAt": "2026-10-23T06:04:48.735Z",
+      "fingerprint": "3968b43cf00a9b84d736ed5ca334ccb9308ebd3c860f734292dd1b4659250a66",
+      "updatedAt": "2026-10-31T07:03:47.953Z",
       "seenUrls": [
         "https://cloud.google.com/blog/topics/training-certifications",
+        "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
         "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
         "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
         "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026",
         "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga",
-        "https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud",
-        "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month"
+        "https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud"
       ]
     },
     "groq-blog": {
@@ -522,8 +522,8 @@
       ]
     },
     "nvidia-blog": {
-      "fingerprint": "776e12194c7732b806f215b7171b21499ca3eea411d004c9cd530da8014ac322",
-      "updatedAt": "2026-10-13T07:47:47.559Z",
+      "fingerprint": "2b43066f9d1cdfbbdf3e395e3514e963ae78949c05065bde259185282ed9320f",
+      "updatedAt": "2026-10-31T07:03:47.953Z",
       "seenUrls": [
         "https://blogs.nvidia.com/search/?q=NVIDIA%20Vera%20Rubin&",
         "https://blogs.nvidia.com/search/?q=Inference%20performance&",
@@ -531,8 +531,7 @@
         "https://blogs.nvidia.com/blog/tag/inference/",
         "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
         "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-        "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
-        "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/"
+        "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/"
       ]
     },
     "taalas-log": {
