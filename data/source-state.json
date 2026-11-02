@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-10-31T07:03:47.953Z",
+  "lastScanAt": "2026-11-02T07:44:51.862Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -359,15 +359,14 @@
       "seenUrls": []
     },
     "ibm-research-ai-hardware": {
-      "fingerprint": "4c32b2a6b7dc9054dc1ebd4231e87b313f6daba2ebcb113287d7ac8fd031ad4f",
-      "updatedAt": "2026-10-27T06:23:26.089Z",
+      "fingerprint": "4a7f514439cf3e12b800f50ef0299166526facc5419eb1b05c627dc361979632",
+      "updatedAt": "2026-11-02T07:44:51.862Z",
       "seenUrls": [
         "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
         "https://research.ibm.com/artificial-intelligence",
         "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates",
         "https://research.ibm.com/blog/preparing-chip-designers-for-the-nanostack-era",
-        "https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design",
-        "https://research.ibm.com/blog/distributed-inference"
+        "https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design"
       ]
     },
     "marvell-custom-asic": {
@@ -431,8 +430,8 @@
       ]
     },
     "samsung-hbm4": {
-      "fingerprint": "21864ec0aaae9f28cc904bc061b0a9d38ebee1c9b1c6325ab164e648975e2da4",
-      "updatedAt": "2026-10-06T07:37:45.936Z",
+      "fingerprint": "77817d99270c03c02b72f59a3503b087642dd4353aa34dcdedb31c991f2211e7",
+      "updatedAt": "2026-11-02T07:44:51.862Z",
       "seenUrls": [
         "https://semiconductor.samsung.com/dram/hbm/hbm4/",
         "https://semiconductor.samsung.com/dram/",
@@ -508,8 +507,8 @@
       ]
     },
     "samsung-tech-blog": {
-      "fingerprint": "e41f8daebc99e96ca01cbe3ba327a3d9a750e7d138a1874be0fb65b620ce6352",
-      "updatedAt": "2026-10-06T07:37:45.936Z",
+      "fingerprint": "3dac17517c00017683d28d2a851a9f610da4885cb614ec4209d1890a2234c823",
+      "updatedAt": "2026-11-02T07:44:51.862Z",
       "seenUrls": [
         "https://semiconductor.samsung.com/dram/",
         "https://semiconductor.samsung.com/dram/ddr/",
