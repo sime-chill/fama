@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-02T07:44:51.862Z",
+  "lastScanAt": "2026-11-03T07:58:38.406Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -267,8 +267,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "20a34082113a41a53878308badb3af323da929e743ec2a5c4558b482b65a0730",
-      "updatedAt": "2026-10-29T07:12:16.454Z",
+      "fingerprint": "36d515a9957ad1709c3175170ad53b0bf2a25e609aba11320399faaabc6cc2e6",
+      "updatedAt": "2026-11-03T07:58:38.406Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -297,10 +297,9 @@
       ]
     },
     "cerebras-blog": {
-      "fingerprint": "f050def56a841ffd321c734b7a4a59c28e92298c3aa2a6156294361a0ed834fe",
-      "updatedAt": "2026-10-28T06:53:51.648Z",
+      "fingerprint": "5cd3dc52c36731db5a29d6bc17e5f52c8c3e1a94dec8432ec9988b66900cdff1",
+      "updatedAt": "2026-11-03T07:58:38.406Z",
       "seenUrls": [
-        "https://www.cerebras.ai/press-release/cerebras-and-oracle-team-up-to-bring-cerebras-ai-inference-to-oracle-cloud-inf-3389429",
         "https://www.cerebras.ai/blog/disaggregated-inference-from-the-ground-up",
         "https://www.cerebras.ai/blog/how-alphasense-uses-fast-inference-to-make-agentic-research-interactive",
         "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
