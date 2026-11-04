@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T07:58:38.406Z",
+  "generatedAt": "2026-11-04T07:33:14.537Z",
   "items": [
+    {
+      "id": "7351a647da52",
+      "sourceId": "amd-newsroom",
+      "publisher": "AMD Newsroom",
+      "title": "AMD Reports Third Quarter 2026 Financial Results",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "discoveredAt": "2026-11-04T07:33:14.537Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "3acbe6f21c9e",
       "sourceId": "skhynix-newsroom",

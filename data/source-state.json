@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-03T07:58:38.406Z",
+  "lastScanAt": "2026-11-04T07:33:14.537Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -267,8 +267,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "36d515a9957ad1709c3175170ad53b0bf2a25e609aba11320399faaabc6cc2e6",
-      "updatedAt": "2026-11-03T07:58:38.406Z",
+      "fingerprint": "0dda0169e94bcdb376a0ffe23356dec5156fc419ae4d40ee27657df4a436d154",
+      "updatedAt": "2026-11-04T07:33:14.537Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -279,6 +279,7 @@
         "https://newsroom.intel.com/content/www/us/en/foundry/accelerator.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/scaling-sandboxed-agentic-ai-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/boosting-agentic-ai-throughput-with-intel-xeon-cpus.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-and-sambanova-advance-agentic-ai-with-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-xeon-6-used-as-host-cpus-in-nvidia-dgx-rubin-nvl8-systems.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/client-computing/intel-launches-new-intel-xeon-600-processors-for-workstation.html",
@@ -289,7 +290,6 @@
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/postcard-from-intel-tech-tour-arizona-intel-data-center-group-leader-kevork-kechichian-shows-off-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-and-aws-drive-cloud-innovation-powered-by-xeon-6-processors.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/intel-xeon-6-slashes-power-consumption-for-nokia-core-network-customers.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-seeing-intel-xeon-6-soc-action.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-intel-xeon-6-soc-barcelona.html",
@@ -485,11 +485,12 @@
       ]
     },
     "amd-newsroom": {
-      "fingerprint": "2e3eab4bc571ea265a9681ec3aec0e69515424777247bdb2f1c3abc3b6237f8b",
-      "updatedAt": "2026-10-28T06:53:51.648Z",
+      "fingerprint": "311c7468ff3e8e0bf70109c426cf9892d514f5856188df6d84dfbcfda6b9e4fe",
+      "updatedAt": "2026-11-04T07:33:14.537Z",
       "seenUrls": [
         "https://ir.amd.com/news-events/press-releases",
         "https://ir.amd.com/contacts-faq/email-alerts",
+        "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
         "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
         "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
         "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
@@ -499,7 +500,6 @@
         "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
         "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
         "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
-        "https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference-solution",
         "https://x.com/AIatAMD",
         "https://www.amd.com/content/dam/amd/en/documents/corporate/cr/supply-chain-transparency.pdf",
         "https://www.amd.com/en/corporate/competition"
