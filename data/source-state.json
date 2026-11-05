@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-04T07:33:14.537Z",
+  "lastScanAt": "2026-11-05T07:56:48.264Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -267,8 +267,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "0dda0169e94bcdb376a0ffe23356dec5156fc419ae4d40ee27657df4a436d154",
-      "updatedAt": "2026-11-04T07:33:14.537Z",
+      "fingerprint": "380d3c7d60273b7e084690ffef1713c1082c06b4111f0be884fe2e223e4f7c6d",
+      "updatedAt": "2026-11-05T07:56:48.264Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -277,6 +277,7 @@
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/flex-series.html",
         "https://newsroom.intel.com/content/www/us/en/foundry/accelerator.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-edge-ai-turns-football-crowd-data-into-revenue.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/scaling-sandboxed-agentic-ai-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/boosting-agentic-ai-throughput-with-intel-xeon-cpus.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",

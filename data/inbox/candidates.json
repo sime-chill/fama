@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T07:33:14.537Z",
+  "generatedAt": "2026-11-05T07:56:48.264Z",
   "items": [
+    {
+      "id": "a7f56301ab40",
+      "sourceId": "intel-ai",
+      "publisher": "Intel AI Newsroom",
+      "title": "Artificial Intelligence (AI) Alabama Football Uses Xeon to Boost Revenue October 20, 2026",
+      "url": "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-edge-ai-turns-football-crowd-data-into-revenue.html",
+      "discoveredAt": "2026-11-05T07:56:48.264Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Xe"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "7351a647da52",
       "sourceId": "amd-newsroom",
