@@ -1,7 +1,47 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T07:56:48.264Z",
+  "generatedAt": "2026-11-06T07:58:54.794Z",
   "items": [
+    {
+      "id": "7f1379608e49",
+      "sourceId": "microsoft-silicon",
+      "publisher": "Microsoft Azure Hardware",
+      "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
+      "url": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
+      "discoveredAt": "2026-11-06T07:58:54.794Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Cobalt",
+        "silicon"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "abce147212c4",
+      "sourceId": "nvidia-blog",
+      "publisher": "NVIDIA Blog",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "discoveredAt": "2026-11-06T07:58:54.794Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "memory"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "1cfc1a7858d8",
+      "sourceId": "cerebras-blog",
+      "publisher": "Cerebras",
+      "title": "From our CEO: What It Took to Build Wafer Scale, and Why It Lasts — read more &gt;",
+      "url": "https://www.cerebras.ai/blog/what-it-took-to-build-wafer-scale-and-why-it-lasts",
+      "discoveredAt": "2026-11-06T07:58:54.794Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Wafer Scale"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "a7f56301ab40",
       "sourceId": "intel-ai",

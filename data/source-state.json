@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-05T07:56:48.264Z",
+  "lastScanAt": "2026-11-06T07:58:54.794Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -298,9 +298,10 @@
       ]
     },
     "cerebras-blog": {
-      "fingerprint": "5cd3dc52c36731db5a29d6bc17e5f52c8c3e1a94dec8432ec9988b66900cdff1",
-      "updatedAt": "2026-11-03T07:58:38.406Z",
+      "fingerprint": "ae44227da5125b81a72b4d5d0878ce5c1e33bbadffc7c17654c3f7d20177bb2a",
+      "updatedAt": "2026-11-06T07:58:54.794Z",
       "seenUrls": [
+        "https://www.cerebras.ai/blog/what-it-took-to-build-wafer-scale-and-why-it-lasts",
         "https://www.cerebras.ai/blog/disaggregated-inference-from-the-ground-up",
         "https://www.cerebras.ai/blog/how-alphasense-uses-fast-inference-to-make-agentic-research-interactive",
         "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
@@ -318,10 +319,11 @@
       ]
     },
     "microsoft-silicon": {
-      "fingerprint": "625b74da7cc0983d69b6af659040483f2be4a2030a047faa25736372399ca034",
-      "updatedAt": "2026-10-13T07:47:47.559Z",
+      "fingerprint": "70bf25b6dd0ac7aa975b349288da0cbc856ba365f35aa0495c6197fbc66225fa",
+      "updatedAt": "2026-11-06T07:58:54.794Z",
       "seenUrls": [
         "https://azure.microsoft.com/en-us/solutions/high-performance-computing/ai-infrastructure/",
+        "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
         "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/"
       ]
     },
@@ -359,14 +361,12 @@
       "seenUrls": []
     },
     "ibm-research-ai-hardware": {
-      "fingerprint": "4a7f514439cf3e12b800f50ef0299166526facc5419eb1b05c627dc361979632",
-      "updatedAt": "2026-11-02T07:44:51.862Z",
+      "fingerprint": "0710931c852563d31bbd40aa4c508164be504037afcddf5c8881775f8458d388",
+      "updatedAt": "2026-11-06T07:58:54.794Z",
       "seenUrls": [
-        "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
-        "https://research.ibm.com/artificial-intelligence",
         "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates",
-        "https://research.ibm.com/blog/preparing-chip-designers-for-the-nanostack-era",
-        "https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design"
+        "https://research.ibm.com/artificial-intelligence",
+        "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving"
       ]
     },
     "marvell-custom-asic": {
@@ -521,11 +521,12 @@
       ]
     },
     "nvidia-blog": {
-      "fingerprint": "2b43066f9d1cdfbbdf3e395e3514e963ae78949c05065bde259185282ed9320f",
-      "updatedAt": "2026-10-31T07:03:47.953Z",
+      "fingerprint": "d69771e8c0861993d67d18e35688b0b2bb884cfae5a321f19496f62e179d5a45",
+      "updatedAt": "2026-11-06T07:58:54.794Z",
       "seenUrls": [
         "https://blogs.nvidia.com/search/?q=NVIDIA%20Vera%20Rubin&",
         "https://blogs.nvidia.com/search/?q=Inference%20performance&",
+        "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
         "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
         "https://blogs.nvidia.com/blog/tag/inference/",
         "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
