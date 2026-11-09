@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-06T07:58:54.794Z",
+  "lastScanAt": "2026-11-09T08:05:27.021Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -298,8 +298,8 @@
       ]
     },
     "cerebras-blog": {
-      "fingerprint": "ae44227da5125b81a72b4d5d0878ce5c1e33bbadffc7c17654c3f7d20177bb2a",
-      "updatedAt": "2026-11-06T07:58:54.794Z",
+      "fingerprint": "e634cbfc244fa4a72b397ed8f06eeff84b82ae13f999c4b34d31eec860cc45fa",
+      "updatedAt": "2026-11-09T08:05:27.021Z",
       "seenUrls": [
         "https://www.cerebras.ai/blog/what-it-took-to-build-wafer-scale-and-why-it-lasts",
         "https://www.cerebras.ai/blog/disaggregated-inference-from-the-ground-up",
@@ -314,8 +314,7 @@
         "https://www.cerebras.ai/blog/disaggregated-inference",
         "https://www.cerebras.ai/blog/speedandaccuracyblog",
         "https://www.cerebras.ai/blog/stackai-cerebras-enabling-the-fastest-inference-for-enterprise-ai-agents",
-        "https://www.cerebras.ai/blog/openai-partners-with-cerebras-to-bring-high-speed-inference-to-the-mainstream",
-        "https://www.cerebras.ai/blog/2026Insights"
+        "https://www.cerebras.ai/blog/openai-partners-with-cerebras-to-bring-high-speed-inference-to-the-mainstream"
       ]
     },
     "microsoft-silicon": {
