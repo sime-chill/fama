@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T08:05:27.021Z",
+  "generatedAt": "2026-11-10T08:28:29.434Z",
   "items": [
+    {
+      "id": "cb3d8e2e959c",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud AI Infrastructure",
+      "title": "AI infrastructure Our newest TPUs: 8tx and 8i Max, built for the agentic era By Amin Vahdat • 8-minute read",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max",
+      "discoveredAt": "2026-11-10T08:28:29.434Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "TPU",
+        "AI infrastructure"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "4cc997d5eb68",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud AI Infrastructure",
+      "title": "AI infrastructure Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU By Fenghui Zhang • 10-minute read",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu",
+      "discoveredAt": "2026-11-10T08:28:29.434Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "TPU",
+        "AI infrastructure",
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "e525a03e3516",
+      "sourceId": "amd-newsroom",
+      "publisher": "AMD Newsroom",
+      "title": "AMD EPYC Expands Its Leadership at the Foundation of AI",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
+      "discoveredAt": "2026-11-10T08:28:29.434Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "7f1379608e49",
       "sourceId": "microsoft-silicon",

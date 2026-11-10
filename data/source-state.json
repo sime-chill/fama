@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-09T08:05:27.021Z",
+  "lastScanAt": "2026-11-10T08:28:29.434Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -131,10 +131,12 @@
       ]
     },
     "google-cloud-ai-infra": {
-      "fingerprint": "3968b43cf00a9b84d736ed5ca334ccb9308ebd3c860f734292dd1b4659250a66",
-      "updatedAt": "2026-10-31T07:03:47.953Z",
+      "fingerprint": "292294087a391f6e3678c4a81374a0402fe411182d6d1efa91a88b5b92acfe8f",
+      "updatedAt": "2026-11-10T08:28:29.434Z",
       "seenUrls": [
         "https://cloud.google.com/blog/topics/training-certifications",
+        "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu",
+        "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max",
         "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
         "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
         "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
@@ -360,12 +362,11 @@
       "seenUrls": []
     },
     "ibm-research-ai-hardware": {
-      "fingerprint": "0710931c852563d31bbd40aa4c508164be504037afcddf5c8881775f8458d388",
-      "updatedAt": "2026-11-06T07:58:54.794Z",
+      "fingerprint": "c598bcbcd2f507c770c2e1052a32c979dc48bb7a8bae970925c62b93a1cf2487",
+      "updatedAt": "2026-11-10T08:28:29.434Z",
       "seenUrls": [
         "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates",
-        "https://research.ibm.com/artificial-intelligence",
-        "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving"
+        "https://research.ibm.com/artificial-intelligence"
       ]
     },
     "marvell-custom-asic": {
@@ -485,11 +486,12 @@
       ]
     },
     "amd-newsroom": {
-      "fingerprint": "311c7468ff3e8e0bf70109c426cf9892d514f5856188df6d84dfbcfda6b9e4fe",
-      "updatedAt": "2026-11-04T07:33:14.537Z",
+      "fingerprint": "14affd5ad37b9c40fcaecbbfb660abd3d772c9bf96d3913545803a5072045d3a",
+      "updatedAt": "2026-11-10T08:28:29.434Z",
       "seenUrls": [
         "https://ir.amd.com/news-events/press-releases",
         "https://ir.amd.com/contacts-faq/email-alerts",
+        "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
         "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
         "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
         "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
@@ -499,7 +501,6 @@
         "https://ir.amd.com/news-events/press-releases/detail/1297/amd-appoints-tim-ryan-to-board-of-directors",
         "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
         "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
-        "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
         "https://x.com/AIatAMD",
         "https://www.amd.com/content/dam/amd/en/documents/corporate/cr/supply-chain-transparency.pdf",
         "https://www.amd.com/en/corporate/competition"
