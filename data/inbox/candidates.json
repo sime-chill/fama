@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T08:28:29.434Z",
+  "generatedAt": "2026-11-11T07:47:48.535Z",
   "items": [
+    {
+      "id": "17bcc3e22451",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "Physical AI",
+      "url": "https://news.skhynix.com/en/tag/physical-ai/",
+      "discoveredAt": "2026-11-11T07:47:48.535Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "b684bc8f9006",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI System",
+      "url": "https://news.skhynix.com/en/tag/ai-system/",
+      "discoveredAt": "2026-11-11T07:47:48.535Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "803653c6e32e",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "‘Safeguarding against system failures and cyber threats’: SK hynix builds trust in physical AI memory Nov 11, 2026",
+      "url": "https://news.skhynix.com/en/iec-61508-certification-2026/",
+      "discoveredAt": "2026-11-11T07:47:48.535Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "memory",
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "9b601673468a",
+      "sourceId": "amd-newsroom",
+      "publisher": "AMD Newsroom",
+      "title": "AMD Showcases 6th Gen AMD EPYC Processors to Lead Next Era of AI and Enterprise Computing",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing",
+      "discoveredAt": "2026-11-11T07:47:48.535Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "1117d435a66d",
+      "sourceId": "cerebras-blog",
+      "publisher": "Cerebras",
+      "title": "How to Yield at Wafer Scale November 10, 2026",
+      "url": "https://www.cerebras.ai/blog/how-to-yield-at-wafer-scale",
+      "discoveredAt": "2026-11-11T07:47:48.535Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Wafer Scale"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "cb3d8e2e959c",
       "sourceId": "google-cloud-ai-infra",

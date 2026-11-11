@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-10T08:28:29.434Z",
+  "lastScanAt": "2026-11-11T07:47:48.535Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -300,10 +300,10 @@
       ]
     },
     "cerebras-blog": {
-      "fingerprint": "e634cbfc244fa4a72b397ed8f06eeff84b82ae13f999c4b34d31eec860cc45fa",
-      "updatedAt": "2026-11-09T08:05:27.021Z",
+      "fingerprint": "8daf3aa4ffc352936884ab58023354ab18e87528b27748e8d3f429cc809878e1",
+      "updatedAt": "2026-11-11T07:47:48.535Z",
       "seenUrls": [
-        "https://www.cerebras.ai/blog/what-it-took-to-build-wafer-scale-and-why-it-lasts",
+        "https://www.cerebras.ai/blog/how-to-yield-at-wafer-scale",
         "https://www.cerebras.ai/blog/disaggregated-inference-from-the-ground-up",
         "https://www.cerebras.ai/blog/how-alphasense-uses-fast-inference-to-make-agentic-research-interactive",
         "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
@@ -445,21 +445,23 @@
       ]
     },
     "skhynix-newsroom": {
-      "fingerprint": "01d5f600cd2b42d44c1aca9c0cb51f3468351ff7adf0af6de6b229dbe7701366",
-      "updatedAt": "2026-10-30T07:15:07.485Z",
+      "fingerprint": "6bde45632cdbcd5098e93fef398e8f6e1e68554d70a41fcbba926d1289d34a01",
+      "updatedAt": "2026-11-11T07:47:48.535Z",
       "seenUrls": [
         "https://news.skhynix.com/en/category/tech-and-ai/",
-        "https://news.skhynix.com/en/tag/sustainability",
         "https://news.skhynix.com/en/category/tech-and-ai",
+        "https://news.skhynix.com/en/iec-61508-certification-2026/",
+        "https://news.skhynix.com/en/tag/ai-semiconductor",
+        "https://news.skhynix.com/en/tag/sustainability",
         "https://news.skhynix.com/en/tech-note-series-ep3/",
-        "https://news.skhynix.com/en/ai-infrastructure-insight-ep4/",
-        "https://news.skhynix.com/en/tag/ai-data-center",
-        "https://news.skhynix.com/en/tag/ai-infrastructure",
-        "https://news.skhynix.com/en/tag/hbm",
+        "https://news.skhynix.com/en/tag/ai-semiconductor/",
+        "https://news.skhynix.com/en/tag/ai-system/",
+        "https://news.skhynix.com/en/tag/physical-ai/",
         "https://news.skhynix.com/en/tag/sustainability/",
         "https://news.skhynix.com/en/tag/ai/",
         "https://news.skhynix.com/en/tag/hbm/",
         "https://news.skhynix.com/en/q3-2026-earnings-conference-call/",
+        "https://news.skhynix.com/en/ai-infrastructure-insight-ep4/",
         "https://news.skhynix.com/en/tag/agentic-ai/",
         "https://news.skhynix.com/en/tag/ai-data-center/",
         "https://news.skhynix.com/en/tag/ai-infrastructure/",
@@ -469,7 +471,6 @@
         "https://news.skhynix.com/en/ocp-global-summit-2026/",
         "https://news.skhynix.com/en/tag/dram/",
         "https://news.skhynix.com/en/research-inside-ep2/",
-        "https://news.skhynix.com/en/ai-ecosystem-series-ep3/",
         "https://news.skhynix.com/en/series/tech-note-series",
         "https://news.skhynix.com/en/series/global-ai-company-dram",
         "https://news.skhynix.com/en/series/global-ai-company-hbm",
@@ -486,11 +487,12 @@
       ]
     },
     "amd-newsroom": {
-      "fingerprint": "14affd5ad37b9c40fcaecbbfb660abd3d772c9bf96d3913545803a5072045d3a",
-      "updatedAt": "2026-11-10T08:28:29.434Z",
+      "fingerprint": "5d89f835070f132cb8cab3e9d9d0478c9efba165dde57b5e3a3563e049dd4a54",
+      "updatedAt": "2026-11-11T07:47:48.535Z",
       "seenUrls": [
         "https://ir.amd.com/news-events/press-releases",
         "https://ir.amd.com/contacts-faq/email-alerts",
+        "https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing",
         "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
         "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
         "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
@@ -500,7 +502,6 @@
         "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
         "https://ir.amd.com/news-events/press-releases/detail/1297/amd-appoints-tim-ryan-to-board-of-directors",
         "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
-        "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
         "https://x.com/AIatAMD",
         "https://www.amd.com/content/dam/amd/en/documents/corporate/cr/supply-chain-transparency.pdf",
         "https://www.amd.com/en/corporate/competition"
