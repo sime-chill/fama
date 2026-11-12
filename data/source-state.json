@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-11T07:47:48.535Z",
+  "lastScanAt": "2026-11-12T08:24:45.846Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -362,12 +362,9 @@
       "seenUrls": []
     },
     "ibm-research-ai-hardware": {
-      "fingerprint": "c598bcbcd2f507c770c2e1052a32c979dc48bb7a8bae970925c62b93a1cf2487",
-      "updatedAt": "2026-11-10T08:28:29.434Z",
-      "seenUrls": [
-        "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates",
-        "https://research.ibm.com/artificial-intelligence"
-      ]
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "updatedAt": "2026-11-12T08:24:45.846Z",
+      "seenUrls": []
     },
     "marvell-custom-asic": {
       "fingerprint": "4cf27acacba14cbba768ffabb85f7601e81bc71a95b202ba6d3dfd44efc076b4",
