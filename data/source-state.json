@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-12T08:24:45.846Z",
+  "lastScanAt": "2026-11-13T08:07:23.577Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -519,16 +519,15 @@
       ]
     },
     "nvidia-blog": {
-      "fingerprint": "d69771e8c0861993d67d18e35688b0b2bb884cfae5a321f19496f62e179d5a45",
-      "updatedAt": "2026-11-06T07:58:54.794Z",
+      "fingerprint": "fdf2af5b1bca5e610e84aad14bf8171959a9e9ddc094110a210e45aea5d3dae2",
+      "updatedAt": "2026-11-13T08:07:23.577Z",
       "seenUrls": [
         "https://blogs.nvidia.com/search/?q=NVIDIA%20Vera%20Rubin&",
         "https://blogs.nvidia.com/search/?q=Inference%20performance&",
-        "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-        "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
         "https://blogs.nvidia.com/blog/tag/inference/",
+        "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
         "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
-        "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+        "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
         "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/"
       ]
     },
