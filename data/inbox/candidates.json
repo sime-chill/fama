@@ -1,7 +1,138 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T08:07:23.577Z",
+  "generatedAt": "2026-11-17T09:17:45.191Z",
   "items": [
+    {
+      "id": "909fab967a1c",
+      "sourceId": "intel-ai",
+      "publisher": "Intel AI Newsroom",
+      "title": "Data Center Intel GPU D270 for high-performance computing November 16, 2026",
+      "url": "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/why-intel-gpu-d270-belongs-in-the-hpc-conversation.html",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "GPU"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "66ac2965bcf7",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "AI DATA",
+      "url": "https://news.skhynix.com/en/tag/ai-data/",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "223653259f9c",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "Physical AI",
+      "url": "https://news.skhynix.com/en/tag/physical-ai",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "598b69b9c73e",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "[AI Ecosystem] Completing AI: Physical intelligence and the role of memory Nov 17, 2026",
+      "url": "https://news.skhynix.com/en/ai-ecosystem-series-ep4-5/",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "memory",
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "29d8b9848cef",
+      "sourceId": "amd-newsroom",
+      "publisher": "AMD Newsroom",
+      "title": "AMD Completes Acquisition of World Labs",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "24d0a76c8cd7",
+      "sourceId": "amd-newsroom",
+      "publisher": "AMD Newsroom",
+      "title": "AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge, Becoming First AI Factory for DOE’s Genesis Mission",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "3197bf91500d",
+      "sourceId": "nvidia-blog",
+      "publisher": "NVIDIA Blog",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Rubin"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "27281546e200",
+      "sourceId": "dmatrix-newsroom",
+      "publisher": "d-Matrix Newsroom",
+      "title": "Read More &gt;",
+      "url": "https://www.d-matrix.ai/demo-cloud-low-latency-inference/",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "inference"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "3a4e9e0ca5ba",
+      "sourceId": "dmatrix-newsroom",
+      "publisher": "d-Matrix Newsroom",
+      "title": "Read More &gt;",
+      "url": "https://www.d-matrix.ai/corsair-speculative-decoding/",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Corsair"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "960622b80770",
+      "sourceId": "tenstorrent-news",
+      "publisher": "Tenstorrent",
+      "title": "Tenstorrent and ConfidentialMind Partner to Deliver Sovereign AI on Open Hardware The two companies validated ConfidentialMind’s self-hosted AI platform on Tenstorrent Galaxy and will sell it across Europe, the Middle East, Asia-Pacific, an",
+      "url": "https://tenstorrent.com/newsroom/tenstorrent-and-confidentialmind-partner-to-deliver-sovereign-ai-on-open-hardware",
+      "discoveredAt": "2026-11-17T09:17:45.191Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "AI"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "17bcc3e22451",
       "sourceId": "skhynix-newsroom",

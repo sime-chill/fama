@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-13T08:07:23.577Z",
+  "lastScanAt": "2026-11-17T09:17:45.191Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -269,8 +269,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "380d3c7d60273b7e084690ffef1713c1082c06b4111f0be884fe2e223e4f7c6d",
-      "updatedAt": "2026-11-05T07:56:48.264Z",
+      "fingerprint": "dde80bc2512546d4c8df5d5bdce67d4979b724f2146d6d3536a4070d14f2a26b",
+      "updatedAt": "2026-11-17T09:17:45.191Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -279,6 +279,7 @@
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/flex-series.html",
         "https://newsroom.intel.com/content/www/us/en/foundry/accelerator.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/why-intel-gpu-d270-belongs-in-the-hpc-conversation.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-edge-ai-turns-football-crowd-data-into-revenue.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/scaling-sandboxed-agentic-ai-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/boosting-agentic-ai-throughput-with-intel-xeon-cpus.html",
@@ -329,14 +330,14 @@
       ]
     },
     "tenstorrent-news": {
-      "fingerprint": "c4512a27b33b7d894494002f606bde2f2c663be8359c4b78026169340b407a69",
-      "updatedAt": "2026-10-23T06:04:48.735Z",
+      "fingerprint": "30b2c55a75f6fcfdd19191d0a19feb7faf3e21ea7459b350530f20f1f213f43c",
+      "updatedAt": "2026-11-17T09:17:45.191Z",
       "seenUrls": [
         "https://tenstorrent.com/newsroom",
         "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
         "https://tenstorrent.com/newsroom/tenstorrent-releases-open-source-beta-of-the-oca-harness",
-        "https://tenstorrent.com/newsroom/tenstorrent-and-smallestai-partner-to-bring-production-grade-voice-ai-on-prem",
-        "https://tenstorrent.com/newsroom/aiand-and-tenstorrent-launch-japanfold"
+        "https://tenstorrent.com/newsroom/tenstorrent-and-confidentialmind-partner-to-deliver-sovereign-ai-on-open-hardware",
+        "https://tenstorrent.com/newsroom/tenstorrent-and-smallestai-partner-to-bring-production-grade-voice-ai-on-prem"
       ]
     },
     "dmatrix-news": {
@@ -382,18 +383,17 @@
       ]
     },
     "dmatrix-newsroom": {
-      "fingerprint": "7ed96b66aa2d3988ef3b36e46b78c09d69e91d32aa665e65980f0d91961aab08",
-      "updatedAt": "2026-10-29T07:12:16.454Z",
+      "fingerprint": "e7426ec22eda4d9135d957bbc6d5bb9ec41157691ff584c141fc6c203cf2a05b",
+      "updatedAt": "2026-11-17T09:17:45.191Z",
       "seenUrls": [
         "https://www.d-matrix.ai/product/",
         "https://www.d-matrix.ai/corsair-at-rack-scale/",
         "https://www.d-matrix.ai/scaling-ai-inference-with-3dimc/",
         "https://www.d-matrix.ai/solutions/inference-optimization/",
         "https://www.d-matrix.ai/announcements/squadron-compute-clusters/",
-        "https://www.d-matrix.ai/announcements/d-matrix-rackscale-nvidia/",
-        "https://www.d-matrix.ai/accelerating-ai-inference-with-attention-ffn-disaggregation/",
-        "https://www.d-matrix.ai/frontier-class-ultra-low-latency-rack-scale-inference-with-raptor-xpus-and-nvlink-fusion/",
-        "https://www.d-matrix.ai/introducing-d-matrix-demo-cloud-ultra-low-latency-inference-ready-to-test-in-minutes/"
+        "https://www.d-matrix.ai/corsair-speculative-decoding/",
+        "https://www.d-matrix.ai/demo-cloud-low-latency-inference/",
+        "https://www.d-matrix.ai/accelerating-ai-inference-with-attention-ffn-disaggregation/"
       ]
     },
     "micron-hbm": {
@@ -442,29 +442,34 @@
       ]
     },
     "skhynix-newsroom": {
-      "fingerprint": "6bde45632cdbcd5098e93fef398e8f6e1e68554d70a41fcbba926d1289d34a01",
-      "updatedAt": "2026-11-11T07:47:48.535Z",
+      "fingerprint": "4594f7d0b2078fa7a722476252367f75cccdd35ff20202ee7761b05215c46c51",
+      "updatedAt": "2026-11-17T09:17:45.191Z",
       "seenUrls": [
         "https://news.skhynix.com/en/category/tech-and-ai/",
+        "https://news.skhynix.com/en/ai-ecosystem-series-ep4-5/",
         "https://news.skhynix.com/en/category/tech-and-ai",
+        "https://news.skhynix.com/en/tag/ai-ecosystem",
+        "https://news.skhynix.com/en/tag/ai-data-center",
+        "https://news.skhynix.com/en/tag/physical-ai",
         "https://news.skhynix.com/en/iec-61508-certification-2026/",
         "https://news.skhynix.com/en/tag/ai-semiconductor",
         "https://news.skhynix.com/en/tag/sustainability",
         "https://news.skhynix.com/en/tech-note-series-ep3/",
+        "https://news.skhynix.com/en/tag/ai-data/",
+        "https://news.skhynix.com/en/tag/ai-data-center/",
+        "https://news.skhynix.com/en/tag/ai-ecosystem/",
+        "https://news.skhynix.com/en/tag/physical-ai/",
         "https://news.skhynix.com/en/tag/ai-semiconductor/",
         "https://news.skhynix.com/en/tag/ai-system/",
-        "https://news.skhynix.com/en/tag/physical-ai/",
         "https://news.skhynix.com/en/tag/sustainability/",
         "https://news.skhynix.com/en/tag/ai/",
         "https://news.skhynix.com/en/tag/hbm/",
         "https://news.skhynix.com/en/q3-2026-earnings-conference-call/",
         "https://news.skhynix.com/en/ai-infrastructure-insight-ep4/",
         "https://news.skhynix.com/en/tag/agentic-ai/",
-        "https://news.skhynix.com/en/tag/ai-data-center/",
         "https://news.skhynix.com/en/tag/ai-infrastructure/",
         "https://news.skhynix.com/en/tag/ai-infrastructure-insight/",
         "https://news.skhynix.com/en/ai-ecosystem-series-ep4/",
-        "https://news.skhynix.com/en/tag/ai-ecosystem/",
         "https://news.skhynix.com/en/ocp-global-summit-2026/",
         "https://news.skhynix.com/en/tag/dram/",
         "https://news.skhynix.com/en/research-inside-ep2/",
@@ -484,11 +489,13 @@
       ]
     },
     "amd-newsroom": {
-      "fingerprint": "5d89f835070f132cb8cab3e9d9d0478c9efba165dde57b5e3a3563e049dd4a54",
-      "updatedAt": "2026-11-11T07:47:48.535Z",
+      "fingerprint": "f6bbdb0798460f602274844276c727d0f2e17c3862292701496f42a3b0f100db",
+      "updatedAt": "2026-11-17T09:17:45.191Z",
       "seenUrls": [
         "https://ir.amd.com/news-events/press-releases",
         "https://ir.amd.com/contacts-faq/email-alerts",
+        "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
+        "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
         "https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing",
         "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
         "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
@@ -497,8 +504,6 @@
         "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
         "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
         "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
-        "https://ir.amd.com/news-events/press-releases/detail/1297/amd-appoints-tim-ryan-to-board-of-directors",
-        "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
         "https://x.com/AIatAMD",
         "https://www.amd.com/content/dam/amd/en/documents/corporate/cr/supply-chain-transparency.pdf",
         "https://www.amd.com/en/corporate/competition"
@@ -519,11 +524,12 @@
       ]
     },
     "nvidia-blog": {
-      "fingerprint": "fdf2af5b1bca5e610e84aad14bf8171959a9e9ddc094110a210e45aea5d3dae2",
-      "updatedAt": "2026-11-13T08:07:23.577Z",
+      "fingerprint": "8c070c21b58c722b41fe2f439bcd1ab7ecfaa8b43fe1419575f20e58a44328f8",
+      "updatedAt": "2026-11-17T09:17:45.191Z",
       "seenUrls": [
         "https://blogs.nvidia.com/search/?q=NVIDIA%20Vera%20Rubin&",
         "https://blogs.nvidia.com/search/?q=Inference%20performance&",
+        "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
         "https://blogs.nvidia.com/blog/tag/inference/",
         "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
         "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
