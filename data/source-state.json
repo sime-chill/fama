@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-17T09:17:45.191Z",
+  "lastScanAt": "2026-11-18T08:36:53.075Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -301,9 +301,10 @@
       ]
     },
     "cerebras-blog": {
-      "fingerprint": "8daf3aa4ffc352936884ab58023354ab18e87528b27748e8d3f429cc809878e1",
-      "updatedAt": "2026-11-11T07:47:48.535Z",
+      "fingerprint": "2e12b7b963855c248e2f3a6b5dcd12b341b61417f8bf23ebf9d423c3a3bbbeea",
+      "updatedAt": "2026-11-18T08:36:53.075Z",
       "seenUrls": [
+        "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
         "https://www.cerebras.ai/blog/how-to-yield-at-wafer-scale",
         "https://www.cerebras.ai/blog/disaggregated-inference-from-the-ground-up",
         "https://www.cerebras.ai/blog/how-alphasense-uses-fast-inference-to-make-agentic-research-interactive",
@@ -316,17 +317,16 @@
         "https://www.cerebras.ai/blog/ecosystem",
         "https://www.cerebras.ai/blog/disaggregated-inference",
         "https://www.cerebras.ai/blog/speedandaccuracyblog",
-        "https://www.cerebras.ai/blog/stackai-cerebras-enabling-the-fastest-inference-for-enterprise-ai-agents",
-        "https://www.cerebras.ai/blog/openai-partners-with-cerebras-to-bring-high-speed-inference-to-the-mainstream"
+        "https://www.cerebras.ai/blog/stackai-cerebras-enabling-the-fastest-inference-for-enterprise-ai-agents"
       ]
     },
     "microsoft-silicon": {
-      "fingerprint": "70bf25b6dd0ac7aa975b349288da0cbc856ba365f35aa0495c6197fbc66225fa",
-      "updatedAt": "2026-11-06T07:58:54.794Z",
+      "fingerprint": "de75404db58c46e19c181dbf7b7065e13dd9bd5ae6eb5e02b5c86933294c40d5",
+      "updatedAt": "2026-11-18T08:36:53.075Z",
       "seenUrls": [
         "https://azure.microsoft.com/en-us/solutions/high-performance-computing/ai-infrastructure/",
-        "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
-        "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/"
+        "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+        "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/"
       ]
     },
     "tenstorrent-news": {
