@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-18T08:36:53.075Z",
+  "lastScanAt": "2026-11-19T08:52:30.720Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -269,8 +269,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "dde80bc2512546d4c8df5d5bdce67d4979b724f2146d6d3536a4070d14f2a26b",
-      "updatedAt": "2026-11-17T09:17:45.191Z",
+      "fingerprint": "2011a9d0a416a94a7ca4f5036ee2621621c4dd0096a76df0e2090cb2578c65dc",
+      "updatedAt": "2026-11-19T08:52:30.720Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -285,7 +285,6 @@
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/boosting-agentic-ai-throughput-with-intel-xeon-cpus.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-and-sambanova-advance-agentic-ai-with-xeon-6.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-xeon-6-used-as-host-cpus-in-nvidia-dgx-rubin-nvl8-systems.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/client-computing/intel-launches-new-intel-xeon-600-processors-for-workstation.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-appoints-aparna-bawa-as-executive-vice-president-and-chief-legal-people-officer.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-announces-key-leadership-appointments.html",
@@ -330,14 +329,15 @@
       ]
     },
     "tenstorrent-news": {
-      "fingerprint": "30b2c55a75f6fcfdd19191d0a19feb7faf3e21ea7459b350530f20f1f213f43c",
-      "updatedAt": "2026-11-17T09:17:45.191Z",
+      "fingerprint": "b27003a8b731e4db98af05be8275e7538a56295776214018a80ae4981594dfea",
+      "updatedAt": "2026-11-19T08:52:30.720Z",
       "seenUrls": [
         "https://tenstorrent.com/newsroom",
         "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
-        "https://tenstorrent.com/newsroom/tenstorrent-releases-open-source-beta-of-the-oca-harness",
         "https://tenstorrent.com/newsroom/tenstorrent-and-confidentialmind-partner-to-deliver-sovereign-ai-on-open-hardware",
-        "https://tenstorrent.com/newsroom/tenstorrent-and-smallestai-partner-to-bring-production-grade-voice-ai-on-prem"
+        "https://tenstorrent.com/newsroom/tenstorrent-releases-open-source-beta-of-the-oca-harness",
+        "https://tenstorrent.com/newsroom/tenstorrents-galaxy-blackhole-gpt-oss-12",
+        "https://tenstorrent.com/newsroom/pfn-and-tenstorrent-selected-for-nedo-project"
       ]
     },
     "dmatrix-news": {
