@@ -1,7 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T08:52:30.720Z",
+  "generatedAt": "2026-11-20T08:39:04.776Z",
   "items": [
+    {
+      "id": "556b7834b329",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix Newsroom",
+      "title": "“Building the Future AI Ecosystem Around Memory”: SK hynix Presents Its Technology Vision at Supercomputing 2026 Nov 20, 2026",
+      "url": "https://news.skhynix.com/en/sc26-ai-hpc-exhibition/",
+      "discoveredAt": "2026-11-20T08:39:04.776Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "memory",
+        "AI"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "d421553840eb",
+      "sourceId": "aws-trainium",
+      "publisher": "AWS Trainium",
+      "title": "Free tier Training samples and tutorials (Trn1 and Trn1n) Learn more",
+      "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/quickstarts.html",
+      "discoveredAt": "2026-11-20T08:39:04.776Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Neuron"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "dc6b4e803418",
+      "sourceId": "aws-trainium",
+      "publisher": "AWS Trainium",
+      "title": "Additional resources Get started with training on AWS Trainium using these easy tutorials Learn more",
+      "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/training.html",
+      "discoveredAt": "2026-11-20T08:39:04.776Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Trainium",
+        "Neuron"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "bf0290cde00f",
       "sourceId": "tenstorrent-news",
