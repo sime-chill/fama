@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-20T08:39:04.776Z",
+  "lastScanAt": "2026-11-21T08:20:56.120Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -330,14 +330,14 @@
       ]
     },
     "tenstorrent-news": {
-      "fingerprint": "b27003a8b731e4db98af05be8275e7538a56295776214018a80ae4981594dfea",
-      "updatedAt": "2026-11-19T08:52:30.720Z",
+      "fingerprint": "71fe9cff5802ece4e6c642f680b0cc10475b9cc8df01f89da769035b84d3e66c",
+      "updatedAt": "2026-11-21T08:20:56.120Z",
       "seenUrls": [
         "https://tenstorrent.com/newsroom",
         "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
+        "https://tenstorrent.com/newsroom/tenstorrents-galaxy-blackhole-gpt-oss-12",
         "https://tenstorrent.com/newsroom/tenstorrent-and-confidentialmind-partner-to-deliver-sovereign-ai-on-open-hardware",
         "https://tenstorrent.com/newsroom/tenstorrent-releases-open-source-beta-of-the-oca-harness",
-        "https://tenstorrent.com/newsroom/tenstorrents-galaxy-blackhole-gpt-oss-12",
         "https://tenstorrent.com/newsroom/pfn-and-tenstorrent-selected-for-nedo-project"
       ]
     },
