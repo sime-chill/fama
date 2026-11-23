@@ -1,21 +1,172 @@
 {
-  "verifiedAt": "2026-10-15",
-  "scope": "2026-10-15 定向核验微软 Maia 300 官方发布、Azure 架构文章及规格图，新增 Maia 300 档案，并更新 Maia 200 的生产状态与对照规格。单加速器、机架和 superpod 数值分别标注；其他芯片和官方监控源本轮未全量复核，保留既有核验日期及扫描限制。",
+  "verifiedAt": "2026-11-24",
+  "scope": "本轮扫描 32 个官方入口，并定向核验芯片、系统配置及 Memory 资料：新增 MI450X、Groq 3 LPU、Corsair、Blackhole p150a 和 CXL 专题，修订 Rubin 现行规格，更新 TPU / CS-3 等架构与部署证据。未全量复核的旧条目保留原 lastVerified。",
   "failedSources": [
+    "Micron Newsroom",
     "AMD Instinct",
-    "Google Cloud AI Infrastructure",
     "Marvell Custom Silicon",
     "Li Auto Investor Relations",
     "Xiaomi Investor Relations",
-    "Micron Newsroom"
+    "Tenstorrent",
+    "Google Cloud AI Infrastructure"
   ],
   "zeroLinkSources": [
     "Qualcomm Data Center",
     "IBM Research",
-    "Broadcom AI Infrastructure"
+    "Broadcom AI Infrastructure",
+    "Taalas"
   ],
-  "limitations": "动态新闻列表可能无法被静态链接扫描完整覆盖；Micron 公告正文已另行核验。SK hynix 9 月 28 日原文已通过直接访问核验。Samsung LPDDR6 仅核验官方目录，不推断新参数。",
+  "limitations": "动态目录或受限入口可能漏掉增量；本轮已用 Google、AMD、NVIDIA、Tenstorrent 等直接原文补核。只有已核验原文进入正式参数；其他候选继续隔离为 pending。产品展示、PoC、计划、量产及特定模型基准分别标记；不以机架汇总值反推单芯片规格。",
   "items": [
+    {
+      "title": "Rubin：更正现行带宽与稀疏口径",
+      "summary": "按 NVIDIA 现行产品表记录单 GPU：288 GB HBM4、19.2 TB/s HBM、3 TB/s NVLink。早期 22 / 3.6 TB/s 单独注明版本；50 PFLOPS NVFP4 推理为 Sparse，35 PFLOPS 训练为 Dense。",
+      "url": "https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/",
+      "sourceId": "nvidia-datacenter",
+      "publisher": "NVIDIA",
+      "kind": "规格更正"
+    },
+    {
+      "title": "AMD MI450X：新增 288 GB HBM4 档案",
+      "summary": "官网列 2026-11-12 发布：288 GB / 8-stack HBM4、192 MB L2、23.3 TB/s、40.3 PFLOPS OCP MXFP4。保留与 432 GB MI455X 的型号区别；模块 TDP 未披露。",
+      "url": "https://www.amd.com/en/products/accelerators/instinct/mi400/mi450x.html",
+      "sourceId": "amd-instinct",
+      "publisher": "AMD",
+      "kind": "新增芯片档案",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Groq 3 LPU：从厂商雷达补全独立档案",
+      "summary": "每 LPU 500 MB SRAM、150 TB/s SRAM、2.5 TB/s scale-up；LPX rack 的 128 GB SRAM 与 12 TB DDR5 是整柜口径。量产公告日期为 2026-08-24。",
+      "url": "https://www.nvidia.com/en-us/data-center/lpx/",
+      "sourceId": "nvidia-datacenter",
+      "publisher": "NVIDIA",
+      "kind": "补全芯片档案"
+    },
+    {
+      "title": "Corsair：单卡规格与系统 GA 分开记录",
+      "summary": "2024 年产品简表列单卡 2 GB SRAM / 150 TB/s、最高 256 GB 容量内存 / 400 GB/s 和 600 W TDP。2026 年服务器/机架 GA 与 Raptor 3DIMC 规划分别记录。",
+      "url": "https://www.d-matrix.ai/announcements/squadron-compute-clusters/",
+      "sourceId": "dmatrix-news",
+      "publisher": "d-Matrix",
+      "kind": "补全芯片档案",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "title": "Blackhole p150a：以现行 120 Tensix 配置建档",
+      "summary": "官方表列 180 MB SRAM、32 GB GDDR6、512 GB/s、300 W TBP；固件说明 2026 年 1 月起统一 120 核。板卡数据不与 Galaxy 集群汇总混用。",
+      "url": "https://docs.tenstorrent.com/aibs/blackhole/index.html",
+      "sourceId": "tenstorrent-news",
+      "publisher": "Tenstorrent",
+      "kind": "补全芯片档案"
+    },
+    {
+      "title": "TPU 8tx / 8i Max：系统配置，不是新硅片代际",
+      "summary": "8tx 沿用 8t 硅片并调整主机、安全能力与网络；8i Max 将两个 8i 芯片放入一个封装。保留原有单芯片容量口径，不重复增加芯片数量。",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud",
+      "kind": "系统配置核验",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "title": "TPU Sync：补充 KV 与权重跨层传输",
+      "summary": "新增 HBM、主机 DRAM、SSD / 共享存储之间的异步传输与状态管理说明。软件测试收益保留模型和工作负载条件，不等同物理 HBM 带宽提升。",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu",
+      "sourceId": "google-cloud-ai-infra",
+      "publisher": "Google Cloud",
+      "kind": "软件与内存层次",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "title": "Cerebras：prefill / decode 分离已生产部署",
+      "summary": "AMD Instinct GPU 做 prefill、CS-3 做 decode，经 KV Portal / RDMA 传递状态。5 倍吞吐/兆瓦为特定 GPT-OSS-120B 端点对照，不改变 WSE-3 的芯片内存规格。",
+      "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "sourceId": "cerebras-blog",
+      "publisher": "Cerebras",
+      "kind": "部署状态更新",
+      "publishedAt": "2026-11-17"
+    },
+    {
+      "title": "新增 CXL 内存池与 KV 分层专题",
+      "summary": "以 CMM-DDR5 二代的 256 GB、80 GB/s、CXL 3.2 为产品例子，并引用 DCD 多主机演示。池化、共享与软件支持分别核对，不将模组带宽当 GPU HBM 带宽。",
+      "url": "https://news.skhynix.com/en/ocp-global-summit-2026/",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix",
+      "kind": "新增 Memory 专题",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "title": "SC26：分开记录 KV 池化、DRAM 内计算与 cHBM",
+      "summary": "官方展示 CXL / 混合内存 KV 分层、基于电荷共享的 Compute-using-DRAM，以及 Custom HBM Array。展示与 PoC 不等同全部量产，未据此改写既有 HBM 供货状态。",
+      "url": "https://news.skhynix.com/en/sc26-ai-hpc-exhibition/",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix",
+      "kind": "架构与阶段核验",
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "title": "Furiosa NXT：核验 8 加速器服务器边界",
+      "summary": "官方 NXT 配置：8 RNGD、384 GB HBM3、12 TB/s 汇总、1 TB 主机 DDR5、3 kW、4U 风冷。这些是整机数据，不均摊成单芯片 TDP。",
+      "url": "https://furiosa.ai/nxt-rngd-server",
+      "sourceId": "furiosa-news",
+      "publisher": "FuriosaAI",
+      "kind": "系统配置核验"
+    },
+    {
+      "title": "AMD / Meta：Helios 首批安装与测试",
+      "summary": "AMD 确认初始 Helios 系统已在 Meta 安装并测试，后续广泛部署与 Meta 定制 GPU 分开描述；保留 MI455X 与 MI450X 的具体规格边界。",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
+      "sourceId": "amd-newsroom",
+      "publisher": "AMD",
+      "kind": "部署状态核验",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "title": "IBM Spyre：更新 PyTorch 与 vLLM 接入进展",
+      "summary": "核验 torch-spyre、编译器与 vLLM 适配进展，补入厂商雷达和来源；不将软件加速比写成 Spyre 的硬件算力或带宽增加。",
+      "url": "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates",
+      "sourceId": "ibm-research-ai-hardware",
+      "publisher": "IBM Research",
+      "kind": "软件生态核验",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "title": "AMD Helion：Agent 执行与推理分工路线",
+      "summary": "Helion 为可配置的机架蓝图，包含 CPU-only 和 CPU+MI350P 方向。公告计划 11 月提供，不据此声称所有合作伙伴配置均已供货。",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
+      "sourceId": "amd-newsroom",
+      "publisher": "AMD",
+      "kind": "厂商路线更新",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "title": "3D FeNAND：保留研究与量产的边界",
+      "summary": "官方解读 IEDM 2025 研究中的单元、互连与页级协同优化。本轮只记录研究进展，不把论文中的模拟存内计算方案登记为已量产芯片。",
+      "url": "https://news.skhynix.com/en/research-inside-ep2/",
+      "sourceId": "skhynix-newsroom",
+      "publisher": "SK hynix",
+      "kind": "研究进展核验",
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "title": "Rubin 基准：保留平台、模型与待验证条件",
+      "summary": "补录 MLPerf Training v6.1 和 Endpoints 的官方结果；部分 Endpoints 数据仍为 provisional。系统 token/s 与能效不能直接写成单 GPU 的普适倍数。",
+      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "sourceId": "nvidia-blog",
+      "publisher": "NVIDIA",
+      "kind": "系统验证",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "title": "Galaxy Blackhole：分开峰值、平均与 TTFT",
+      "summary": "官方 8 Galaxy / 256 芯片 gpt-oss-120b 演示：峰值 5300、GSM8K 平均约 3000 tokens/s/user；仅统计 decode、不含 TTFT，不能充当 p150a 单卡吞吐。",
+      "url": "https://tenstorrent.com/newsroom/tenstorrents-galaxy-blackhole-gpt-oss-12",
+      "sourceId": "tenstorrent-news",
+      "publisher": "Tenstorrent",
+      "kind": "基准边界澄清",
+      "publishedAt": "2026-11-16"
+    },
     {
       "title": "微软 Maia 300：新增 HBM4、芯粒级 NUMA 与机架规格",
       "summary": "微软 10 月 12 日公布 Maia 300：单加速器 288 GB HBM4、18 TB/s、13.8 / 6.9 POPS FP4 / FP8 峰值及 950 W SoC TDP，计算裸片采用 TSMC N2P；96 加速器、167 kW、27.6 TB HBM 和 1.7 PB/s 为机架口径。生产部署计划于 2027 年开始；片上 SRAM 容量未披露。",
@@ -142,14 +293,6 @@
       "publishedAt": "2026-09-28"
     },
     {
-      "title": "Groq：补录 NVIDIA Groq 3 LPX 代际",
-      "summary": "补录 8 月 24 日量产公告，并核验产品页：500 MB SRAM / LPU、150 TB/s / LPU；整柜另含 128 GB SRAM 与 12 TB DDR5。早期 GroqChip 记录保留。",
-      "url": "https://www.nvidia.com/en-us/data-center/lpx/",
-      "sourceId": "nvidia-blog",
-      "publisher": "NVIDIA",
-      "kind": "补充证据"
-    },
-    {
       "title": "LPDDR6：补充平台验证线索",
       "summary": "Samsung 官方技术博客目录列出 9 月 23 日 Qualcomm 新 Snapdragon 平台验证公告。本次仅核验标题与日期，未用目录摘要修改内存数值或量产状态。",
       "url": "https://semiconductor.samsung.com/news-events/tech-blog/",
@@ -167,5 +310,12 @@
       "kind": "合作进展",
       "publishedAt": "2026-09-15"
     }
-  ]
+  ],
+  "reviewSummary": {
+    "reviewedAt": "2026-11-24",
+    "accepted": 20,
+    "rejected": 61,
+    "pending": 44,
+    "pendingTotal": 44
+  }
 }

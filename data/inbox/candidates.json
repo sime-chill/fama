@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T08:20:56.120Z",
+  "generatedAt": "2026-11-23T19:48:01.030Z",
   "items": [
     {
       "id": "556b7834b329",
@@ -9,12 +9,12 @@
       "title": "“Building the Future AI Ecosystem Around Memory”: SK hynix Presents Its Technology Vision at Supercomputing 2026 Nov 20, 2026",
       "url": "https://news.skhynix.com/en/sc26-ai-hpc-exhibition/",
       "discoveredAt": "2026-11-20T08:39:04.776Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "memory",
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：SC26 的 KV 池化、Compute-using-DRAM 和 Custom HBM Array 分别记录，补入 CXL / HBM 专题；不推定全部量产。"
     },
     {
       "id": "d421553840eb",
@@ -23,11 +23,11 @@
       "title": "Free tier Training samples and tutorials (Trn1 and Trn1n) Learn more",
       "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/quickstarts.html",
       "discoveredAt": "2026-11-20T08:39:04.776Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Neuron"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：现有开发教程入口，非新增硬件规格公告。"
     },
     {
       "id": "dc6b4e803418",
@@ -36,12 +36,12 @@
       "title": "Additional resources Get started with training on AWS Trainium using these easy tutorials Learn more",
       "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/training.html",
       "discoveredAt": "2026-11-20T08:39:04.776Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Trainium",
         "Neuron"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：现有训练教程入口，非新增硬件规格公告。"
     },
     {
       "id": "bf0290cde00f",
@@ -63,12 +63,12 @@
       "title": "Tenstorrent’s Galaxy Blackhole reaches industry-leading 5,300 tokens/sec/user decode speed on gpt-oss-120b OpenAI's gpt-oss-120b running at up to 5,300 tokens/sec/user on eight Tenstorrent Galaxy systems. Read more",
       "url": "https://tenstorrent.com/newsroom/tenstorrents-galaxy-blackhole-gpt-oss-12",
       "discoveredAt": "2026-11-19T08:52:30.720Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "Blackhole",
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：8 Galaxy / 256 Blackhole，峰值 5300、GSM8K 平均 3000 tokens/s/user，为 decode-only、不含 TTFT；补入 Blackhole 档案。"
     },
     {
       "id": "4a1a611cbf85",
@@ -90,11 +90,11 @@
       "title": "Cerebras launches disaggregated inference November 17, 2026",
       "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
       "discoveredAt": "2026-11-18T08:36:53.075Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：CS-3 + AMD Instinct prefill/decode 分离已生产部署；5 倍为特定端点吞吐/兆瓦对照，不更改 WSE-3 内存规格。"
     },
     {
       "id": "909fab967a1c",
@@ -116,11 +116,11 @@
       "title": "AI DATA",
       "url": "https://news.skhynix.com/en/tag/ai-data/",
       "discoveredAt": "2026-11-17T09:17:45.191Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "223653259f9c",
@@ -129,11 +129,11 @@
       "title": "Physical AI",
       "url": "https://news.skhynix.com/en/tag/physical-ai",
       "discoveredAt": "2026-11-17T09:17:45.191Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "598b69b9c73e",
@@ -156,11 +156,11 @@
       "title": "AMD Completes Acquisition of World Labs",
       "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
       "discoveredAt": "2026-11-17T09:17:45.191Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：企业收购消息，不作为本轮 Memory / 芯片规格来源。"
     },
     {
       "id": "24d0a76c8cd7",
@@ -182,11 +182,11 @@
       "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
       "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
       "discoveredAt": "2026-11-17T09:17:45.191Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "Rubin"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：新增 Rubin 平台 MLPerf Training v6.1 / Endpoints 证据，保留 provisional 与模型/配置条件。"
     },
     {
       "id": "27281546e200",
@@ -208,11 +208,11 @@
       "title": "Read More &gt;",
       "url": "https://www.d-matrix.ai/corsair-speculative-decoding/",
       "discoveredAt": "2026-11-17T09:17:45.191Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "Corsair"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：Corsair draft / H200 verifier 的 SpecDec 配置，收入 Corsair 档案；不外推通用加速倍数。"
     },
     {
       "id": "960622b80770",
@@ -234,11 +234,11 @@
       "title": "Physical AI",
       "url": "https://news.skhynix.com/en/tag/physical-ai/",
       "discoveredAt": "2026-11-11T07:47:48.535Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "b684bc8f9006",
@@ -247,11 +247,11 @@
       "title": "AI System",
       "url": "https://news.skhynix.com/en/tag/ai-system/",
       "discoveredAt": "2026-11-11T07:47:48.535Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "803653c6e32e",
@@ -300,12 +300,12 @@
       "title": "AI infrastructure Our newest TPUs: 8tx and 8i Max, built for the agentic era By Amin Vahdat • 8-minute read",
       "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max",
       "discoveredAt": "2026-11-10T08:28:29.434Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "TPU",
         "AI infrastructure"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：8tx 与 8i Max 是基于既有硅片的系统配置，更新 8t / 8i 档案，不重复计为新芯片。"
     },
     {
       "id": "4cc997d5eb68",
@@ -314,13 +314,13 @@
       "title": "AI infrastructure Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU By Fenghui Zhang • 10-minute read",
       "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu",
       "discoveredAt": "2026-11-10T08:28:29.434Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "TPU",
         "AI infrastructure",
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：TPU Sync 为跨 HBM、主机 DRAM 与存储的数据搬移/状态层，不作为芯片物理带宽增加。"
     },
     {
       "id": "e525a03e3516",
@@ -356,11 +356,11 @@
       "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
       "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
       "discoveredAt": "2026-11-06T07:58:54.794Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "memory"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：HBM、CPU 内存、SSD 与共享存储分层，补充 Rubin 架构；不录入无条件的性能倍数。"
     },
     {
       "id": "1cfc1a7858d8",
@@ -382,11 +382,11 @@
       "title": "Artificial Intelligence (AI) Alabama Football Uses Xeon to Boost Revenue October 20, 2026",
       "url": "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-edge-ai-turns-football-crowd-data-into-revenue.html",
       "discoveredAt": "2026-11-05T07:56:48.264Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Xe"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：体育场馆应用案例，不作为 AI 加速器 Memory 参数来源。"
     },
     {
       "id": "7351a647da52",
@@ -395,11 +395,11 @@
       "title": "AMD Reports Third Quarter 2026 Financial Results",
       "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
       "discoveredAt": "2026-11-04T07:33:14.537Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：财报公告，不作为芯片通用规格来源。"
     },
     {
       "id": "3acbe6f21c9e",
@@ -408,11 +408,11 @@
       "title": "Sustainability",
       "url": "https://news.skhynix.com/en/tag/sustainability/",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "d006fcbb4523",
@@ -421,11 +421,11 @@
       "title": "Sustainability",
       "url": "https://news.skhynix.com/en/tag/sustainability",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "12c8a6682dd9",
@@ -434,11 +434,11 @@
       "title": "User Agreement",
       "url": "https://www.hiascend.com/legal/user",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "c9e0f5354f3f",
@@ -447,11 +447,11 @@
       "title": "Privacy Policy",
       "url": "https://www.hiascend.com/legal/privacy",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "17f1f8005b25",
@@ -460,11 +460,11 @@
       "title": "Terms of Use",
       "url": "https://www.hiascend.com/legal/law",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "1cd443c4d5d6",
@@ -473,11 +473,11 @@
       "title": "View Details",
       "url": "https://www.hiascend.com/en-sg/legal/cookies",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "8ae91b28e191",
@@ -486,11 +486,11 @@
       "title": "Developer Certifications",
       "url": "https://www.hiascend.com/edu/developer-certification",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "1d592b1222ed",
@@ -499,11 +499,11 @@
       "title": "Online Courses",
       "url": "https://www.hiascend.com/edu/courses",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "3fae14b52cee",
@@ -512,11 +512,11 @@
       "title": "Documentation",
       "url": "https://www.hiascend.com/document",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "e27e4262bbc2",
@@ -525,11 +525,11 @@
       "title": "Model Query Assistant",
       "url": "https://www.hiascend.com/developer/models",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "f4da6309b47e",
@@ -538,11 +538,11 @@
       "title": "Image Repository",
       "url": "https://www.hiascend.com/developer/ascendhub",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "69f5f19d63df",
@@ -551,11 +551,11 @@
       "title": "Resource Download Center",
       "url": "https://www.hiascend.com/developer/download",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "570674449937",
@@ -564,11 +564,11 @@
       "title": "MindStudio",
       "url": "https://www.hiascend.com/developer/software/mindstudio",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "d87c405a34ea",
@@ -577,11 +577,11 @@
       "title": "MindSDK",
       "url": "https://www.hiascend.com/developer/software/mindsdk",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "eb244c55f2e5",
@@ -590,11 +590,11 @@
       "title": "MindEdge",
       "url": "https://www.hiascend.com/developer/software/mindedge",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "f130182ac5ae",
@@ -603,11 +603,11 @@
       "title": "MindCluster",
       "url": "https://www.hiascend.com/developer/software/mindcluster",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "599728b0ea07",
@@ -616,11 +616,11 @@
       "title": "MindIE",
       "url": "https://www.hiascend.com/developer/software/mindie",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "709fc47c6e66",
@@ -629,11 +629,11 @@
       "title": "MindSpeed",
       "url": "https://www.hiascend.com/developer/software/mindspeed",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "56b37d9da5b0",
@@ -642,11 +642,11 @@
       "title": "Application Enablement",
       "url": "https://www.hiascend.com/software/mindx",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "4f963fae5c35",
@@ -655,11 +655,11 @@
       "title": "TensorFlow Adaptation",
       "url": "https://www.hiascend.com/developer/software/ai-frameworks/tensorflow",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "3bcf09d50ae6",
@@ -668,11 +668,11 @@
       "title": "Ascend for PyTorch",
       "url": "https://www.hiascend.com/developer/software/ai-frameworks/pytorch",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "9a24a6bfe067",
@@ -681,11 +681,11 @@
       "title": "Operator Development",
       "url": "https://www.hiascend.com/developer/operator",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "6c16a61ffac3",
@@ -694,11 +694,11 @@
       "title": "Model Inference",
       "url": "https://www.hiascend.com/developer/inference",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "f1e3d76b8273",
@@ -707,11 +707,11 @@
       "title": "Model Training",
       "url": "https://www.hiascend.com/developer/training",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "d93f2f3d16f5",
@@ -720,11 +720,11 @@
       "title": "Atlas Foundation Model Solution",
       "url": "https://www.hiascend.com/solutions/Foundation-Model",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "519da690db3c",
@@ -733,11 +733,11 @@
       "title": "Healthcare",
       "url": "https://www.hiascend.com/industries/healthcare",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "1a5005b89429",
@@ -746,11 +746,11 @@
       "title": "Manufacturing",
       "url": "https://www.hiascend.com/industries/manufacturing",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "bc1ddbe50696",
@@ -759,11 +759,11 @@
       "title": "Transportation",
       "url": "https://www.hiascend.com/industries/transportation",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "5d75c1e3e13c",
@@ -772,11 +772,11 @@
       "title": "Energy",
       "url": "https://www.hiascend.com/industries/electricity",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "80a2868c4dd6",
@@ -785,11 +785,11 @@
       "title": "Education",
       "url": "https://www.hiascend.com/industries/education",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "480b6e27d92b",
@@ -798,11 +798,11 @@
       "title": "Urban Data Center",
       "url": "https://www.hiascend.com/industries/solutions/smart-city",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "e8d25d5dc483",
@@ -811,11 +811,11 @@
       "title": "Telecom",
       "url": "https://www.hiascend.com/industries/telecom",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "c2508b4bbfb8",
@@ -824,11 +824,11 @@
       "title": "CCAE",
       "url": "https://www.hiascend.com/software/ccae",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "28439ef059ec",
@@ -876,11 +876,11 @@
       "title": "Home",
       "url": "https://www.hiascend.com/",
       "discoveredAt": "2026-10-30T07:15:07.485Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Ascend"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：开发者、法律、行业或站点导航入口，不作为本轮新增芯片参数来源。"
     },
     {
       "id": "d7d9e6c44c3d",
@@ -889,11 +889,11 @@
       "title": "[Tech Note] Semiconductor Insights for the AI Era",
       "url": "https://news.skhynix.com/en/series/tech-note-series",
       "discoveredAt": "2026-10-29T07:12:16.454Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：专题索引页，非独立硬件规格来源。"
     },
     {
       "id": "d8143edeba31",
@@ -915,11 +915,11 @@
       "title": "FuriosaAI closes $620 million Series D to scale efficient, production-ready AI inference",
       "url": "https://furiosa.ai/blog/furiosaai-620-million-series-d",
       "discoveredAt": "2026-10-29T07:12:16.454Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：融资消息，不作为芯片参数来源。"
     },
     {
       "id": "bec94db743f6",
@@ -928,11 +928,11 @@
       "title": "Corsair",
       "url": "https://www.d-matrix.ai/product/",
       "discoveredAt": "2026-10-29T07:12:16.454Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "Corsair"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方产品页与产品简表交叉核验；Corsair SRAM 与 Raptor 3DIMC 分开建档。"
     },
     {
       "id": "dff5a1390bc0",
@@ -941,11 +941,11 @@
       "title": "Q3 2026 Earnings Conference Call Access Details Oct 28, 2026",
       "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call/",
       "discoveredAt": "2026-10-28T06:53:51.648Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：财报电话会接入信息，不作为硬件技术条目。"
     },
     {
       "id": "f83cc121976d",
@@ -954,11 +954,11 @@
       "title": "AMD and Meta Advance Strategic Partnership to Power Meta’s Superintelligence Infrastructure",
       "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
       "discoveredAt": "2026-10-28T06:53:51.648Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：首批 Helios 在 Meta 安装并测试，不等同已全面量产部署；保留定制 GPU 与 MI455X 的边界。"
     },
     {
       "id": "70bc2cb7a0a3",
@@ -980,11 +980,11 @@
       "title": "PyTorch opens the AI ecosystem to a new class of accelerators",
       "url": "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates",
       "discoveredAt": "2026-10-27T06:23:26.089Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "Spyre"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：Spyre 的 torch-spyre / vLLM 软件接入更新，补入厂商雷达；未据此修改内存参数。"
     },
     {
       "id": "ed2ab90be65b",
@@ -993,11 +993,11 @@
       "title": "Distributed Inference",
       "url": "https://research.ibm.com/artificial-intelligence",
       "discoveredAt": "2026-10-27T06:23:26.089Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：AI 研究目录页，非独立技术公告。"
     },
     {
       "id": "a1e1f6594325",
@@ -1006,11 +1006,11 @@
       "title": "Sep 26, 2025 Networking at the Heart of AI — @Scale: Networking 2025 Recap",
       "url": "https://engineering.fb.com/2025/09/26/networking-traffic/networking-at-the-heart-of-ai-scale-networking-2025-recap/",
       "discoveredAt": "2026-10-27T06:23:26.089Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：2025 年网络会议回顾，非本轮新芯片规格公告。"
     },
     {
       "id": "1d96ae04b08e",
@@ -1019,11 +1019,11 @@
       "title": "Oct 13, 2025 OCP Summit 2025: The Open Future of Networking Hardware for AI",
       "url": "https://engineering.fb.com/2025/10/13/data-infrastructure/ocp-summit-2025-the-open-future-of-networking-hardware-for-ai/",
       "discoveredAt": "2026-10-27T06:23:26.089Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：2025 年 OCP 网络背景文章，保留线索，不转入本轮芯片参数。"
     },
     {
       "id": "ff1684dfffde",
@@ -1110,11 +1110,11 @@
       "title": "AI infrastructure Google Cloud and NVIDIA expand co-engineering collaboration to scale infrastructure for the agentic era By Mark Lohmeyer • 7-minute read",
       "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026",
       "discoveredAt": "2026-10-22T06:09:23.887Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "AI infrastructure"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：Google 更新明确 A5X 于 11 月 6 日 GA，作为 Rubin 云平台部署证据。"
     },
     {
       "id": "eaf299689c13",
@@ -1123,11 +1123,11 @@
       "title": "AI Infrastructure Insight",
       "url": "https://news.skhynix.com/en/tag/ai-infrastructure-insight/",
       "discoveredAt": "2026-10-21T06:06:09.589Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "de8c13aca60a",
@@ -1163,11 +1163,11 @@
       "title": "Tenstorrent Sets New Performance Records, Launches TT- Ascalon S, and Expands Across Japan At TT-Deploy JP, Tenstorrent set new records on language and video models, launched TT-Ascalon S RISC-V CPU IP for agentic AI, and joins ai&’s sovere",
       "url": "https://tenstorrent.com/newsroom/tenstorrent-sets-new-performance-records-launches-tt--ascalon-s",
       "discoveredAt": "2026-10-20T06:06:14.013Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：实际发布日期为 2026-06-30；TT-Ascalon S 为 CPU IP，不作为新 Blackhole 芯片参数，保留为路线背景。"
     },
     {
       "id": "8520667dfd6f",
@@ -1176,12 +1176,12 @@
       "title": "Announcements Newsroom Tenstorrent Announces a $1.5B Series E at a $6.2B valuation The equity raise will fund volume manufacturing and global commercial expansion as chip designers, sovereign players, and inference platforms move to own the",
       "url": "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
       "discoveredAt": "2026-10-20T06:06:14.013Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI",
         "chip"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：融资消息，不作为芯片参数来源。"
     },
     {
       "id": "eb9e7b037ff1",
@@ -1203,11 +1203,11 @@
       "title": "Jun 12, 2024 Maintaining large-scale AI capacity at Meta",
       "url": "https://engineering.fb.com/2024/06/12/production-engineering/maintaining-large-scale-ai-capacity-meta/",
       "discoveredAt": "2026-10-20T06:06:14.013Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：2024 年容量运维背景文章，非本轮新增硬件资料。"
     },
     {
       "id": "e099e4f26282",
@@ -1242,11 +1242,11 @@
       "title": "DRAM",
       "url": "https://news.skhynix.com/en/tag/dram/",
       "discoveredAt": "2026-10-16T05:55:16.716Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "DRAM"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "91ddf9730636",
@@ -1255,12 +1255,12 @@
       "title": "“Memory-Centric Server Systems Are the Future”: SK hynix Presents Its Next-Generation AI Infrastructure Vision at OCP Global Summit 2026 Oct 16, 2026",
       "url": "https://news.skhynix.com/en/ocp-global-summit-2026/",
       "discoveredAt": "2026-10-16T05:55:16.716Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "memory",
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：CMM-DDR5 第二代示例 256 GB / 80 GB/s、CXL 3.2；区分产品、PoC 和系统指标，新增 CXL 专题。"
     },
     {
       "id": "01caa83e176d",
@@ -1269,11 +1269,11 @@
       "title": "[Inside the Research] In the AI era, NAND moves beyond storage to computing… 3D FeNAND co-optimization at IEEE Oct 14, 2026",
       "url": "https://news.skhynix.com/en/research-inside-ep2/",
       "discoveredAt": "2026-10-14T06:12:58.804Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方研究解读核验：3D FeNAND 研究涉及单元、互连与页级协同；仅录入研究进展，不标成量产芯片。"
     },
     {
       "id": "4cac281cbf0a",
@@ -1309,11 +1309,11 @@
       "title": "Deep dive into Azure Maia 300 architecture",
       "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
       "discoveredAt": "2026-10-13T07:47:47.559Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "Maia"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 再次打开官方原文：Maia 300 已在既有档案收录，本候选不重复建档；现有 288 GB / 18 TB/s 与原文一致。"
     },
     {
       "id": "d4860e94c68a",
@@ -1322,11 +1322,11 @@
       "title": "Introducing AMD Helion, Agentic AI Compute at Rack Scale",
       "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
       "discoveredAt": "2026-10-13T07:47:47.559Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：Helion 为 CPU-only / CPU+MI350P 机架蓝图，加入厂商路线；不生成统一单芯片内存参数。"
     },
     {
       "id": "9c679f3096ea",
@@ -1361,12 +1361,12 @@
       "title": "Accelerating attention-FFN disaggregation with Corsair and Nvidia H100: inside the industry’s first ultra-low latency heterogeneous pipeline",
       "url": "https://www.d-matrix.ai/accelerating-ai-inference-with-attention-ffn-disaggregation/",
       "discoveredAt": "2026-10-13T07:47:47.559Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "Corsair",
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：H100 attention / KV 与 Corsair experts 的 AFD 分工，8 卡 16 GB SRAM；录入具体系统条件。"
     },
     {
       "id": "ed48571955c8",
@@ -1375,11 +1375,11 @@
       "title": "d-Matrix Announces Squadron Compute Clusters for AI Inference at Data Center Scale",
       "url": "https://www.d-matrix.ai/announcements/squadron-compute-clusters/",
       "discoveredAt": "2026-10-13T07:47:47.559Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方原文核验：Corsair server / SquadRack GA，Squadron 最高 1024 XPU 面向优先客户；与 Raptor 规划分开。"
     },
     {
       "id": "487ea60e3c46",
@@ -1388,11 +1388,11 @@
       "title": "Aug 26, 2024 RETINAS: Real-Time Infrastructure Accounting for Sustainability",
       "url": "https://engineering.fb.com/2024/08/26/data-infrastructure/retinas-real-time-infrastructure-accounting-for-sustainability/",
       "discoveredAt": "2026-10-13T07:47:47.559Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：2024 年基础设施记账背景文章，非本轮新增硬件资料。"
     },
     {
       "id": "9dd69dee0c0d",
@@ -1427,11 +1427,11 @@
       "title": "https://semiwiki.com/ceo-interviews/373808-ceo-interview-with-sunghyun-park-of-rebellions/",
       "url": "https://semiwiki.com/ceo-interviews/373808-ceo-interview-with-sunghyun-park-of-rebellions/",
       "discoveredAt": "2026-10-08T07:29:32.465Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "REBEL"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：第三方访谈，不能作为正式芯片参数的一手来源。"
     },
     {
       "id": "6c6680771981",
@@ -1453,11 +1453,11 @@
       "title": "AMD to Report Fiscal Third Quarter 2026 Financial Results",
       "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
       "discoveredAt": "2026-10-07T07:18:22.499Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：财报日程公告，不作为芯片通用规格来源。"
     },
     {
       "id": "088353918a60",
@@ -1466,11 +1466,11 @@
       "title": "Agentic AI",
       "url": "https://news.skhynix.com/en/tag/agentic-ai/",
       "discoveredAt": "2026-10-02T07:03:51.804Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "eb4112d57e88",
@@ -1505,11 +1505,11 @@
       "title": "Read on The Next Platform ↗",
       "url": "https://www.nextplatform.com/compute/2026/09/10/startup-d-matrix-will-pair-its-raptor-memory-based-xpu-to-nvidia-rackscale-iron/5295601",
       "discoveredAt": "2026-10-02T07:03:51.804Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "Raptor"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：第三方报道，Raptor 参数采用 d-Matrix 官方原文。"
     },
     {
       "id": "0d8c56824e23",
@@ -1518,11 +1518,11 @@
       "title": "Read on Bloomberg ↗",
       "url": "https://www.bloomberg.com/news/videos/2026-09-10/d-matrix-joins-nvidia-s-ai-inference-push-video",
       "discoveredAt": "2026-10-02T07:03:51.804Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "inference"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：第三方视频报道，不作为正式芯片参数的一手来源。"
     },
     {
       "id": "25377155db24",
@@ -1584,11 +1584,11 @@
       "title": "AI Infrastructure",
       "url": "https://news.skhynix.com/en/tag/ai-infrastructure/",
       "discoveredAt": "2026-09-30T06:48:56.763Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "82d9a06d121c",
@@ -1597,11 +1597,11 @@
       "title": "AI Infrastructure",
       "url": "https://news.skhynix.com/en/tag/ai-infrastructure",
       "discoveredAt": "2026-09-30T06:48:56.763Z",
-      "status": "pending",
+      "status": "rejected",
       "matchedKeywords": [
         "AI"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 初筛：标签 / 分类索引页，非独立技术公告。"
     },
     {
       "id": "b84cfaf8121a",
@@ -1636,11 +1636,11 @@
       "title": "Furiosa NXT RNGD Server",
       "url": "https://furiosa.ai/nxt-rngd-server",
       "discoveredAt": "2026-09-30T06:48:56.763Z",
-      "status": "pending",
+      "status": "accepted",
       "matchedKeywords": [
         "RNGD"
       ],
-      "reviewNote": ""
+      "reviewNote": "2026-11-24 官方产品页核验：Furiosa NXT 为 8 RNGD、384 GB HBM3、12 TB/s、3 kW 和 1 TB 主机 DDR5，均标注服务器口径。"
     },
     {
       "id": "1033bfc82fae",
