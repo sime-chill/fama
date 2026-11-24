@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T19:48:01.030Z",
+  "generatedAt": "2026-11-24T11:04:38.342Z",
   "items": [
+    {
+      "id": "95a32037fc61",
+      "sourceId": "intel-ai",
+      "publisher": "Intel AI Newsroom",
+      "title": "Artificial Intelligence (AI) Intel and SambaNova Advance Agentic AI with Xeon 6 April 08, 2026",
+      "url": "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-and-sambanova-advance-agentic-ai-with-xeon-6.html",
+      "discoveredAt": "2026-11-24T11:04:38.342Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Xe"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "556b7834b329",
       "sourceId": "skhynix-newsroom",
