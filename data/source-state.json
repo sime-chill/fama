@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-24T11:04:38.342Z",
+  "lastScanAt": "2026-11-25T09:54:49.514Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -270,8 +270,8 @@
       ]
     },
     "intel-ai": {
-      "fingerprint": "2011a9d0a416a94a7ca4f5036ee2621621c4dd0096a76df0e2090cb2578c65dc",
-      "updatedAt": "2026-11-24T11:04:38.342Z",
+      "fingerprint": "7d6fad75e8247cf25e2f5bc1320e474971142a08282e82a48af0142d016dd97b",
+      "updatedAt": "2026-11-25T09:54:49.514Z",
       "seenUrls": [
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon.html",
         "https://newsroom.intel.com/content/www/us/en/products/details/processors/xeon/max-series.html",
@@ -281,11 +281,11 @@
         "https://newsroom.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/flex-series.html",
         "https://newsroom.intel.com/content/www/us/en/foundry/accelerator.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/why-intel-gpu-d270-belongs-in-the-hpc-conversation.html",
-        "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-edge-ai-turns-football-crowd-data-into-revenue.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/scaling-sandboxed-agentic-ai-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/boosting-agentic-ai-throughput-with-intel-xeon-cpus.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-and-sambanova-advance-agentic-ai-with-xeon-6.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-xeon-6-used-as-host-cpus-in-nvidia-dgx-rubin-nvl8-systems.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/client-computing/intel-launches-new-intel-xeon-600-processors-for-workstation.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-appoints-aparna-bawa-as-executive-vice-president-and-chief-legal-people-officer.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/corporate/intel-announces-key-leadership-appointments.html",
@@ -294,6 +294,7 @@
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/postcard-from-intel-tech-tour-arizona-intel-data-center-group-leader-kevork-kechichian-shows-off-xeon-6.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-and-aws-drive-cloud-innovation-powered-by-xeon-6-processors.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html",
+        "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-edge-ai-turns-football-crowd-data-into-revenue.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/intel-xeon-6-slashes-power-consumption-for-nokia-core-network-customers.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-seeing-intel-xeon-6-soc-action.html",
         "https://newsroom.intel.com/content/www/us/en/newsroom/news/wireless/postcard-mwc-2025-intel-xeon-6-soc-barcelona.html",
@@ -560,6 +561,16 @@
         "https://www.micron.com/products/memory/1gamma-dram-technology",
         "https://www.micron.com/sales-support/design-tools/dram-power-calculator",
         "https://www.micron.com/partners/technology-enablement-programs/ddr5-tep-resources"
+      ]
+    },
+    "xiaomi-ir": {
+      "fingerprint": "c2e179d3d88cdd0f67c41a3b61d38734c06f9336fd46f3556ae38da42ccb91a1",
+      "updatedAt": "2026-11-25T09:54:49.514Z",
+      "seenUrls": [
+        "https://ir.mi.com/",
+        "https://ir.mi.com/investor-resources/email-alerts",
+        "https://ir.mi.com/events/event-details/xiaomi-corporation-2026-third-quarter-results-announcement",
+        "https://ir.mi.com/events/event-details/2026-interim-results-announcement"
       ]
     }
   }

@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T11:04:38.342Z",
+  "generatedAt": "2026-11-25T09:54:49.514Z",
   "items": [
+    {
+      "id": "05250d1c0d8a",
+      "sourceId": "intel-ai",
+      "publisher": "Intel AI Newsroom",
+      "title": "Artificial Intelligence (AI) Intel Xeon 6 used as Host CPUs in NVIDIA DGX Rubin NVL8 Systems March 16, 2026",
+      "url": "https://newsroom.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-xeon-6-used-as-host-cpus-in-nvidia-dgx-rubin-nvl8-systems.html",
+      "discoveredAt": "2026-11-25T09:54:49.514Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Xe"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "95a32037fc61",
       "sourceId": "intel-ai",
