@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T09:54:49.514Z",
+  "generatedAt": "2026-11-27T09:44:03.537Z",
   "items": [
+    {
+      "id": "9b94a8f129df",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "View details",
+      "url": "https://www.hiascend.com/eng/solutions/inference",
+      "discoveredAt": "2026-11-27T09:44:03.537Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "6fedcb298d12",
+      "sourceId": "huawei-ascend",
+      "publisher": "Huawei Ascend",
+      "title": "View details",
+      "url": "https://www.hiascend.com/eng/solutions/training",
+      "discoveredAt": "2026-11-27T09:44:03.537Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "Ascend"
+      ],
+      "reviewNote": ""
+    },
+    {
+      "id": "be66cd494e36",
+      "sourceId": "huawei-newsroom",
+      "publisher": "Huawei Newsroom",
+      "title": "鲲鹏&昇腾计算",
+      "url": "https://e.huawei.com/cn/products/computing",
+      "discoveredAt": "2026-11-27T09:44:03.537Z",
+      "status": "pending",
+      "matchedKeywords": [
+        "昇腾"
+      ],
+      "reviewNote": ""
+    },
     {
       "id": "05250d1c0d8a",
       "sourceId": "intel-ai",

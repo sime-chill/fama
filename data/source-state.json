@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastScanAt": "2026-11-25T09:54:49.514Z",
+  "lastScanAt": "2026-11-27T09:44:03.537Z",
   "sources": {
     "meta-engineering": {
       "fingerprint": "944617a69723c002cdce1fcf1f6cf84e875f0cf4af76912b453165d883a14f59",
@@ -84,8 +84,8 @@
       ]
     },
     "huawei-ascend": {
-      "fingerprint": "bfafcb1647ff1c56ca702a34caf4fa36a3f06e5d74424f80a58f27ef67dfffef",
-      "updatedAt": "2026-10-30T07:15:07.485Z",
+      "fingerprint": "34b637361d31a25eedb38b03832322d3ba8d412e1ab3da35502ce0c4fa31907c",
+      "updatedAt": "2026-11-27T09:44:03.537Z",
       "seenUrls": [
         "https://www.hiascend.com/",
         "https://www.hiascend.com/hardware/cluster?tag=950",
@@ -101,8 +101,8 @@
         "https://www.hiascend.com/industries/transportation",
         "https://www.hiascend.com/industries/manufacturing",
         "https://www.hiascend.com/industries/healthcare",
-        "https://www.hiascend.com/industries/solutions/large-model",
-        "https://www.hiascend.com/solutions/Foundation-Model",
+        "https://www.hiascend.com/eng/solutions/training",
+        "https://www.hiascend.com/eng/solutions/inference",
         "https://www.hiascend.com/developer/training",
         "https://www.hiascend.com/developer/inference",
         "https://www.hiascend.com/eng/developer/recommendation",
@@ -331,8 +331,8 @@
       ]
     },
     "tenstorrent-news": {
-      "fingerprint": "71fe9cff5802ece4e6c642f680b0cc10475b9cc8df01f89da769035b84d3e66c",
-      "updatedAt": "2026-11-21T08:20:56.120Z",
+      "fingerprint": "080746b46d9817bccf46e41219ac1245fd00bc0e6f8dd89bcf1dad2f1f9123f5",
+      "updatedAt": "2026-11-27T09:44:03.537Z",
       "seenUrls": [
         "https://tenstorrent.com/newsroom",
         "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
@@ -483,11 +483,12 @@
       ]
     },
     "huawei-newsroom": {
-      "fingerprint": "ed52fefd7e371375a9d9dcfe71089355f17bd701848e484921f070c374f014ab",
-      "updatedAt": "2026-09-29T08:08:41.808Z",
+      "fingerprint": "01f2d8a1e84a5421bf140ddc4f6c11aac32d527b281699ef44763d70fcf2a3e5",
+      "updatedAt": "2026-11-27T09:44:03.537Z",
       "seenUrls": [
         "https://e.huawei.com/cn/solutions/computing/ascend-computing",
-        "https://www.hiascend.com/zh/developer"
+        "https://www.hiascend.com/zh/developer",
+        "https://e.huawei.com/cn/products/computing"
       ]
     },
     "amd-newsroom": {
